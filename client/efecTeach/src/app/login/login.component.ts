@@ -8,43 +8,45 @@ import { FormControl, Validators, FormGroup} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
+  // form: FormGroup;
   constructor() { }
-  hide = true;
+  // hide = true;
   
-  form: FormGroup = new FormGroup({
-    'password':new FormControl('',[Validators.required,Validators.minLength(8)],[]),
-    'email' : new FormControl('', [Validators.required, Validators.email]),
-    'userName':new FormControl('',[Validators.required,Validators.maxLength(10)])
-  });
-  
-  getErrorMessageUserName(){
-    if(this.form['userName'].hasError('required'))
-      return 'חובה להחזיר ערך';
-    return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
-  }
-  getErrorMessageEmail() {
-    if (this.form['email'].hasError('required')) {
-      return 'חובה להחזיר ערך';
-    }
-    return this.form['email'].hasError('email') ? 'כתובת לא חוקית' : '';
-  }
-  getErrorMessagePassword() {
-    if (this.form['password'].hasError('required')) {
-      return 'חובה להחזיר ערך';
-    }
-    return this.form['password'].hasError('minLength()') ? 'מינימום 8 תווים' : '';
-  }
+  // getErrorMessageUserName(){
+  //   if(this.form['userName'].hasError('required'))
+  //     return 'חובה להחזיר ערך';
+  //   return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
+  // }
+  // getErrorMessageEmail() {
+  //   if (this.form['email'].hasError('required')) {
+  //     return 'חובה להחזיר ערך';
+  //   }
+  //   return this.form['email'].hasError('email') ? 'כתובת לא חוקית' : '';
+  // }
+  // getErrorMessagePassword() {
+  //   if (this.form['password'].hasError('required')) {
+  //     return 'חובה להחזיר ערך';
+  //   }
+  //   return this.form['password'].hasError('minLength()') ? 'מינימום 8 תווים' : '';
+  // }
 
-  submit() {
-    if (this.form.valid) {
-      this.submitEM.emit(this.form.value);
-    }
-  }
-  @Input() error: string | null;
+  // submit() {
+  //   console.log(this.form)
+  //   if (this.form.valid) {
+  //     this.submitEM.emit(this.form.value);
+  //   }
+  // }
+  // @Input() error: string | null;
 
-  @Output() submitEM = new EventEmitter();
+  // @Output() submitEM = new EventEmitter();
 
   ngOnInit(): void {
+
+    // this.form= new FormGroup({
+    //   'password':new FormControl('',[Validators.required,Validators.minLength(8)],[]),
+    //   'email' : new FormControl('', [Validators.required, Validators.email]),
+    //   'userName':new FormControl('',[Validators.required,Validators.maxLength(10)])
+    // });
   }
 
 }
