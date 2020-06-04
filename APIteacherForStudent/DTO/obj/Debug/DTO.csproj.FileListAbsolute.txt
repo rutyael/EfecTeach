@@ -1,0 +1,446 @@
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\DTO.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\DTO.pdb
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\obj\Debug\DTO.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\obj\Debug\DTO.pdb
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\DTO.dll.config
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Win32.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\netstandard.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.AppContext.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.Concurrent.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.NonGeneric.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.Specialized.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.TypeConverter.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Console.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Data.Common.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Contracts.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Debug.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Process.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.StackTrace.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tools.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TraceSource.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tracing.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Drawing.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Dynamic.Runtime.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Calendars.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Globalization.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Extensions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.ZipFile.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Watcher.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.IsolatedStorage.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.MemoryMappedFiles.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.Pipes.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Linq.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Linq.Expressions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Linq.Parallel.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Linq.Queryable.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Http.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.NameResolution.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.NetworkInformation.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Ping.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Requests.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Security.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.Sockets.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.WebHeaderCollection.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.Client.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ObjectModel.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Reflection.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Extensions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Resources.Reader.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Resources.ResourceManager.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Resources.Writer.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Extensions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Handles.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Numerics.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Formatters.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Json.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Xml.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Claims.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Algorithms.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Csp.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Encoding.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.Principal.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Security.SecureString.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.Extensions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Text.RegularExpressions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Overlapped.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Parallel.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Thread.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.ThreadPool.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Timer.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ValueTuple.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.ReaderWriter.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.XDocument.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlDocument.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlSerializer.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.XDocument.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Buffers.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Memory.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Buffers.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Memory.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml
+T:\Group2\הכנה לפרויקט\יעל חייבי\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\DTO.dll.config
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\DTO.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\DTO.pdb
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\netstandard.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.AppContext.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.Specialized.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Console.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Data.Common.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Globalization.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.Pipes.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Linq.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Linq.Expressions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Linq.Parallel.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Linq.Queryable.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Http.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.NameResolution.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Ping.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Requests.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Security.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.Sockets.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ObjectModel.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Reflection.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Resources.Reader.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Resources.Writer.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Handles.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Claims.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.Principal.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Security.SecureString.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Thread.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Timer.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.XDocument.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\obj\Debug\DTO.dll
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\obj\Debug\DTO.pdb
+C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\DTO.dll.config
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\DTO.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\DTO.pdb
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\netstandard.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.AppContext.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.Specialized.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Console.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Data.Common.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Globalization.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.Pipes.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Linq.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Linq.Expressions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Linq.Parallel.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Linq.Queryable.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Http.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.NameResolution.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Ping.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Requests.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Security.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.Sockets.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Net.WebSockets.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ObjectModel.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Reflection.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Resources.Reader.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Resources.Writer.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Handles.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Claims.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.Principal.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Security.SecureString.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Thread.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Timer.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ValueTuple.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.XDocument.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Buffers.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Memory.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Buffers.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Collections.Immutable.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Memory.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.dll
+C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.pdb
