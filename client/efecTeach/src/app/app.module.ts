@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-import {MaterialModule} from './material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuestionsComponent } from './questions/questions.component';
@@ -22,7 +21,7 @@ import {AnswersComponent}  from './answers/answers.component';
 import { from } from 'rxjs';
 import { ReactiveFormsModule} from '@angular/forms';
 
-
+import {MaterialModule} from './material.module';
 
 @NgModule({
   declarations: [

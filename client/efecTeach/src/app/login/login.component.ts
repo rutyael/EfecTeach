@@ -8,46 +8,36 @@ import { FormControl, Validators, FormGroup} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  // form: FormGroup;
-  constructor() { }
-  // hide = true;
-  
-  // getErrorMessageUserName(){
-  //   if(this.form['userName'].hasError('required'))
-  //     return 'חובה להחזיר ערך';
-  //   return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
-  // }
-  // getErrorMessageEmail() {
-  //   if (this.form['email'].hasError('required')) {
-  //     return 'חובה להחזיר ערך';
-  //   }
-  //   return this.form['email'].hasError('email') ? 'כתובת לא חוקית' : '';
-  // }
-  // getErrorMessagePassword() {
-  //   if (this.form['password'].hasError('required')) {
-  //     return 'חובה להחזיר ערך';
-  //   }
-  //   return this.form['password'].hasError('minLength()') ? 'מינימום 8 תווים' : '';
-  // }
+  form: FormGroup;
+    constructor() { }
 
-  // submit() {
-  //   console.log(this.form)
-  //   if (this.form.valid) {
-  //     this.submitEM.emit(this.form.value);
-  //   }
-  // }
-  // @Input() error: string | null;
+  submit() {
+    // if (this.form.valid) {
+    //   this.submitEM.emit(this.form.value);
+    // }
+  }
 
-  // @Output() submitEM = new EventEmitter();
+  getErrorMessage() {
+    if (this.form['email'].hasError('required')) {
+      return 'You must enter a value';
+    }
+
+    return this.form['email'].hasError('email') ? 'Not a valid email' : '';
+  }
+  getErrorMessageUserName(){
+    if(this.form['userName'].hasError('required'))
+      return 'חובה להחזיר ערך';
+    return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
+  }
 
   ngOnInit(): void {
-
-    // this.form= new FormGroup({
-    //   'password':new FormControl('',[Validators.required,Validators.minLength(8)],[]),
-    //   'email' : new FormControl('', [Validators.required, Validators.email]),
-    //   'userName':new FormControl('',[Validators.required,Validators.maxLength(10)])
-    // });
+    this.form = new FormGroup({
+      username: new FormControl(''),
+      password: new FormControl(''), 
+       email: new FormControl('', [Validators.required, Validators.email])
+    });
   }
+
 
 }
 
