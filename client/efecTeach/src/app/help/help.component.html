@@ -18,9 +18,10 @@
   </p>
 <p>
   <mat-form-field appearance="fill">
-    <mat-label>Enter your email</mat-label>
+    <mat-label>הכנס כתובת מייל</mat-label>
     <input matInput placeholder="pat@example.com" formControlName="email" >
-    <!-- <mat-error *ngIf="invalid"></mat-error> -->
+    <mat-error *ngIf="checkError('email', 'required')">שדה זה חובה</mat-error>
+    <mat-error *ngIf="checkError('email', 'email')">מייל לא חוקי</mat-error>
   </mat-form-field>
 </p>
 

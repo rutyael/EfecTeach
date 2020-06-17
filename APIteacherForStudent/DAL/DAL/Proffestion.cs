@@ -18,9 +18,11 @@ namespace DAL
         public Proffestion()
         {
             this.Users = new HashSet<User>();
-        } 
+        }
+    
         public string ProffestionId { get; set; }
         public string ProffestionName { get; set; }
+    
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<User> Users { get; set; }
     }

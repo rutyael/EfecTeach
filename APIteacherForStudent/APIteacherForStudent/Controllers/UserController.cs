@@ -11,7 +11,7 @@ namespace APIteacherForStudent.Controllers
     public class UserController : ApiController
     {
         [HttpGet]
-        [Route("APIteacherForStudent/UserController/getLogin")]
+        [Route("api/UserController/getLogin")]
         public UserDTO getLogin(string id, string name)
         {
             return userService.Login(id, name);
@@ -30,6 +30,8 @@ namespace APIteacherForStudent.Controllers
         {
             return userService.Put(id, userDto);
         }
+        [HttpGet]
+        [Route("api/UserController/GetQuestions")]
         public List<UserQuestionDTO> GetQuestions()
         {
             return userService.GetAllQuestion();

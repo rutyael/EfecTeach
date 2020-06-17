@@ -16,19 +16,21 @@ export class HelpComponent implements OnInit {
     // }
   }
 
-  getErrorMessage() {
-    if (this.form['email'].hasError('required')) {
-      return 'You must enter a value';
-    }
+  // getErrorMessage() {
+  //   if (this.form['email'].hasError('required')) {
+  //     return 'You must enter a value';
+  //   }
 
-    return this.form['email'].hasError('email') ? 'Not a valid email' : '';
+  //   return this.form['email'].hasError('email') ? 'Not a valid email' : '';
+  // }
+  // getErrorMessageUserName(){
+  //   if(this.form['userName'].hasError('required'))
+  //     return 'חובה להחזיר ערך';
+  //   return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
+  // }
+  checkError (controlName: string, errorName: string)  {
+    return this.form.controls[controlName].hasError(errorName);
   }
-  getErrorMessageUserName(){
-    if(this.form['userName'].hasError('required'))
-      return 'חובה להחזיר ערך';
-    return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
-  }
-
   ngOnInit(): void {
     this.form = new FormGroup({
       username: new FormControl(''),
