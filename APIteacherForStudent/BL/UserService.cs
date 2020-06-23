@@ -8,13 +8,13 @@ namespace BL
 
     public class userService
     {
-        public static UserDTO Login(string id, string name)
+        public static UserDTO Login(string password, string name)
         {
 
-            using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
             {
                 User userf = new User();
-                userf = db.Users.ToList().FirstOrDefault(x => x.UserId == id || x.UserName == name);
+                userf = db.User.ToList().FirstOrDefault(x => x.UserPassword == password || x.UserName == name);
                 return Convertion.userConvertion.ConvertToDto(userf);
             }
         }
@@ -22,9 +22,9 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
-                    db.Users.Add(Convertion.userConvertion.ConvertToUser(userDto));
+                    db.User.Add(Convertion.userConvertion.ConvertToUser(userDto));
                     db.SaveChanges();
                     return Convertion.userConvertion.ConvertToDto(Convertion.userConvertion.ConvertToUser(userDto));
                 }
@@ -39,10 +39,10 @@ namespace BL
             try
             {
 
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
                     ///////////האם משנה באמת
-                    User user = db.Users.FirstOrDefault(u => u.UserId == id);
+                    User user = db.User.FirstOrDefault(u => u.UserId == id);
                     user.UserMail = userdto.UserMail;
                     db.SaveChanges();
                     return Convertion.userConvertion.ConvertToDto(user);
@@ -53,28 +53,16 @@ namespace BL
                 return null;
             }
         }
-        public static List<UserQuestionDTO> GetAllQuestion()
-        {
-            using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
-            {
-                List<UserQuestionDTO> questions = new List<UserQuestionDTO>();
-                db.Questions.ToList().ForEach(x =>
-                {
-                    if (x.Answers == null)
-                        questions.Add(Convertion.QuestionConvertion.ConvertToUserQuestionDTO(x));
-                });
-                return questions;
-            }
-        }
+
         public static bool PutRemovedClassToTeacher(List<UserToClassDTO_> classes)
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
                     foreach (var item in classes)
                     {
-                        db.UserToClasses.Remove(Convertion.UserToClassConvertion.ConvertToUserToClass(item));
+                        db.UserToClass.Remove(Convertion.UserToClassConvertion.ConvertToUserToClass(item));
                     }
                 }
                 return true;
@@ -88,11 +76,11 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
                     foreach (var item in classes)
                     {
-                        db.UserToClasses.Add(Convertion.UserToClassConvertion.ConvertToUserToClass(item));
+                        db.UserToClass.Add(Convertion.UserToClassConvertion.ConvertToUserToClass(item));
                     }
                 }
                 return true;
@@ -106,9 +94,9 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
-                    db.Users.ToList().ForEach(x =>
+                    db.User.ToList().ForEach(x =>
                     {
                         if (x.UserId == id)
                         {
@@ -132,9 +120,9 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
-                    db.Users.ToList().ForEach(x =>
+                    db.User.ToList().ForEach(x =>
                     {
                         if (x.UserId == id)
                         {
@@ -156,7 +144,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
                     db.Answers.Add(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
                     db.SaveChanges();
@@ -172,7 +160,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
                 {
                     db.Questions.Add(Convertion.QuestionConvertion.ConvertToQustion(questiondto));
                     db.SaveChanges();

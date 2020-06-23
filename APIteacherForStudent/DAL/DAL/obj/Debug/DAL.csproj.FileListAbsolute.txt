@@ -1,26 +1,3 @@
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll.config
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.pdb
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.dll
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.xml
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CopyComplete
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.dll
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.pdb
-C:\Users\PC\Desktop\HomeWork\פרויקט גמר\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll.config
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.pdb
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.dll
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.xml
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CopyComplete
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.dll
-C:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.pdb
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll.config
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.dll
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\DAL.pdb
@@ -28,7 +5,6 @@ D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Deb
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.xml
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.dll

@@ -13,10 +13,10 @@ namespace DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TeacherForStudentEntities_ : DbContext
+    public partial class TeacherForStudentEntities1 : DbContext
     {
-        public TeacherForStudentEntities_()
-            : base("name=TeacherForStudentEntities_")
+        public TeacherForStudentEntities1()
+            : base("name=TeacherForStudentEntities1")
         {
         }
     
@@ -25,11 +25,11 @@ namespace DAL
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Answer> Answers { get; set; }
-        public virtual DbSet<Proffestion> Proffestions { get; set; }
-        public virtual DbSet<Question> Questions { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
-        public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<UserToClass> UserToClasses { get; set; }
+        public virtual DbSet<Answers> Answers { get; set; }
+        public virtual DbSet<Proffestions> Proffestions { get; set; }
+        public virtual DbSet<Questions> Questions { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<UserToClass> UserToClass { get; set; }
     }
 }

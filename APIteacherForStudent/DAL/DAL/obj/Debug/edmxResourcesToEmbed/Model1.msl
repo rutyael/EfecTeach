@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities_">
+  <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities1">
     <EntitySetMapping Name="Answers">
-      <EntityTypeMapping TypeName="TeacherForStudentModel.Answer">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Answers">
         <MappingFragment StoreEntitySet="Answers">
           <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
           <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
@@ -13,7 +13,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Proffestions">
-      <EntityTypeMapping TypeName="TeacherForStudentModel.Proffestion">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Proffestions">
         <MappingFragment StoreEntitySet="Proffestions">
           <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
           <ScalarProperty Name="ProffestionName" ColumnName="ProffestionName" />
@@ -21,7 +21,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Questions">
-      <EntityTypeMapping TypeName="TeacherForStudentModel.Question">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Questions">
         <MappingFragment StoreEntitySet="Questions">
           <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
           <ScalarProperty Name="OuestionTitle" ColumnName="OuestionTitle" />
@@ -32,7 +32,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="TeacherForStudentModel.sysdiagram">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.sysdiagrams">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />
@@ -42,9 +42,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Users">
+    <EntitySetMapping Name="User">
       <EntityTypeMapping TypeName="TeacherForStudentModel.User">
-        <MappingFragment StoreEntitySet="Users">
+        <MappingFragment StoreEntitySet="User">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
@@ -53,7 +53,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="UserToClasses">
+    <EntitySetMapping Name="UserToClass">
       <EntityTypeMapping TypeName="TeacherForStudentModel.UserToClass">
         <MappingFragment StoreEntitySet="UserToClass">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
@@ -66,7 +66,7 @@
       <EndProperty Name="Proffestions">
         <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
       </EndProperty>
-      <EndProperty Name="Users">
+      <EndProperty Name="User">
         <ScalarProperty Name="UserId" ColumnName="TeacherId" />
       </EndProperty>
     </AssociationSetMapping>

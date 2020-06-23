@@ -8,13 +8,15 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 namespace APIteacherForStudent.Controllers
 {
+    //[EnableCors(origins: "http://localhost:4200/*", headers: "*", methods: "*")]
     public class UserController : ApiController
     {
         [HttpGet]
-        [Route("api/UserController/getLogin")]
-        public UserDTO getLogin(string id, string name)
+       // [Route("api/UserController/getLogin")]
+        public UserDTO getLogin(string password, string name)
         {
-            return userService.Login(id, name);
+            UserDTO u= userService.Login(password, name);
+            return u;
         }
         [HttpPost]
         //[Route("APIteacherForStudent/UserController/AddUser")]
@@ -29,12 +31,6 @@ namespace APIteacherForStudent.Controllers
         public UserDTO PutDetails(string id, UserDTO userDto)
         {
             return userService.Put(id, userDto);
-        }
-        [HttpGet]
-        [Route("api/UserController/GetQuestions")]
-        public List<UserQuestionDTO> GetQuestions()
-        {
-            return userService.GetAllQuestion();
         }
         public IHttpActionResult RemoveClassToTeacher( [FromBody]List<UserToClassDTO_> classes)
         {
@@ -56,7 +52,7 @@ namespace APIteacherForStudent.Controllers
                 return Ok();
             return BadRequest();
         }
-        public  IHttpActionResult AddProffetsionToTeacher(string id, [FromBody]List<ProffestionsDTO> proffestion)
+        public IHttpActionResult AddProffetsionToTeacher(string id, [FromBody]List<ProffestionsDTO> proffestion)
         {
             bool flag = userService.PutAddProfestionToTeacher(id, proffestion);
             if (flag)

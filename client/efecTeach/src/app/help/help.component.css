@@ -13,7 +13,6 @@
   mat-card-content {
     display: flex;
     justify-content: center;
-    direction: rtl;
   }
 
   .error {

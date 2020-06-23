@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\APIteacherForStudent\\App_Data",
-    "\\APIteacherForStudent\\Controllers",
-    "\\DAL\\DAL"
+    ""
   ],
-  "SelectedNode": "\\APIteacherForStudent.sln",
   "PreviewInSolutionExplorer": false
 }

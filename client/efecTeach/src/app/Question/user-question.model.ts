@@ -1,10 +1,12 @@
 export class UserQuestion {
     constructor(
-                private userName:string,
-                private userKind:string,
-                private userMail:string,
-                private OuestionTitle:string,
-                private QuestionContent:string,
-                private ProffestionName:string
+                public userName:string,
+                public userKind:string,
+                public userMail:string,
+                public OuestionTitle:string,
+                public QuestionContent:string,
+                public ProffestionName:string,
+                //לא לשכוח להוסיף שדה זה גם ב DTO נראה לי שחייבים צריך לשאול את שרהלה
+                public QuestionId:string
                 ){}
 }

@@ -10,7 +10,7 @@ namespace BL.Convertion
 {
     public class AnswerConvertion
     {
-        public static AnswerDTO ConvertToDTO(Answer ans)
+        public static AnswerDTO ConvertToDTO(Answers ans)
         {
             AnswerDTO newans = new AnswerDTO();
             newans.AnswerContant = ans.AnswerContant;
@@ -20,9 +20,9 @@ namespace BL.Convertion
             newans.UserId = ans.UserId;
             return newans;
         }
-        public static Answer ConvertToAnswer(AnswerDTO ansdto)
+        public static Answers ConvertToAnswer(AnswerDTO ansdto)
         {
-            Answer newans = new Answer();
+            Answers newans = new Answers();
             newans.AnswerContant = newans.AnswerContant;
             newans.AnswerId = newans.AnswerId;
             newans.AnswerScoring = newans.AnswerScoring;

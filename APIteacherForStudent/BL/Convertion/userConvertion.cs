@@ -12,13 +12,21 @@ namespace BL.Convertion
     {
         public static UserDTO ConvertToDto(User user)
         {
-            UserDTO newUser = new UserDTO();
-            newUser.UserId = user.UserId;
-            newUser.UserKind = user.UserKind;
-            newUser.UserMail = user.UserMail;
-            newUser.UserName = user.UserName;
-            newUser.UserPassword = user.UserPassword;
-            return newUser;
+            try
+            {
+                UserDTO newUser = new UserDTO();
+                newUser.UserId = user.UserId;
+                newUser.UserKind = user.UserKind;
+                newUser.UserMail = user.UserMail;
+                newUser.UserName = user.UserName;
+                newUser.UserPassword = user.UserPassword;
+                return newUser;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+
         }
         public static User ConvertToUser(UserDTO userdto)
         {

@@ -9,16 +9,16 @@ namespace BL.Convertion
 {
     public class ProffestionConvertion
     {
-        public static ProffestionsDTO ConvertToDTO(Proffestion pro)
+        public static ProffestionsDTO ConvertToDTO(Proffestions pro)
         {
             ProffestionsDTO newpo = new ProffestionsDTO();
             newpo.ProffestionId = pro.ProffestionId;
             newpo.ProffestionName = pro.ProffestionName;
             return newpo;
         }
-        public static Proffestion ConvertToProffestion(ProffestionsDTO proDTO)
+        public static Proffestions ConvertToProffestion(ProffestionsDTO proDTO)
         {
-            Proffestion newpo = new Proffestion();
+            Proffestions newpo = new Proffestions();
             newpo.ProffestionId = proDTO.ProffestionId;
             newpo.ProffestionName = proDTO.ProffestionName;
             return newpo;

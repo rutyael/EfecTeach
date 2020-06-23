@@ -1,0 +1,67 @@
+<mat-card>
+  <mat-card-title>Login</mat-card-title>
+<mat-card-content>
+<form [formGroup]="form" (ngSubmit)="submit()" >
+
+<!-- הכנס שם משתמש -->
+<p>
+  <mat-form-field >
+      <mat-label>הכנס שם משתמש</mat-label>
+      <input matInput placeholder="שם משתמש" formControlName="userName">
+       <mat-error *ngIf="checkError('userName', 'required')">שדה חובה</mat-error>
+       <mat-error *ngIf="checkError('userName', 'maxLength')">מקסימום 10 תווים </mat-error> 
+    </mat-form-field>
+</p>
+
+<!-- בחר סיסמת משתמש -->
+<p>
+  <mat-form-field appearance="fill">
+    <mat-label>בחר סיסמא</mat-label>
+    <input [type]="hide ? 'password' : 'text'" matInput placeholder="סיסמא" formControlName="userPassword">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error *ngIf="checkError('userPassword', 'required')">שדה חובה</mat-error>
+    <mat-error *ngIf="checkError('userPassword', 'minLength')">מינימום  8 תווים </mat-error> 
+  </mat-form-field>
+</p>
+
+<!-- הכנסת כתובת אמייל משתמש -->
+<p *ngIf="CheckSignInUp()">
+  <mat-form-field appearance="fill">
+    <mat-label>הכנס כתובת אמייל</mat-label>
+    <input matInput placeholder="pat@example.com" formControlName="userEmail" >
+    <mat-error *ngIf="checkError('userEmail', 'required')">שדה חובה</mat-error>
+    <mat-error *ngIf="checkError('userEmail', 'email')">כתובת אמייל לא חוקית</mat-error>
+  </mat-form-field>
+  <mat-error *ngIf="IsExists==true">כתובת זו נמצאת בשימוש במערכת</mat-error>
+</p>
+
+<!-- בחירת סטטוס משתמש -->
+<p *ngIf="CheckSignInUp()">
+  <mat-form-field>
+    <mat-label>בחר סטטוס משתמש</mat-label>
+    <mat-select formControlName="userKind" required>
+      <mat-option>--</mat-option>
+      <mat-option *ngFor="let user of users" [value]="user">
+        {{user.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="checkError('userKind', 'required')">שדה חובה</mat-error>
+    <mat-hint>{{form.controls['userKind'].value?.messege}}</mat-hint>
+  </mat-form-field>
+</p>
+
+<!-- שליחת הטופס -->
+<div class="button">
+  <button type="submit" mat-button>כניסה</button>
+</div>
+
+<a *ngIf="!CheckSignInUp()"  (click)="relativeTo('signUp')"> ליצירת משתמש חדש</a>
+<p *ngIf="CheckSignInUp()" >יש לך כבר חשבון?    <a (click)="relativeTo('signIn')">כניסה</a></p>
+
+
+
+</form>
+</mat-card-content>
+</mat-card>

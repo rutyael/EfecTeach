@@ -17,10 +17,10 @@ namespace DAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public User()
         {
-            this.Answers = new HashSet<Answer>();
-            this.Questions = new HashSet<Question>();
-            this.UserToClasses = new HashSet<UserToClass>();
-            this.Proffestions = new HashSet<Proffestion>();
+            this.Answers = new HashSet<Answers>();
+            this.Questions = new HashSet<Questions>();
+            this.UserToClass = new HashSet<UserToClass>();
+            this.Proffestions = new HashSet<Proffestions>();
         }
     
         public string UserId { get; set; }
@@ -30,12 +30,12 @@ namespace DAL
         public string UserKind { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Answer> Answers { get; set; }
+        public virtual ICollection<Answers> Answers { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Question> Questions { get; set; }
+        public virtual ICollection<Questions> Questions { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<UserToClass> UserToClasses { get; set; }
+        public virtual ICollection<UserToClass> UserToClass { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proffestion> Proffestions { get; set; }
+        public virtual ICollection<Proffestions> Proffestions { get; set; }
     }
 }

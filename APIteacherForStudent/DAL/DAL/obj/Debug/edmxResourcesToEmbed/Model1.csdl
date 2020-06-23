@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="TeacherForStudentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="Answer">
+  <EntityType Name="Answers">
     <Key>
       <PropertyRef Name="AnswerId" />
     </Key>
     <Property Name="AnswerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="QuestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="AnswerContant" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
-    <Property Name="AnswerScoring" Type="String" MaxLength="2" FixedLength="true" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="Question" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
-    <NavigationProperty Name="User" Relationship="Self.FK_Answers_Users" FromRole="Answers" ToRole="Users" />
+    <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="AnswerContant" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AnswerScoring" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Answers_Users" FromRole="Answers" ToRole="User" />
   </EntityType>
-  <EntityType Name="Proffestion">
+  <EntityType Name="Proffestions">
     <Key>
       <PropertyRef Name="ProffestionId" />
     </Key>
     <Property Name="ProffestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="ProffestionName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="Users" Relationship="Self.ProffestionToTeacher" FromRole="Proffestions" ToRole="Users" />
+    <Property Name="ProffestionName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.ProffestionToTeacher" FromRole="Proffestions" ToRole="User" />
   </EntityType>
-  <EntityType Name="Question">
+  <EntityType Name="Questions">
     <Key>
       <PropertyRef Name="QuestionId" />
     </Key>
     <Property Name="QuestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="OuestionTitle" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
-    <Property Name="QuestionContent" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
-    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OuestionTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QuestionContent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
     <Property Name="ProffestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
-    <NavigationProperty Name="User" Relationship="Self.FK_Questions_Users" FromRole="Questions" ToRole="Users" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Questions_Users" FromRole="Questions" ToRole="User" />
   </EntityType>
-  <EntityType Name="sysdiagram">
+  <EntityType Name="sysdiagrams">
     <Key>
       <PropertyRef Name="diagram_id" />
     </Key>
@@ -46,15 +46,15 @@
     <Key>
       <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="UserName" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
-    <Property Name="UserPassword" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="UserMail" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
-    <Property Name="UserKind" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Users" FromRole="Users" ToRole="Answers" />
-    <NavigationProperty Name="Questions" Relationship="Self.FK_Questions_Users" FromRole="Users" ToRole="Questions" />
-    <NavigationProperty Name="UserToClasses" Relationship="Self.FK_UserToClass_Users" FromRole="Users" ToRole="UserToClass" />
-    <NavigationProperty Name="Proffestions" Relationship="Self.ProffestionToTeacher" FromRole="Users" ToRole="Proffestions" />
+    <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserMail" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserKind" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Users" FromRole="User" ToRole="Answers" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Questions_Users" FromRole="User" ToRole="Questions" />
+    <NavigationProperty Name="UserToClass" Relationship="Self.FK_UserToClass_Users" FromRole="User" ToRole="UserToClass" />
+    <NavigationProperty Name="Proffestions" Relationship="Self.ProffestionToTeacher" FromRole="User" ToRole="Proffestions" />
   </EntityType>
   <EntityType Name="UserToClass">
     <Key>
@@ -62,14 +62,14 @@
       <PropertyRef Name="ClassName" />
       <PropertyRef Name="school" />
     </Key>
-    <Property Name="UserId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
     <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="school" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="User" Relationship="Self.FK_UserToClass_Users" FromRole="UserToClass" ToRole="Users" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserToClass_Users" FromRole="UserToClass" ToRole="User" />
   </EntityType>
   <Association Name="FK_Answers_Questions">
-    <End Role="Questions" Type="Self.Question" Multiplicity="1" />
-    <End Role="Answers" Type="Self.Answer" Multiplicity="*" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Questions">
         <PropertyRef Name="QuestionId" />
@@ -80,10 +80,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Answers_Users">
-    <End Role="Users" Type="Self.User" Multiplicity="1" />
-    <End Role="Answers" Type="Self.Answer" Multiplicity="*" />
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Users">
+      <Principal Role="User">
         <PropertyRef Name="UserId" />
       </Principal>
       <Dependent Role="Answers">
@@ -92,10 +92,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Questions_Users">
-    <End Role="Users" Type="Self.User" Multiplicity="1" />
-    <End Role="Questions" Type="Self.Question" Multiplicity="*" />
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Users">
+      <Principal Role="User">
         <PropertyRef Name="UserId" />
       </Principal>
       <Dependent Role="Questions">
@@ -104,10 +104,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_UserToClass_Users">
-    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1" />
     <End Role="UserToClass" Type="Self.UserToClass" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Users">
+      <Principal Role="User">
         <PropertyRef Name="UserId" />
       </Principal>
       <Dependent Role="UserToClass">
@@ -116,35 +116,35 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="ProffestionToTeacher">
-    <End Role="Proffestions" Type="Self.Proffestion" Multiplicity="*" />
-    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="*" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
   </Association>
-  <EntityContainer Name="TeacherForStudentEntities_" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Answers" EntityType="Self.Answer" />
-    <EntitySet Name="Proffestions" EntityType="Self.Proffestion" />
-    <EntitySet Name="Questions" EntityType="Self.Question" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
-    <EntitySet Name="Users" EntityType="Self.User" />
-    <EntitySet Name="UserToClasses" EntityType="Self.UserToClass" />
+  <EntityContainer Name="TeacherForStudentEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answers" EntityType="Self.Answers" />
+    <EntitySet Name="Proffestions" EntityType="Self.Proffestions" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="UserToClass" EntityType="Self.UserToClass" />
     <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
       <End Role="Questions" EntitySet="Questions" />
       <End Role="Answers" EntitySet="Answers" />
     </AssociationSet>
     <AssociationSet Name="FK_Answers_Users" Association="Self.FK_Answers_Users">
-      <End Role="Users" EntitySet="Users" />
+      <End Role="User" EntitySet="User" />
       <End Role="Answers" EntitySet="Answers" />
     </AssociationSet>
     <AssociationSet Name="FK_Questions_Users" Association="Self.FK_Questions_Users">
-      <End Role="Users" EntitySet="Users" />
+      <End Role="User" EntitySet="User" />
       <End Role="Questions" EntitySet="Questions" />
     </AssociationSet>
     <AssociationSet Name="FK_UserToClass_Users" Association="Self.FK_UserToClass_Users">
-      <End Role="Users" EntitySet="Users" />
-      <End Role="UserToClass" EntitySet="UserToClasses" />
+      <End Role="User" EntitySet="User" />
+      <End Role="UserToClass" EntitySet="UserToClass" />
     </AssociationSet>
     <AssociationSet Name="ProffestionToTeacher" Association="Self.ProffestionToTeacher">
       <End Role="Proffestions" EntitySet="Proffestions" />
-      <End Role="Users" EntitySet="Users" />
+      <End Role="User" EntitySet="User" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

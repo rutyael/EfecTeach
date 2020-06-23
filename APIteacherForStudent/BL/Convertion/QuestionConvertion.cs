@@ -9,7 +9,7 @@ namespace BL.Convertion
 {
     public class QuestionConvertion
     {
-        public static QuestionsDTO ConvertToDTO(Question question)
+        public static QuestionsDTO ConvertToDTO(Questions question)
         {
             QuestionsDTO newQuestion = new QuestionsDTO();
             newQuestion.OuestionTitle = question.OuestionTitle;
@@ -19,9 +19,9 @@ namespace BL.Convertion
             newQuestion.UserId = question.UserId;
             return newQuestion;
         }
-        public static Question ConvertToQustion(QuestionsDTO questionDTO)
+        public static Questions ConvertToQustion(QuestionsDTO questionDTO)
         {
-            Question newQuestion = new Question();
+            Questions newQuestion = new Questions();
             newQuestion.OuestionTitle = questionDTO.OuestionTitle;
             newQuestion.ProffestionId = questionDTO.ProffestionId;
             newQuestion.QuestionContent = questionDTO.QuestionContent;
@@ -29,15 +29,15 @@ namespace BL.Convertion
             newQuestion.UserId = questionDTO.UserId;
             return newQuestion;
         }
-        public static UserQuestionDTO ConvertToUserQuestionDTO(Question question)
+        public static UserQuestionDTO ConvertToUserQuestionDTO(Questions question)
         {
-            using (TeacherForStudentEntities_ db = new TeacherForStudentEntities_())
+            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
             {
                 UserQuestionDTO userQuestion = new UserQuestionDTO();
                 userQuestion.OuestionTitle = question.OuestionTitle;
                 userQuestion.QuestionContent = question.QuestionContent;
                 userQuestion.ProffestionName = (db.Proffestions.FirstOrDefault(p => p.ProffestionId == question.ProffestionId)).ProffestionName;
-                User user = db.Users.FirstOrDefault(u => u.UserId == question.UserId);
+                User user = db.User.FirstOrDefault(u => u.UserId == question.UserId);
                 userQuestion.UserKind = user.UserKind;
                 userQuestion.UserMail = user.UserMail;
                 userQuestion.UserName = user.UserName;

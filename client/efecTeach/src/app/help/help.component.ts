@@ -1,6 +1,12 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
+// סטטוס משתמש
+interface UserInterface {
+  name: string;
+  messege: string;
+}
+
 @Component({
   selector: 'app-help',
   templateUrl: './help.component.html',
@@ -8,7 +14,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class HelpComponent implements OnInit {
   form: FormGroup;
-    constructor() { }
+  hide = true;
+  constructor() { }
 
   submit() {
     // if (this.form.valid) {
@@ -16,27 +23,27 @@ export class HelpComponent implements OnInit {
     // }
   }
 
-  // getErrorMessage() {
-  //   if (this.form['email'].hasError('required')) {
-  //     return 'You must enter a value';
-  //   }
-
-  //   return this.form['email'].hasError('email') ? 'Not a valid email' : '';
-  // }
-  // getErrorMessageUserName(){
-  //   if(this.form['userName'].hasError('required'))
-  //     return 'חובה להחזיר ערך';
-  //   return this.form['userName'].hasError('userName')?'מקסימום 10 תווים':'';
-  // }
+  // בדיקת תקינות שדות הרשמה לאתר
   checkError (controlName: string, errorName: string)  {
     return this.form.controls[controlName].hasError(errorName);
   }
+  // מערך סטטוס משתמש
+  users: UserInterface[] = [
+    {name: 'מורה', messege: 'שלום מורה!'},
+    {name: 'תלמיד', messege: 'שלום תלמיד!'},
+
+  ];
+
   ngOnInit(): void {
+    // אתחול טופס הרשמה לאתר
     this.form = new FormGroup({
-      username: new FormControl(''),
-      password: new FormControl(''), 
-       email: new FormControl('', [Validators.required, Validators.email])
+      username: new FormControl('',[Validators.required,Validators.maxLength(10)]),
+      password: new FormControl('',[Validators.required,Validators.minLength(8)]), 
+      email: new FormControl('', [Validators.required, Validators.email]),
+      userStatusControl : new FormControl('', Validators.required)
     });
   }
+
+
 
 }
