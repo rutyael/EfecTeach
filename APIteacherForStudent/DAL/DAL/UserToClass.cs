@@ -14,7 +14,7 @@ namespace DAL
     
     public partial class UserToClass
     {
-        public string UserId { get; set; }
+        public int UserId { get; set; }
         public string ClassName { get; set; }
         public string school { get; set; }
     

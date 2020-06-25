@@ -4,9 +4,9 @@
     <Key>
       <PropertyRef Name="AnswerId" />
     </Key>
-    <Property Name="AnswerId" Type="varchar" MaxLength="10" Nullable="false" />
-    <Property Name="QuestionId" Type="varchar" MaxLength="10" Nullable="false" />
-    <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="AnswerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
     <Property Name="AnswerContant" Type="nvarchar" MaxLength="1000" Nullable="false" />
     <Property Name="AnswerScoring" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
@@ -14,7 +14,7 @@
     <Key>
       <PropertyRef Name="ProffestionId" />
     </Key>
-    <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ProffestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ProffestionName" Type="nvarchar" MaxLength="10" Nullable="false" />
   </EntityType>
   <EntityType Name="ProffestionToTeacher">
@@ -22,18 +22,18 @@
       <PropertyRef Name="ProffestionId" />
       <PropertyRef Name="TeacherId" />
     </Key>
-    <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
-    <Property Name="TeacherId" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Questions">
     <Key>
       <PropertyRef Name="QuestionId" />
     </Key>
-    <Property Name="QuestionId" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="QuestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="OuestionTitle" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="QuestionContent" Type="nvarchar" MaxLength="100" Nullable="false" />
-    <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
-    <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="sysdiagrams">
     <Key>
@@ -49,7 +49,7 @@
     <Key>
       <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="UserName" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="UserPassword" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="UserMail" Type="nvarchar" MaxLength="25" Nullable="false" />
@@ -61,7 +61,7 @@
       <PropertyRef Name="ClassName" />
       <PropertyRef Name="school" />
     </Key>
-    <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
     <Property Name="ClassName" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="school" Type="varchar" MaxLength="10" Nullable="false" />
   </EntityType>

@@ -10,35 +10,18 @@ export class UserService {
   user: User = null;
   users: User[] = [];
   constructor(private http:HttpClient) {
-
   }
   SignIn(username:string,userpassword:string) :Observable<User>{ 
-
        return this.http.get<User>(`http://localhost:51944/api/User?password=${userpassword}&name=${username}`);
-  
   }
-  SignUp(postuser: User):Observable<any> {
-    // let IsExists:boolean=false;
-    // this.users.forEach(function (value, key) {
-    //   if (value != null) {
-    //     if ((value as User).userEmail == postuser.userEmail||(value as User).userName == postuser.userName)
-    //     {
-    //       IsExists=true;
-    //     }
-    //   }
-    // });
-    //     if(IsExists==false)
-    //     this.users.push(postuser);        
-    // // return IsExists;
+  SignUp(postuser: User):Observable<User> {
     let data={
-      UserId: "12345678",
-UserKind: "מורה",
-UserMail: "y0556702539@gmail.com",
-UserName: "yael",
-UserPassword: "208095877",
+      "UserName": "uu",
+      "UserPassword": "208095877",
+      "UserMail": "1@gmail.com",
+      "UserKind": "מורה"
   }
-
-   return  this.http.post(`http://localhost:51944/api/User`,data);
+     return  this.http.post<User>(`http://localhost:51944/api/User`,data);
 
     // console.log(this.users);s
   }

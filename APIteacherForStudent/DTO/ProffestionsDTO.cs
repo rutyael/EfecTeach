@@ -8,7 +8,7 @@ namespace DTO
 {
     public class ProffestionsDTO
     {
-        public string ProffestionId { get; set; }
+        public int ProffestionId { get; set; }
         public string ProffestionName { get; set; }
     }
 }

@@ -14,14 +14,13 @@ namespace APIteacherForStudent.Controllers
     public class QuestionController : ApiController
     {
         [HttpGet]
-       [Route("api/Question/GetQuestions")]
+        [Route("api/Question/GetQuestions")]
         public List<UserQuestionDTO> GetQuestions()
         {
             return QuestionService.GetAllQuestion();
         }
         [HttpGet]
-        [Route("api/Question/GetQuestion")]
-        public UserQuestionDTO GetQuestion(string id)
+        public UserQuestionDTO GetQuestion(int id)
         {
             return QuestionService.GetQuestionById(id);
         }

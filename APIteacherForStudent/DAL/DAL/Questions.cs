@@ -20,11 +20,11 @@ namespace DAL
             this.Answers = new HashSet<Answers>();
         }
     
-        public string QuestionId { get; set; }
+        public int QuestionId { get; set; }
         public string OuestionTitle { get; set; }
         public string QuestionContent { get; set; }
-        public string UserId { get; set; }
-        public string ProffestionId { get; set; }
+        public int UserId { get; set; }
+        public int ProffestionId { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Answers> Answers { get; set; }

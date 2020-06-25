@@ -146,3 +146,4 @@ D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\D
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.csproj.CopyComplete
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.dll
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DTO\obj\Debug\DTO.csprojAssemblyReference.cache

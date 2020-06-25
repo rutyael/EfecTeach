@@ -5,6 +5,8 @@ import { Route } from '@angular/router';
 import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../user.model';
 import { Observable } from 'rxjs';
+import { ProffestionService } from 'src/app/Proffestion/proffestion.service';
+import { Proffestion } from 'src/app/Proffestion/proffestion.model';
 
 
 // סטטוס משתמש
@@ -22,9 +24,9 @@ export class LoginComponent implements OnInit {
   IsExists: Boolean = false;
   form: FormGroup;
   hide = true;
-
+  Proffestion: Proffestion[] = [];
   SignInUp: string = "signUp";
-  constructor(private userService: UserService, private router: Router) { }
+  constructor(private userService: UserService, private router: Router,private proffestionService:ProffestionService) { }
 
   // בחירה משתמש-כניסה או הרשמה 
   CheckSignInUp() {
@@ -33,6 +35,7 @@ export class LoginComponent implements OnInit {
     else
       return true;
   }
+  // שינוי הנתיב מכניסה להרשמה ולהיפך
   relativeTo(path: string) {
     this.router.navigate([path]);
   }
@@ -45,19 +48,35 @@ export class LoginComponent implements OnInit {
     { name: 'מורה', messege: 'שלום מורה!' },
     { name: 'תלמיד', messege: 'שלום תלמיד!' }
   ];
-
-  submit() {
-    if (this.form.valid) {
-      if (this.CheckSignInUp() == true)
-       this.userService.SignUp(<User>this.form.value).subscribe(x=>{
-         console.log(x);
-       });
-    }
-    if (this.CheckSignInUp() == false)
-      if (this.form.controls['userName'].valid && this.form.controls['userPassword'])
-        this.userService.SignIn(this.form.controls['userName'].value, this.form.controls['userPassword'].value).subscribe(x=>{
-        console.log(x)
-        });
+// כפתור כניסה למערכת
+ConSumbit() {
+     if (this.CheckSignInUp() == true)
+     {
+        if (this.form.valid)
+        {
+          this.userService.SignUp(<User>this.form.value).subscribe(x=>{
+              console.log(x);
+              // this.proffestionService.GetAll().subscribe(res=>{
+              //   console.log(res);
+              //   this.Proffestion=res;
+              // });
+          });
+        }
+     }
+    else
+      if (this.form.controls['userName'].valid && this.form.controls['userPassword'].valid)
+      {
+          this.userService.SignIn(this.form.controls['userName'].value, this.form.controls['userPassword'].value).subscribe(x=>{
+          console.log(x)
+         });
+      }
+  }
+  EnterSubmit()
+  {
+    if(this.form.controls['userKind'].value=="מורה")
+        this.router.navigate(['questions']);
+    else
+      this.router.navigate(['questions']);
   }
   ngOnInit(): void {
     // אתחול טופס הרשמה לאתר
@@ -67,6 +86,10 @@ export class LoginComponent implements OnInit {
       userEmail: new FormControl('', [Validators.required, Validators.email]),
       userKind: new FormControl('', Validators.required)
     });
+      this.proffestionService.GetAll().subscribe(res=>{
+                console.log(res);
+                this.Proffestion=res;
+              });
   }
 }
 

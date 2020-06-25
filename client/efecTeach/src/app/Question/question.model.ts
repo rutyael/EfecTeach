@@ -1,9 +1,9 @@
 export class Question {
     constructor(
-        private QuestionId:string,
+        private QuestionId:number,
         private OuestionTitle:string,
         private QuestionContent:string,
-        private UserId:string,
+        private UserId:number,
         private ProffestionId:string
     ){}
 }

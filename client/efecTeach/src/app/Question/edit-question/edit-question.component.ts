@@ -16,7 +16,7 @@ export class EditQuestionComponent implements OnInit {
 
   ngOnInit(): void {
     this.router.paramMap.subscribe(res=>
-    this.QuestionService.GetQuestionById(((res.get("id")).toString())).subscribe(res=>
+    this.QuestionService.GetQuestionById(Number((res.get("id")))).subscribe(res=>
       {
         this.question=res;
         console.log(res)

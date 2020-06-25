@@ -31,16 +31,18 @@ namespace BL.Convertion
         }
         public static UserQuestionDTO ConvertToUserQuestionDTO(Questions question)
         {
-            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+            using (TeacherForStudentEntities db = new TeacherForStudentEntities())
             {
                 UserQuestionDTO userQuestion = new UserQuestionDTO();
                 userQuestion.OuestionTitle = question.OuestionTitle;
+                userQuestion.QuestionId = question.QuestionId;
                 userQuestion.QuestionContent = question.QuestionContent;
                 userQuestion.ProffestionName = (db.Proffestions.FirstOrDefault(p => p.ProffestionId == question.ProffestionId)).ProffestionName;
                 User user = db.User.FirstOrDefault(u => u.UserId == question.UserId);
                 userQuestion.UserKind = user.UserKind;
                 userQuestion.UserMail = user.UserMail;
                 userQuestion.UserName = user.UserName;
+                userQuestion.UserId = user.UserId;
                 return userQuestion;
             }
 

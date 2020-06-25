@@ -9,9 +9,9 @@
           <Key>
             <PropertyRef Name="AnswerId" />
           </Key>
-          <Property Name="AnswerId" Type="varchar" MaxLength="10" Nullable="false" />
-          <Property Name="QuestionId" Type="varchar" MaxLength="10" Nullable="false" />
-          <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="AnswerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="QuestionId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
           <Property Name="AnswerContant" Type="nvarchar" MaxLength="1000" Nullable="false" />
           <Property Name="AnswerScoring" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
@@ -19,7 +19,7 @@
           <Key>
             <PropertyRef Name="ProffestionId" />
           </Key>
-          <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="ProffestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ProffestionName" Type="nvarchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="ProffestionToTeacher">
@@ -27,18 +27,18 @@
             <PropertyRef Name="ProffestionId" />
             <PropertyRef Name="TeacherId" />
           </Key>
-          <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
-          <Property Name="TeacherId" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="ProffestionId" Type="int" Nullable="false" />
+          <Property Name="TeacherId" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="Questions">
           <Key>
             <PropertyRef Name="QuestionId" />
           </Key>
-          <Property Name="QuestionId" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="QuestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="OuestionTitle" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="QuestionContent" Type="nvarchar" MaxLength="100" Nullable="false" />
-          <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
-          <Property Name="ProffestionId" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProffestionId" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -54,7 +54,7 @@
           <Key>
             <PropertyRef Name="UserId" />
           </Key>
-          <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="UserName" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="UserPassword" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="UserMail" Type="nvarchar" MaxLength="25" Nullable="false" />
@@ -66,7 +66,7 @@
             <PropertyRef Name="ClassName" />
             <PropertyRef Name="school" />
           </Key>
-          <Property Name="UserId" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
           <Property Name="ClassName" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="school" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
@@ -184,9 +184,9 @@
           <Key>
             <PropertyRef Name="AnswerId" />
           </Key>
-          <Property Name="AnswerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="QuestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="AnswerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="QuestionId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
           <Property Name="AnswerContant" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="AnswerScoring" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Questions" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
@@ -196,7 +196,7 @@
           <Key>
             <PropertyRef Name="ProffestionId" />
           </Key>
-          <Property Name="ProffestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProffestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ProffestionName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.ProffestionToTeacher" FromRole="Proffestions" ToRole="User" />
         </EntityType>
@@ -204,11 +204,11 @@
           <Key>
             <PropertyRef Name="QuestionId" />
           </Key>
-          <Property Name="QuestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="OuestionTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="QuestionContent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
-          <Property Name="ProffestionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProffestionId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
           <NavigationProperty Name="User" Relationship="Self.FK_Questions_Users" FromRole="Questions" ToRole="User" />
         </EntityType>
@@ -226,7 +226,7 @@
           <Key>
             <PropertyRef Name="UserId" />
           </Key>
-          <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="UserName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="UserPassword" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="UserMail" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
@@ -242,7 +242,7 @@
             <PropertyRef Name="ClassName" />
             <PropertyRef Name="school" />
           </Key>
-          <Property Name="UserId" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
           <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="school" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.FK_UserToClass_Users" FromRole="UserToClass" ToRole="User" />
@@ -299,7 +299,7 @@
           <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="*" />
           <End Role="User" Type="Self.User" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="TeacherForStudentEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="TeacherForStudentEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Answers" EntityType="Self.Answers" />
           <EntitySet Name="Proffestions" EntityType="Self.Proffestions" />
           <EntitySet Name="Questions" EntityType="Self.Questions" />
@@ -332,7 +332,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities1">
+        <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities">
           <EntitySetMapping Name="Answers">
             <EntityTypeMapping TypeName="TeacherForStudentModel.Answers">
               <MappingFragment StoreEntitySet="Answers">

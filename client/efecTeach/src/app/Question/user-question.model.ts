@@ -7,6 +7,6 @@ export class UserQuestion {
                 public QuestionContent:string,
                 public ProffestionName:string,
                 //לא לשכוח להוסיף שדה זה גם ב DTO נראה לי שחייבים צריך לשאול את שרהלה
-                public QuestionId:string
+                public QuestionId:number
                 ){}
 }

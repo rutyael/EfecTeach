@@ -9,3 +9,4 @@ D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Deb
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.dll
 D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\DAL\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

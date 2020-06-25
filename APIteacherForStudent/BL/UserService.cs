@@ -11,7 +11,7 @@ namespace BL
         public static UserDTO Login(string password, string name)
         {
 
-            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+            using (TeacherForStudentEntities db = new TeacherForStudentEntities())
             {
                 User userf = new User();
                 userf = db.User.ToList().FirstOrDefault(x => x.UserPassword == password || x.UserName == name);
@@ -22,7 +22,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     db.User.Add(Convertion.userConvertion.ConvertToUser(userDto));
                     db.SaveChanges();
@@ -34,12 +34,12 @@ namespace BL
                 return null;
             }
         }
-        public static UserDTO Put(string id, UserDTO userdto)
+        public static UserDTO Put(int id, UserDTO userdto)
         {
             try
             {
 
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     ///////////האם משנה באמת
                     User user = db.User.FirstOrDefault(u => u.UserId == id);
@@ -58,7 +58,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     foreach (var item in classes)
                     {
@@ -76,7 +76,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     foreach (var item in classes)
                     {
@@ -90,11 +90,11 @@ namespace BL
                 return false;
             }
         }
-        public static bool PutRemoveProfestionToTeacher(string id, List<ProffestionsDTO> proffestions)
+        public static bool PutRemoveProfestionToTeacher(int id, List<ProffestionsDTO> proffestions)
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     db.User.ToList().ForEach(x =>
                     {
@@ -116,11 +116,11 @@ namespace BL
 
 
         }
-        public static bool PutAddProfestionToTeacher(string id, List<ProffestionsDTO> proffestions)
+        public static bool PutAddProfestionToTeacher(int id, List<ProffestionsDTO> proffestions)
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     db.User.ToList().ForEach(x =>
                     {
@@ -144,7 +144,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     db.Answers.Add(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
                     db.SaveChanges();
@@ -160,7 +160,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
                 {
                     db.Questions.Add(Convertion.QuestionConvertion.ConvertToQustion(questiondto));
                     db.SaveChanges();

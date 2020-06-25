@@ -11,7 +11,7 @@ namespace BL
     {
         public static List<UserQuestionDTO> GetAllQuestion()
         {
-            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+            using (TeacherForStudentEntities db = new TeacherForStudentEntities())
             {
                 List<UserQuestionDTO> questions = new List<UserQuestionDTO>();
                 db.Questions.ToList().ForEach(x =>
@@ -22,9 +22,9 @@ namespace BL
                 return questions;
             }
         }
-        public static UserQuestionDTO GetQuestionById(string id)
+        public static UserQuestionDTO GetQuestionById(int id)
         {
-            using (TeacherForStudentEntities1 db = new TeacherForStudentEntities1())
+            using (TeacherForStudentEntities db = new TeacherForStudentEntities())
             {
                 UserQuestionDTO question = new UserQuestionDTO();
                 db.Questions.ToList().ForEach(x =>
