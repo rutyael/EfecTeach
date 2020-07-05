@@ -15,6 +15,7 @@ export class EditQuestionComponent implements OnInit {
   constructor(private router:ActivatedRoute,private QuestionService:QuestionServiceService) { }
 
   ngOnInit(): void {
+    //עושה שגיאה לפני ההעלאה
     this.router.paramMap.subscribe(res=>
     this.QuestionService.GetQuestionById(Number((res.get("id")))).subscribe(res=>
       {

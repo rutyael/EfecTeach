@@ -16,7 +16,6 @@ import { FooterComponent } from './display/footer/footer.component';
 import { AskQuestionComponent } from './Question/ask-question/ask-question.component';
 import { HelpComponent } from './help/help.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { QuestionToAnswerComponent } from './Question/question-to-answer/question-to-answer.component';
 import {AnswersComponent}  from './Answer/answers/answers.component';
 import { HttpClientModule} from '@angular/common/http';
 
@@ -42,7 +41,6 @@ import { EditQuestionComponent } from './Question/edit-question/edit-question.co
     AskQuestionComponent,
     QuestionsComponent,
     HelpComponent,
-    QuestionToAnswerComponent,
     ItemQuestionComponent,
     EditQuestionComponent,
   ],

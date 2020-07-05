@@ -115,11 +115,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CitiesService.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Convertion\AnswerConvertion.cs" />
+    <Compile Include="Convertion\CityConvertion.cs" />
+    <Compile Include="Convertion\ClassToSchool.cs" />
     <Compile Include="Convertion\ProffestionConvertion.cs" />
     <Compile Include="Convertion\QuestionConvertion.cs" />
     <Compile Include="Convertion\userConvertion.cs" />
+    <Compile Include="Convertion\SchoolConvertion.cs" />
     <Compile Include="Convertion\UserToClassConvertion.cs" />
     <Compile Include="ProffestionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

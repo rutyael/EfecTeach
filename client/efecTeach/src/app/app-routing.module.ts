@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './User/login/login.component';
 import {QuestionsComponent} from './Question/questions/questions.component';
-import {QuestionToAnswerComponent} from './Question/question-to-answer/question-to-answer.component';
 import {QuestionServiceService} from './Question/question-service.service';
 import { AnswerToQuestionComponent } from './Answer/answer-to-question/answer-to-question.component';
 import { EditQuestionComponent } from './Question/edit-question/edit-question.component';
@@ -22,6 +21,9 @@ const routes: Routes = [
   {path:'AskQuestion',component:AskQuestionComponent},
   {path:'ApdateDetailsTeacher',component:ApdateDetailsTeacherComponent},
   {path:'StudentsDetails',component:StudentDetailsComponent},
+  // {path:'StudentEntrance',component:AskQuestionComponent},
+  // {path:'TeacherEnterance',component:QuestionsComponent}
+
   // {path:'StudentResponseRating',component:}
 
 

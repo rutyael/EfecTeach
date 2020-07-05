@@ -10,13 +10,21 @@ namespace BL.Convertion
 {
     public class UserToClassConvertion
     {
-        public static UserToClass ConvertToUserToClass(UserToClassDTO_ usertoclassdto)
+        public static UserToClassDTO ConvertToUserToClassDTO(UserToClass usertoclass)
         {
-            UserToClass newusertoclass = new UserToClass();
-            newusertoclass.ClassName = usertoclassdto.ClassName;
-            newusertoclass.UserId = usertoclassdto.UserId;
-            newusertoclass.school = usertoclassdto.school;
-            return newusertoclass;
+            UserToClassDTO usertoclassdto = new UserToClassDTO();
+            usertoclassdto.id = usertoclass.id;
+            usertoclassdto.idClass = usertoclass.idClass;
+            usertoclassdto.idUser = usertoclass.idUser;
+            return usertoclassdto;
+        }
+        public static UserToClass ConvertToUserToClass(UserToClassDTO usertoclassdto)
+        {
+            UserToClass usertoclass = new UserToClass();
+            usertoclass.id = usertoclassdto.id;
+            usertoclass.idClass = usertoclassdto.idClass;
+            usertoclass.idUser = usertoclassdto.idUser;
+            return usertoclass;
         }
     }
 }

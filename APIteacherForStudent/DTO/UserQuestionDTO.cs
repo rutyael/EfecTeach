@@ -15,5 +15,7 @@ namespace DTO
         public string OuestionTitle { get; set; }
         public string QuestionContent { get; set; }
         public string ProffestionName { get; set; }
+        public System.DateTime QuestionDate { get; set; }
+        public Int16 QuestionView { get; set; }
     }
 }

@@ -3,10 +3,12 @@
   justify-content: center;
   margin: 100px 0px;
 }
+
 .mat-form-field {
   width: 100%;
   min-width: 300px;
 }
+
 mat-card-title,
 mat-card-content {
   display: flex;
@@ -15,12 +17,15 @@ mat-card-content {
 a{
   cursor: pointer;
 }
+
 .error {
   padding: 16px;
   width: 300px;
   color: white;
   background-color: #ffbb30;
 }
+
+
 .button {
   display: flex;
   justify-content: flex-end;
@@ -42,6 +47,7 @@ input.example-right-align::-webkit-outer-spin-button,
 input.example-right-align::-webkit-inner-spin-button {
   display: none;
 }
+
 input.example-right-align {
   -moz-appearance: textfield;
 }
@@ -49,37 +55,4 @@ input.example-right-align {
   color: #f44336;
     font-size: 13px;
     margin-top: -18px;
-}
-.mat-list-base {
-     /* padding-top: 8px; */
-     display: block;
-     -webkit-tap-highlight-color: transparent;
-     float: right;
-     border: solid 1px #ffbb30;
-     border-radius: 5px;
-     width: 40%;
-     float: right;
-     margin: 0;
-     margin-right: 0;
-     margin-top: 10%;
-     box-shadow: #1f5f6830 0px 0px 0px 1px;
-     overflow: scroll;
-     max-height: 40vh;
-     direction: ltr;
-     overflow-x: hidden;
-     padding: 0;
-}
-.mat-pseudo-checkbox ng-star-inserted {
-    color: rgb(31, 95, 104);
-}
-mat-pseudo-checkbox {
-  background: #ffbb30;
-}
-.mat-card>:last-child:not(.mat-card-footer), .mat-card-content>:last-child:not(.mat-card-footer) {
-  height: 100%;
-  margin-bottom: 0;
-  width: 100%;
-}
-::ng-deep  .mat-pseudo-checkbox-checked {
-  background: red;
 }

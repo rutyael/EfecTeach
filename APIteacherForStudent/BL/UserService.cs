@@ -11,38 +11,37 @@ namespace BL
         public static UserDTO Login(string password, string name)
         {
 
-            using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+            using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
             {
-                User userf = new User();
-                userf = db.User.ToList().FirstOrDefault(x => x.UserPassword == password || x.UserName == name);
+                Users userf = new Users();
+                userf = db.Users.ToList().FirstOrDefault(x => x.UserPassword == password || x.UserName == name);
                 return Convertion.userConvertion.ConvertToDto(userf);
             }
         }
         public static UserDTO GetPostUser(UserDTO userDto)
         {
-            try
+
+            using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
             {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
-                {
-                    db.User.Add(Convertion.userConvertion.ConvertToUser(userDto));
-                    db.SaveChanges();
-                    return Convertion.userConvertion.ConvertToDto(Convertion.userConvertion.ConvertToUser(userDto));
-                }
+                Users IsExits = db.Users.ToList().FirstOrDefault(u => u.UserName == userDto.UserName || u.UserMail == userDto.UserMail);
+                if (IsExits == null)
+                    return null;
+                db.Users.Add(Convertion.userConvertion.ConvertToUser(userDto));
+                db.SaveChanges();
+                return Convertion.userConvertion.ConvertToDto(Convertion.userConvertion.ConvertToUser(userDto));
             }
-            catch (Exception)
-            {
-                return null;
-            }
+
+
         }
         public static UserDTO Put(int id, UserDTO userdto)
         {
             try
             {
 
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+                using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
                 {
                     ///////////האם משנה באמת
-                    User user = db.User.FirstOrDefault(u => u.UserId == id);
+                    Users user = db.Users.FirstOrDefault(u => u.UserId == id);
                     user.UserMail = userdto.UserMail;
                     db.SaveChanges();
                     return Convertion.userConvertion.ConvertToDto(user);
@@ -54,11 +53,11 @@ namespace BL
             }
         }
 
-        public static bool PutRemovedClassToTeacher(List<UserToClassDTO_> classes)
+        public static bool PutRemovedClassToTeacher(List<UserToClassDTO> classes)
         {
             try
             {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+                using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
                 {
                     foreach (var item in classes)
                     {
@@ -72,11 +71,11 @@ namespace BL
                 return false;
             }
         }
-        public static bool PutAddClassToTeacher(List<UserToClassDTO_> classes)
+        public static bool PutAddClassToTeacher(List<UserToClassDTO> classes)
         {
             try
             {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+                using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
                 {
                     foreach (var item in classes)
                     {
@@ -94,7 +93,7 @@ namespace BL
         {
             try
             {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+                using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
                 {
                     db.User.ToList().ForEach(x =>
                     {
@@ -140,27 +139,27 @@ namespace BL
                 return false;
             }
         }
-        public static AnswerDTO GetPostAnswer(AnswerDTO answerdto)
-        {
-            try
-            {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
-                {
-                    db.Answers.Add(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
-                    db.SaveChanges();
-                    return Convertion.AnswerConvertion.ConvertToDTO(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
-                }
-            }
-            catch (Exception)
-            {
-                return null;
-            }
-        }
+        //public static AnswerDTO GetPostAnswer(AnswerDTO answerdto)
+        //{
+        //    try
+        //    {
+        //        using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+        //        {
+        //            db.Answers.Add(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
+        //            db.SaveChanges();
+        //            return Convertion.AnswerConvertion.ConvertToDTO(Convertion.AnswerConvertion.ConvertToAnswer(answerdto));
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return null;
+        //    }
+        //}
         public static QuestionsDTO GetPostQuestion(QuestionsDTO questiondto)
         {
             try
             {
-                using (TeacherForStudentEntities db = new TeacherForStudentEntities())
+                using (TeacherForStudentEntitie db = new TeacherForStudentEntitie())
                 {
                     db.Questions.Add(Convertion.QuestionConvertion.ConvertToQustion(questiondto));
                     db.SaveChanges();

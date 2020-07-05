@@ -7,22 +7,21 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class UserService {
-  user: User = null;
-  users: User[] = [];
+  UserMails:string[]=[];
   constructor(private http:HttpClient) {
+
   }
-  SignIn(username:string,userpassword:string) :Observable<User>{ 
+  // GetUsers():Observable<User[]>
+  // {
+  //    return this.http.get<User[]>(`http://localhost:51944/api/User`);
+  // }
+
+
+  SignIn(username:string,userpassword:string):Observable<User> { 
        return this.http.get<User>(`http://localhost:51944/api/User?password=${userpassword}&name=${username}`);
   }
-  SignUp(postuser: User):Observable<User> {
-    let data={
-      "UserName": "uu",
-      "UserPassword": "208095877",
-      "UserMail": "1@gmail.com",
-      "UserKind": "מורה"
-  }
-     return  this.http.post<User>(`http://localhost:51944/api/User`,data);
 
-    // console.log(this.users);s
+  SignUp(postuser: User):Observable<any> {
+   return  this.http.post(`http://localhost:51944/api/User`,postuser);
   }
 }

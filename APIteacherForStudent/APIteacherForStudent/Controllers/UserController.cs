@@ -12,20 +12,33 @@ namespace APIteacherForStudent.Controllers
     public class UserController : ApiController
     {
         [HttpGet]
-       // [Route("api/UserController/getLogin")]
-        public UserDTO getLogin(string password, string name)
+        public IHttpActionResult getLogin(string password, string name)
         {
-            UserDTO u= userService.Login(password, name);
-            return u;
+            UserDTO user = userService.Login(password, name);
+            if (user != null)
+                return Ok(user);
+            else
+            {
+                var error = new
+                {
+                    message = "משתמש זה אינו קיים במערכת, בדוק את שם המשתמש והסיסמא ונסה שוב"
+                };
+                return Content(HttpStatusCode.BadRequest, error);
+            } 
         }
-        ///[HttpPost("people/create")]
         public IHttpActionResult PostUser(UserDTO postuser)
         {
             UserDTO addUser = userService.GetPostUser(postuser);
             if (addUser != null)
                 return Ok(addUser);
             else
-                return BadRequest();
+            {
+                var error = new
+                {
+                    message = "כתובת המייל  או שם המשתמש שהזנת קיימים במערכת עבור משתמש אחר, הכנס כתובת מייל או שם משתמש שונה"
+                };
+                return Content(HttpStatusCode.BadRequest,error);
+            }
         }
         //public UserDTO PutDetails(int id, UserDTO userDto)
         //{

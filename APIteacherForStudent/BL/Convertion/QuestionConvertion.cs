@@ -17,6 +17,8 @@ namespace BL.Convertion
             newQuestion.QuestionContent = question.QuestionContent;
             newQuestion.QuestionId = question.QuestionId;
             newQuestion.UserId = question.UserId;
+            newQuestion.QuestionDate = question.QuestionDate;
+            newQuestion.QuestionView = question.QuestionView;
             return newQuestion;
         }
         public static Questions ConvertToQustion(QuestionsDTO questionDTO)
@@ -26,6 +28,8 @@ namespace BL.Convertion
             newQuestion.ProffestionId = questionDTO.ProffestionId;
             newQuestion.QuestionContent = questionDTO.QuestionContent;
             newQuestion.QuestionId = questionDTO.QuestionId;
+            newQuestion.QuestionDate = questionDTO.QuestionDate;
+            newQuestion.QuestionView = questionDTO.QuestionView;
             newQuestion.UserId = questionDTO.UserId;
             return newQuestion;
         }
@@ -37,6 +41,8 @@ namespace BL.Convertion
                 userQuestion.OuestionTitle = question.OuestionTitle;
                 userQuestion.QuestionId = question.QuestionId;
                 userQuestion.QuestionContent = question.QuestionContent;
+                userQuestion.QuestionDate = question.QuestionDate;
+                userQuestion.QuestionView = question.QuestionView;
                 userQuestion.ProffestionName = (db.Proffestions.FirstOrDefault(p => p.ProffestionId == question.ProffestionId)).ProffestionName;
                 User user = db.User.FirstOrDefault(u => u.UserId == question.UserId);
                 userQuestion.UserKind = user.UserKind;

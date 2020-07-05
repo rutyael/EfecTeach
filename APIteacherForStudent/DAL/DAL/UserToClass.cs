@@ -14,10 +14,11 @@ namespace DAL
     
     public partial class UserToClass
     {
-        public int UserId { get; set; }
-        public string ClassName { get; set; }
-        public string school { get; set; }
+        public int id { get; set; }
+        public int idUser { get; set; }
+        public int idClass { get; set; }
     
-        public virtual User User { get; set; }
+        public virtual ClassToSchool ClassToSchool { get; set; }
+        public virtual Users Users { get; set; }
     }
 }

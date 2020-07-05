@@ -1,6 +1,10 @@
 
+<div class ="question">
 <div>{{question.OuestionTitle}}</div>
-<div>{{question.QuestionContent}}</div><br><br><br>
-<app-question-to-answer ></app-question-to-answer><br><br>
+<div>{{question.QuestionContent}}</div>
+<div>{{question.QuestionDate}}</div>
+<div>{{question.QuestionView}}</div>
+</div>
+<app-answer-to-question></app-answer-to-question>
 <a routerLink="/questions" routerLinkActive="active-link">חזרה אל רשימת השאלות</a>
 

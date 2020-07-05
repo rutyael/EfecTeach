@@ -13,5 +13,7 @@ namespace DTO
         public string UserMail { get; set; }
         public string AnswerContant { get; set; }
         public string AnswerScoring { get; set; }
+        public System.DateTime AnswerDate { get; set; }
+
     }
 }

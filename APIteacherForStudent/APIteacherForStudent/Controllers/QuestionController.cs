@@ -14,7 +14,6 @@ namespace APIteacherForStudent.Controllers
     public class QuestionController : ApiController
     {
         [HttpGet]
-        [Route("api/Question/GetQuestions")]
         public List<UserQuestionDTO> GetQuestions()
         {
             return QuestionService.GetAllQuestion();

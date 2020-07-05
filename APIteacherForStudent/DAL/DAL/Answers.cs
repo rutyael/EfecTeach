@@ -19,8 +19,9 @@ namespace DAL
         public int UserId { get; set; }
         public string AnswerContant { get; set; }
         public string AnswerScoring { get; set; }
+        public System.DateTime AnswerDate { get; set; }
     
         public virtual Questions Questions { get; set; }
-        public virtual User User { get; set; }
+        public virtual Users Users { get; set; }
     }
 }

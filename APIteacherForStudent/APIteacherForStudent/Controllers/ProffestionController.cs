@@ -15,7 +15,12 @@ namespace APIteacherForStudent.Controllers
         [HttpGet]
         public List<ProffestionsDTO> GetProffestion()
         {
-            return ProffestionService.GetAllQuestions();
+            return ProffestionService.GetAllProffestion();
+        }
+        [HttpGet]
+        public  ProffestionsDTO GetById(int id)
+        {
+            return ProffestionService.GetProffestion(id);
         }
     }
 }

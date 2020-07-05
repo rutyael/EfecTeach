@@ -13,10 +13,10 @@ namespace DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TeacherForStudentEntities : DbContext
+    public partial class TeacherForStudentEntitie : DbContext
     {
-        public TeacherForStudentEntities()
-            : base("name=TeacherForStudentEntities")
+        public TeacherForStudentEntitie()
+            : base("name=TeacherForStudentEntitie")
         {
         }
     
@@ -26,10 +26,13 @@ namespace DAL
         }
     
         public virtual DbSet<Answers> Answers { get; set; }
+        public virtual DbSet<Cities> Cities { get; set; }
+        public virtual DbSet<ClassToSchool> ClassToSchool { get; set; }
         public virtual DbSet<Proffestions> Proffestions { get; set; }
         public virtual DbSet<Questions> Questions { get; set; }
+        public virtual DbSet<Schools> Schools { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
-        public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
         public virtual DbSet<UserToClass> UserToClass { get; set; }
     }
 }

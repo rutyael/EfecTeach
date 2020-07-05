@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities">
+  <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntitie">
     <EntitySetMapping Name="Answers">
       <EntityTypeMapping TypeName="TeacherForStudentModel.Answers">
         <MappingFragment StoreEntitySet="Answers">
@@ -9,6 +9,25 @@
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="AnswerContant" ColumnName="AnswerContant" />
           <ScalarProperty Name="AnswerScoring" ColumnName="AnswerScoring" />
+          <ScalarProperty Name="AnswerDate" ColumnName="AnswerDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Cities">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassToSchool">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.ClassToSchool">
+        <MappingFragment StoreEntitySet="ClassToSchool">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idSchool" ColumnName="idSchool" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -28,6 +47,19 @@
           <ScalarProperty Name="QuestionContent" ColumnName="QuestionContent" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="QuestionDate" ColumnName="QuestionDate" />
+          <ScalarProperty Name="QuestionView" ColumnName="QuestionView" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schools">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Schools">
+        <MappingFragment StoreEntitySet="Schools">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="idCity" ColumnName="idCity" />
+          <ScalarProperty Name="idSchool" ColumnName="idSchool" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -42,9 +74,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="User">
-      <EntityTypeMapping TypeName="TeacherForStudentModel.User">
-        <MappingFragment StoreEntitySet="User">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Users">
+        <MappingFragment StoreEntitySet="Users">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
@@ -56,9 +88,9 @@
     <EntitySetMapping Name="UserToClass">
       <EntityTypeMapping TypeName="TeacherForStudentModel.UserToClass">
         <MappingFragment StoreEntitySet="UserToClass">
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
-          <ScalarProperty Name="school" ColumnName="school" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="idClass" ColumnName="idClass" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -66,7 +98,7 @@
       <EndProperty Name="Proffestions">
         <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
       </EndProperty>
-      <EndProperty Name="User">
+      <EndProperty Name="Users">
         <ScalarProperty Name="UserId" ColumnName="TeacherId" />
       </EndProperty>
     </AssociationSetMapping>

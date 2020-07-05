@@ -13,5 +13,7 @@ namespace DTO
         public string QuestionContent { get; set; }
         public int UserId { get; set; }
         public int ProffestionId { get; set; }
+        public System.DateTime QuestionDate { get; set; }
+        public Int16 QuestionView { get; set; }
     }
 }

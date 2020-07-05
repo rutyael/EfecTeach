@@ -25,9 +25,10 @@ namespace DAL
         public string QuestionContent { get; set; }
         public int UserId { get; set; }
         public int ProffestionId { get; set; }
+        public System.DateTime QuestionDate { get; set; }
+        public int QuestionView { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Answers> Answers { get; set; }
-        public virtual User User { get; set; }
     }
 }

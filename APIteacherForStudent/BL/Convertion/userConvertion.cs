@@ -10,7 +10,7 @@ namespace BL.Convertion
 {
     public class userConvertion
     {
-        public static UserDTO ConvertToDto(User user)
+        public static UserDTO ConvertToDto(Users user)
         {
             try
             {
@@ -28,9 +28,9 @@ namespace BL.Convertion
             }
 
         }
-        public static User ConvertToUser(UserDTO userdto)
+        public static Users ConvertToUser(UserDTO userdto)
         {
-            User newUser = new User();
+            Users newUser = new Users();
             newUser.UserId = userdto.UserId;
             newUser.UserKind = userdto.UserKind;
             newUser.UserMail = userdto.UserMail;
