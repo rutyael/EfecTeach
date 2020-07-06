@@ -1,0 +1,17 @@
+div,a{
+    text-align: center;
+    font-size: large;
+}
+app-question-to-answer{
+    text-align: center;
+    font-size: large;
+
+}
+.question
+{
+    width: 50%;
+    height: 40%;
+    background: #e6e6e6;
+    margin: 20px 10px 0 0;
+    border-radius: 5px;
+}

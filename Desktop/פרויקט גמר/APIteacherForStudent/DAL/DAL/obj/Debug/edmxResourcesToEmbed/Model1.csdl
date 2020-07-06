@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeacherForStudentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="AnswerId" />
+    </Key>
+    <Property Name="AnswerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="AnswerContant" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AnswerScoring" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Answers_Users" FromRole="Answers" ToRole="User" />
+    <Property Name="AnswerDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Users" Relationship="TeacherForStudentModel.FK_Answers_Users1" FromRole="Answers" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Proffestions">
+    <Key>
+      <PropertyRef Name="ProffestionId" />
+    </Key>
+    <Property Name="ProffestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProffestionName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.ProffestionToTeacher" FromRole="Proffestions" ToRole="User" />
+    <NavigationProperty Name="Users" Relationship="TeacherForStudentModel.ProffestionToTeacher1" FromRole="Proffestions" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OuestionTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QuestionContent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ProffestionId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Questions_Users" FromRole="Questions" ToRole="User" />
+    <Property Name="QuestionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="QuestionView" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="TeacherForStudentModel.FK_Questions_Users1" FromRole="Questions" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserMail" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserKind" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Users" FromRole="User" ToRole="Answers" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Questions_Users" FromRole="User" ToRole="Questions" />
+    <NavigationProperty Name="UserToClass" Relationship="Self.FK_UserToClass_Users" FromRole="User" ToRole="UserToClass" />
+    <NavigationProperty Name="Proffestions" Relationship="Self.ProffestionToTeacher" FromRole="User" ToRole="Proffestions" />
+  </EntityType>
+  <EntityType Name="UserToClass">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="ClassName" />
+      <PropertyRef Name="school" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="school" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserToClass_Users" FromRole="UserToClass" ToRole="User" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idUser" Type="Int32" Nullable="false" />
+    <Property Name="idClass" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClassToSchool" Relationship="TeacherForStudentModel.FK__UserToCla__idCla__787EE5A0" FromRole="UserToClass" ToRole="ClassToSchool" />
+    <NavigationProperty Name="Users" Relationship="TeacherForStudentModel.FK__UserToCla__idUse__778AC167" FromRole="UserToClass" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK_Answers_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answers_Users">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_Users">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserToClass_Users">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserToClass" Type="Self.UserToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserToClass">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProffestionToTeacher">
+    <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="*" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="TeacherForStudentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answers" EntityType="Self.Answers" />
+    <EntitySet Name="Proffestions" EntityType="Self.Proffestions" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="UserToClass" EntityType="Self.UserToClass" />
+    <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answers_Users" Association="Self.FK_Answers_Users">
+      <End Role="User" EntitySet="User" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_Users" Association="Self.FK_Questions_Users">
+      <End Role="User" EntitySet="User" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserToClass_Users" Association="Self.FK_UserToClass_Users">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserToClass" EntitySet="UserToClass" />
+    </AssociationSet>
+    <AssociationSet Name="ProffestionToTeacher" Association="Self.ProffestionToTeacher">
+      <End Role="Proffestions" EntitySet="Proffestions" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <EntitySet Name="Cities" EntityType="TeacherForStudentModel.Cities" />
+    <EntitySet Name="ClassToSchool" EntityType="TeacherForStudentModel.ClassToSchool" />
+    <EntitySet Name="Schools" EntityType="TeacherForStudentModel.Schools" />
+    <EntitySet Name="Users" EntityType="TeacherForStudentModel.Users" />
+    <AssociationSet Name="FK_Answers_Users1" Association="TeacherForStudentModel.FK_Answers_Users1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Schools__idCity__71D1E811" Association="TeacherForStudentModel.FK__Schools__idCity__71D1E811">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Schools" EntitySet="Schools" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassToSc__idSch__74AE54BC" Association="TeacherForStudentModel.FK__ClassToSc__idSch__74AE54BC">
+      <End Role="Schools" EntitySet="Schools" />
+      <End Role="ClassToSchool" EntitySet="ClassToSchool" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserToCla__idCla__787EE5A0" Association="TeacherForStudentModel.FK__UserToCla__idCla__787EE5A0">
+      <End Role="ClassToSchool" EntitySet="ClassToSchool" />
+      <End Role="UserToClass" EntitySet="UserToClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_Users1" Association="TeacherForStudentModel.FK_Questions_Users1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserToCla__idUse__778AC167" Association="TeacherForStudentModel.FK__UserToCla__idUse__778AC167">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserToClass" EntitySet="UserToClass" />
+    </AssociationSet>
+    <AssociationSet Name="ProffestionToTeacher1" Association="TeacherForStudentModel.ProffestionToTeacher1">
+      <End Role="Proffestions" EntitySet="Proffestions" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Schools" Relationship="TeacherForStudentModel.FK__Schools__idCity__71D1E811" FromRole="Cities" ToRole="Schools" />
+  </EntityType>
+  <EntityType Name="ClassToSchool">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idSchool" Type="Int32" Nullable="false" />
+    <Property Name="className" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="comment" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Schools" Relationship="TeacherForStudentModel.FK__ClassToSc__idSch__74AE54BC" FromRole="ClassToSchool" ToRole="Schools" />
+    <NavigationProperty Name="UserToClass" Relationship="TeacherForStudentModel.FK__UserToCla__idCla__787EE5A0" FromRole="ClassToSchool" ToRole="UserToClass" />
+  </EntityType>
+  <EntityType Name="Schools">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolName" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="idCity" Type="Int32" Nullable="false" />
+    <Property Name="idSchool" Type="Int32" Nullable="false" />
+    <Property Name="comment" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cities" Relationship="TeacherForStudentModel.FK__Schools__idCity__71D1E811" FromRole="Schools" ToRole="Cities" />
+    <NavigationProperty Name="ClassToSchool" Relationship="TeacherForStudentModel.FK__ClassToSc__idSch__74AE54BC" FromRole="Schools" ToRole="ClassToSchool" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UserPassword" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UserMail" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="UserKind" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Answers" Relationship="TeacherForStudentModel.FK_Answers_Users1" FromRole="Users" ToRole="Answers" />
+    <NavigationProperty Name="Questions" Relationship="TeacherForStudentModel.FK_Questions_Users1" FromRole="Users" ToRole="Questions" />
+    <NavigationProperty Name="UserToClass" Relationship="TeacherForStudentModel.FK__UserToCla__idUse__778AC167" FromRole="Users" ToRole="UserToClass" />
+    <NavigationProperty Name="Proffestions" Relationship="TeacherForStudentModel.ProffestionToTeacher1" FromRole="Users" ToRole="Proffestions" />
+  </EntityType>
+  <Association Name="FK_Answers_Users1">
+    <End Type="TeacherForStudentModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.Answers" Role="Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Schools__idCity__71D1E811">
+    <End Type="TeacherForStudentModel.Cities" Role="Cities" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.Schools" Role="Schools" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Schools">
+        <PropertyRef Name="idCity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassToSc__idSch__74AE54BC">
+    <End Type="TeacherForStudentModel.Schools" Role="Schools" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.ClassToSchool" Role="ClassToSchool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schools">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ClassToSchool">
+        <PropertyRef Name="idSchool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserToCla__idCla__787EE5A0">
+    <End Type="TeacherForStudentModel.ClassToSchool" Role="ClassToSchool" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.UserToClass" Role="UserToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassToSchool">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UserToClass">
+        <PropertyRef Name="idClass" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_Users1">
+    <End Type="TeacherForStudentModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.Questions" Role="Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserToCla__idUse__778AC167">
+    <End Type="TeacherForStudentModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="TeacherForStudentModel.UserToClass" Role="UserToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserToClass">
+        <PropertyRef Name="idUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProffestionToTeacher1">
+    <End Type="TeacherForStudentModel.Proffestions" Role="Proffestions" Multiplicity="*" />
+    <End Type="TeacherForStudentModel.Users" Role="Users" Multiplicity="*" />
+  </Association>
+</Schema>

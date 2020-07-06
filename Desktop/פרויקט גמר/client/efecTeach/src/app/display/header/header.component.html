@@ -1,0 +1,17 @@
+<mat-toolbar>
+<a mat-raised-button *ngIf="!IfDisplayMenu()" routerLink="signIn" routerLinkActive="Activelink" ><div>כניסה</div></a>
+<a mat-raised-button *ngIf="!IfDisplayMenu()" routerLink="signUp" routerLinkActive="Activelink" ><div>הרשמה</div></a>
+<a mat-raised-button *ngIf="IfDisplayMenu()" routerLink="logOut" (click)="Exit()" routerLinkActive="Activelink" ><div>יציאה</div></a>
+<a mat-raised-button *ngIf="IfDisplayMenu()" routerLink="questions" routerLinkActive="Activelink" ><div>עיון ברשימת השאלות</div></a>
+<a mat-raised-button *ngIf="IfDisplayMenu()" routerLink="AskQuestion" routerLinkActive="Activelink"><div>שאילת שאלה</div></a>
+<a mat-raised-button *ngIf="IfDisplayMenu()" routerLink="ApdateDetailsTeacher" routerLinkActive="Activelink"><div>עדכון פרטי מורה</div></a>
+<a mat-raised-button *ngIf="IfDisplayMenu()" routerLink="StudentsDetails" routerLinkActive="Activelink"><div>פרטי התלמידים</div></a>
+<!-- <a mat-raised-button routerLink="StudentResponseRating" routerLinkActive="Activelink"><div>דירוג תשובות התלמידים</div></a> -->
+<!-- <div *ngIf={user}>hello {{user.name}}</div> -->
+</mat-toolbar>
+
+
+<!-- <p>שלום+{{userEnter.UserName}}+!!</p>
+<p *ngIf="IsUserSecretary()">+המזכיר/ה</p> -->
+
+

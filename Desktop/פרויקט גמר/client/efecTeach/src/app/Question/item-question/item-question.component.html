@@ -1,0 +1,17 @@
+
+<mat-list-item  role="listitem">
+  <div class="itemQuestion" style="table-layout: fixed;">
+    <div class="details" style="display: table-cell;">  
+          <div class="language"><p>{{question.ProffestionName}}</p></div>
+          <div><p>נשאל ב</p><p>{{question.QuestionDate|date:'short'}}</p></div>
+          <div><p>צפיות לשאלה זו:</p><p>{{question.QuestionView}}</p></div>
+     </div> 
+      <div class="content"  style="display: table-cell;">
+         <div><p>{{question.OuestionTitle}}</p></div>
+      <div><p>{{question.QuestionContent}}</p></div>
+      </div>
+     
+      <div  class="Editbutton"><button mat-stroked-button color="warn" routerLink="/Editquestion/{{question.QuestionId}}" routerLinkActive="active-link">ערוך שאלה</button></div>
+  </div>
+</mat-list-item>
+<mat-divider></mat-divider>
