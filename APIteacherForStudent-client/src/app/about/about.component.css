@@ -1,0 +1,36 @@
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 39px;
+    color: #5e8089;
+}
+.container-hr{
+    width: 28%;
+    margin-bottom: 22px;
+    margin-right: 35.5%;
+    background: #ffc000;
+}
+.question{
+    font-size: x-large;
+    color: #5e8089;
+    margin-right: 5%;
+}
+.content{
+    margin-right: 5%;
+    padding: 2%;
+    margin-left: 15%;
+    font-size: initial;
+    line-height: x;
+    line-height: 2;
+}
+#back{
+    background: white;
+    float: left;
+    margin-left: 5% !important;
+    padding: 0.5%;
+    border-radius: 100px;
+    border: black solid;
+    margin: 3%;
+    cursor: pointer;
+  }

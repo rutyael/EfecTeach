@@ -1,0 +1,18 @@
+<div>
+    <p>עליך להיות מחובר בכדי</p>
+    <p *ngIf="arrivedFrom=='addAnswer'">לענות תשובה על שאלה</p>
+    <p *ngIf="arrivedFrom=='AddQuestion'">להעלות שאלה למערכת</p>
+    <p *ngIf="arrivedFrom=='PersonalArea'">להכנס לאזור האישי שלך</p>
+    <p *ngIf="arrivedFrom=='addComment'">להוסיף הערה</p>
+
+</div>
+<p>
+    הכנס
+    <a routerLink="/signIn" routerLinkActive="Activelink">כאן</a>
+    או
+    <a routerLink="/signUp" routerLinkActive="Activelink">הרשם</a>
+</p>
+
+<a id="back" (click)="backClicked()">
+    <mat-icon>keyboard_backspace</mat-icon>
+</a>

@@ -1,0 +1,91 @@
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+#wrapperSelect{
+  display: flex;
+  padding: 2%;
+}
+
+.mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary {
+  color: #ffbb30;
+  background-color: #1f5f68;
+  height: 20%;
+  margin-top: 24%;
+  margin-right: 10%;
+}
+.optionSort{
+line-height: 3;
+margin-right: 20px;
+}
+.SelectOptions{
+display: grid;
+}
+#pSort{
+  font-size: large;
+  margin-right: 5%;
+  color: #3e757d;
+}
+
+#schools{
+  margin: 7px 15px -2px 0;
+  font-size: initial;
+  color: #377078;
+  margin-right: 2%;
+}
+
+#notFoundAns{
+  text-align: center;
+  font-size: large;
+  padding: 5%;
+  background-color: #42788017;
+  margin-top: 7%;
+}
+#wrapper{
+  width: 80%;
+  margin-right: 9.5%;
+}
+#byClasses{
+  margin-right: 20%;
+  overflow: scroll;
+  max-height: 37vh;
+  overflow-x: hidden;
+  width: 150%;
+  padding: 4%;
+  margin-top: 20%;
+  border: #42788059 solid;
+}
+#school{
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  width: 24px;
+  color: #3c747c;
+  margin-top: 2%;
+}
+#answerEmpty{
+  padding: 8%;
+  text-align: center;
+  font-size: x-large;
+  background: #dbe5e76b;
+}
+
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-ripple .mat-ripple-element {
+  opacity: 0.03 !important;
+  background-color: #1f5f68e6!important;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #1f5f68e6;
+}
+
+
+
+
+
+
+

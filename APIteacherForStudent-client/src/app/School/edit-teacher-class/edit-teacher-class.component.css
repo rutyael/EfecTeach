@@ -1,0 +1,11 @@
+.dialog-container div span:first-child{
+    float: right;
+    margin:0 0 0 15px;
+    font-size: 1.2em;
+
+}
+.profs
+{
+    border: solid 1px #2691a2;
+
+}

@@ -1,0 +1,93 @@
+<p id="numQ"> {{answers.length}} תשובות</p>
+<div class="answers-content">
+
+    <div class="edit-answer" style="margin-bottom: 5%;" *ngFor="let ans of answers">
+        <div id="wrapper">
+
+            <mat-drawer-container class="example-container">
+                <mat-drawer #drawer [mode]="mode.value">
+                    <div class="mat-drawer-inner-container ng-tns-c188-1" style="overflow-x: hidden !important">
+                        <mat-card id="userAsk">
+                            <div class="mat-drawer-content">
+                                <b>העונה:</b>
+                            </div>
+                            <div id="askName" style="font-size: initial;">{{ans.userAnswer.Reply.UserName}}
+                                ה{{ans.userAnswer.Reply.UserKind}}
+                            </div>
+                        </mat-card>
+                    </div>
+                </mat-drawer>
+                <mat-select #mode value="side">
+                </mat-select>
+                <button id="buttonP" mat-raised-button (click)="drawer.toggle()">
+                    <mat-icon>person</mat-icon>
+                </button>
+                <p class="currentUser">העונה</p>
+            </mat-drawer-container>
+
+            <div id="answerToQuestion" class="answer">
+                <div id="icons">
+                    <mat-icon matTooltip="תשובה מאומתת" id="popularIcon" *ngIf="ans.PopularAnswer==1">verified_user
+                    </mat-icon>
+                    <mat-icon matTooltip="תשובה אינה מאומתת" id="NotPopularIcon" *ngIf="ans.PopularAnswer==0">
+                        verified_user
+                    </mat-icon>
+                    <mat-icon matTooltip="תשובה יעילה" id="efectiveIcon" *ngIf="ans.EfectiveAnswer==1">grade</mat-icon>
+                </div>
+                <div class="answer-content">
+                    <div class="a-content" [innerHtml]="ans.userAnswer.Answer.AnswerContant">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="comments">
+            <mat-accordion>
+                <mat-expansion-panel id="postCA" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon>add_comment</mat-icon>
+                            <p style="margin-right: 5%;">הוסף הערה</p>
+                        </mat-panel-title>
+                        <mat-panel-description>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <mat-form-field style="width: 90%;margin-right: 6%;">
+                        <mat-label>הוסף הערה</mat-label>
+                        <textarea id="{{ans.userAnswer.Answer.AnswerId}}Text" matInput
+                            placeholder="הוסף הערה על התשובה"></textarea>
+                    </mat-form-field>
+                    <div style="color: red;text-align: center">{{CommentFill}}</div>
+                    <button id="ans{{ans.userAnswer.Answer.AnswerId}}" (click)="postComment(ans)" mat-button
+                        color="primary">הוסף</button>
+                </mat-expansion-panel>
+            </mat-accordion>
+
+            <mat-accordion>
+                <mat-expansion-panel style="margin-top: 0%;" id="commentsA" (opened)="panelOpenState = true"
+                    (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon>mode_comment</mat-icon>
+                            <p style="margin-right: 2%"> הערות לתשובה זו   ({{ans.commentsAnswer.length}})</p>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div>
+                        <div *ngIf="ans.commentsAnswer.length!=0">
+                            <div style="padding:3%" *ngFor="let comment of ans.commentsAnswer">
+                                <div id="commentDetailsA">
+                                    <b>שם המעיר: </b>{{comment.UserName}}<br />
+                                    <b> תאריך:</b> {{comment.date|date}}<br />
+                                    <b>ההערה:</b>
+                                    <div id="commentA">{{comment.CommentContant}}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="noComments" *ngIf="ans.commentsAnswer.length==0">אין הערות לתשובה זו</div>
+                    </div>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+    </div>
+    <div id="errPostComment">{{errPostComment}}</div>
+</div>

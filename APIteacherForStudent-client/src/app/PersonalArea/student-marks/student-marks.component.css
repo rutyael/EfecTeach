@@ -1,0 +1,21 @@
+
+  table {
+    width: 80%;
+    margin: 2%;
+    border: #e4e4e4 solid;
+    border-top-color: #f9bb3c;
+    margin-right: 10%;
+  }
+
+tr.mat-header-row {
+    height: 56px;
+    background: #ecf3f4;
+}
+
+#Empty{
+  text-align: center;
+  font-size: large;
+  padding: 5%;
+  background: #37707829;
+  margin: 10%;
+}

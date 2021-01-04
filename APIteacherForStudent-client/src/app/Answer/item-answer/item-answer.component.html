@@ -1,0 +1,25 @@
+
+<mat-list-item role="listitem">
+    <div class="itemQuestion" style="table-layout: fixed;">
+      <div class="details" style="display: table-cell;">  
+            <div class="language"><p>{{answer.userAnswer.ProffestionName}}</p></div>
+            <div style="padding: 12%;">
+             <div><p class="pTitle"><b>נענה ע"י: </b></p>{{answer.userAnswer.Reply.UserName}}<p></p></div>
+             <div style="width: 140%;margin-right: -20%;font-size: small"><p class="pTitle"><b>בתאריך: </b></p><p>{{answer.userAnswer.Answer.AnswerDate|date:'short'}}</p></div>
+            </div>
+       </div> 
+        <div class="content"  style="display: table-cell;">
+           <div id="answerContent"><p style="text-align: right !important">{{Content(answer.userAnswer.Answer.AnswerContant)}}</p></div>
+        </div>
+        <div id="icons">
+            <mat-icon matTooltip="תשובה מאומתת" id="popularIcon" *ngIf="answer.PopularAnswer==1">verified_user</mat-icon>
+            <mat-icon matTooltip="תשובה אינה מאומתת" id="NotPopularIcon" *ngIf="answer.PopularAnswer==0">verified_user</mat-icon>
+            <mat-icon matTooltip="תשובה יעילה" id="efectiveIcon" *ngIf="answer.EfectiveAnswer==1">grade</mat-icon>
+        </div>
+       
+        <div class="p-button"><button mat-stroked-button color="warn" routerLink="/Editanswer/{{answer.userAnswer.Answer.AnswerId}}" routerLinkActive="active-link">עיין בתשובה</button></div>
+    </div>
+</mat-list-item>
+<mat-divider></mat-divider>
+
+

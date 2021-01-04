@@ -1,0 +1,239 @@
+
+@font-face {
+    font-family: yehuda;
+    src: url("../../../assets/yehuda/yehudaclm-bold-webfont.woff");
+  }
+mat-card{
+    width: 100%;
+    display: flex;
+}
+.mat-card>:last-child:not(.mat-card-footer), .mat-card-content>:last-child:not(.mat-card-footer) {
+    margin-bottom: 0;
+    margin-right: 20%;
+}
+.text{
+    padding: 10px 10px 10px 35px;
+}
+img{
+    height: 40px;
+}
+#wrapper{
+    display: flex;
+    padding: 49rem 0 0 0;
+    /* margin-right: 5%; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* #cardLeft{
+    margin-right: 50%;
+} */
+#cardRight, #cardLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 5%; */
+}
+#cardRight .text-container, #cardLeft .text-container{
+    padding: 0 10px;
+    position: relative;
+    /* margin-right: 30%; */
+}
+#cardRight .text-container mat-card, #cardLeft .text-container mat-card{
+    /* height: 3rem;
+    width: 13rem; */
+    height: 7rem;
+    width: 24rem;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    font-family: yehuda;
+    margin-bottom: 50px;
+    color: #316b75;
+    border: 1px solid #a3a973;
+}
+/* #{
+    height: 90%;
+} */
+.imgCenterAnswer {
+    height: 50%;
+    width: 50%;
+    padding: 90px;    
+    background-image: url("../../../assets/img/רעיון תשובה.png");
+    background-size: cover;
+    margin-right: 50%;
+}
+.question, .answer, .send-feedback, .get-answer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-image: none;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.question:hover, .answer:hover, .send-feedback:hover, .get-answer:hover{
+    background-image: url("../../../assets/img/שאלה.png");
+    z-index:999999;
+    background-color:rgba(0, 0, 0, 0.12);
+    background-color: white;
+}
+.question:hover{
+    background-image: url("../../../assets/img/שאלה.png");
+    background-size: 43%;
+}
+.answer:hover{
+    background-image: url("../../../assets/img/רעיון תשובה.png");
+    background-size: contain;
+} 
+.send-feedback:hover{
+    background-image: url("../../../assets/img/משוב.png");
+    background-size: 22%;
+}
+.get-answer:hover{
+    background-image: url("../../../assets/img/עניית תשובה.png");
+    background-size: contain;
+}
+.imgCenterQuestion{
+    height: 50%;
+    width: 50%;
+    padding: 90px;    
+    background-image: url("../../../assets/img/שאלה.png");
+    background-size: cover;
+    margin-right: 50%;
+}
+.imgCenterFeedback{
+    height: 50%;
+    width: 70%;
+    padding: 90px;    
+    background-image: url("../../../assets/img/משוב.png");
+    background-size: cover;
+    margin-right: 50%;
+}
+.imgCenterGetAns{
+    height: 0%;
+    width: 50%;
+    padding: 90px;
+    background-image: url("../../../assets/img/עניית תשובה.png");
+    background-size: cover;
+    margin-right: 50%;
+    margin-top: 30%;
+}
+.overCard{
+    box-shadow: -3px -1px 3px -1px rgba(0, 0, 0, 0.2), -1px -1px 3px 4px rgba(0, 0, 0, 0.14), 3px 3px 3px 3px rgba(0, 0, 0, 0.12);
+}
+/* .overCard ::after
+{
+    content: "";
+    background: red;
+    width: 10px;
+    height: 10px;
+    transform: rotateY(90deg);
+} */
+.container-div{
+    background-image: url("../../../assets/img/pic1.png");
+    position: absolute;
+    top: 8.2rem;
+    left: 0;
+    height:25rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    height: 48rem;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 39px;
+    color: #5e8089;
+}
+*{
+    font-family: yehuda;
+}
+.container-hr{
+    width: 100%;
+    margin-bottom: 22px;
+}
+.container-hr hr{
+    height: 4px;
+    width: 27rem;
+    background-color: #e2b550;
+    margin-top: 0;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0.5; }
+    100% { opacity:1; }
+  }
+.describe-container{
+    z-index: 1;
+    position: absolute;
+    top: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    background-color: white;
+    height: 28rem;
+    width: 51rem;
+    border-radius: 4px;
+
+}
+.describe-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.describe-describe-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -12px;
+    padding: 0 15px;
+}
+.describe-describe-text{
+    text-align: center;
+}
+.describe-buttons button{
+    height: 4rem;
+    width: 11rem;
+    margin: 10px 5px;
+    animation: flickerAnimation 1s infinite;
+    font-size: 16px;
+}
+.describe-buttons .btn-in{
+    background-color: #e9c05f;
+    border-color: transparent;
+    color: white;
+}
+.describe-buttons .btn-up{
+    background-color: white;
+    border: 1px solid #4d8087;
+    color: #4d8087;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 50rem;
+  }
+  .describe-describe-text p{
+    font-size: 15px;
+    line-height: 1;
+  }
+  .btn-in .btn-up{
+      cursor: pointer;
+  }

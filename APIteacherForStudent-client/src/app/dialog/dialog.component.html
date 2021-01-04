@@ -1,0 +1,8 @@
+<div class="dialog">
+        <span class="dialog-content" [innerHtml]="data.template">
+        </span>
+        <div mat-dialog-actions>
+            <button *ngIf="data.actions[0]" mat-button (click)="onNoClick()">סגור</button>
+            <button *ngIf="data.actions[1]" mat-button (click)="onOkClick()" cdkFocusInitial>המשך</button>
+        </div>
+    </div>

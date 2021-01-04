@@ -1,0 +1,68 @@
+.mat-toolbar{
+    /* background: linear-gradient(45deg, #1f5f6885, #1f5f68c4,#1f5f68e6,#1f5f68db,#3c747cd4,#ffbb30d1); */
+    background: #367078;
+    box-shadow: black 0px 2px 10px 0px;
+    direction: rtl;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 85px;
+}
+/* .mat-raised-button{
+    background: #ffbb3000;
+    margin: 10px;
+    color: #ffbb30;
+} */
+p{
+    text-align: center;
+    font-size: initial;
+    margin-right: 40%;
+    margin-top: 19%;
+}
+#logo{
+    height: 200%;
+    float: left;
+    margin-right: 59%;
+    margin-top: 6.5%;
+    cursor: pointer;
+}  
+
+/* .logo{
+    height: 100%;
+    width: 30%;
+    margin: 1% 60% 0 0;
+} 
+.logo img{
+    width: 80%;
+    height: 200%;
+} */
+.nested-toolbar
+{
+    height: 60px;
+    margin: -20px;
+    padding-top: 30px;
+    background: #437980c4;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+.nested-toolbar-container{
+    margin-top: -0.5%;
+    margin-right: 5%;
+}
+.buttonNested{
+    box-shadow: none;
+    margin: 10px;
+    color: #ffc000;
+    background: #367078;
+}
+.buttonMenu{
+
+    margin-right: 0.5%;
+    background: #ffc00000;
+    color: #ffc000;
+    border: #6e989d double 1px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}

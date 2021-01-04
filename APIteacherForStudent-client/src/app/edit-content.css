@@ -1,0 +1,63 @@
+  /* Track */
+  [class^="edit"] ::ng-deep::-webkit-scrollbar-track {
+    background: #e3e3e3
+   
+  }
+  [class^="edit"] ::ng-deep pre::-webkit-scrollbar-track{
+    background: #f2f2f2;
+   }
+  /* Handle */
+  [class^="edit"] ::ng-deep ::-webkit-scrollbar-thumb {
+    background: #a5a4a4;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  [class^="edit"] ::ng-deep::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+  .answer::-webkit-scrollbar ,.question::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  ::ng-deep pre::-webkit-scrollbar 
+  {
+      height: 10px;
+  }
+  [class*="content"]
+{
+    width: 95%;
+    text-align: right;
+}
+[class*="content"] ::ng-deep p{
+    font-size: 0.87em;
+    margin: 0 0 5px;
+}
+::ng-deep div, div{
+    font-size: medium;
+}
+::ng-deep pre{
+    overflow: auto;
+    text-align: left !important;
+    direction: ltr !important;
+    overflow-x: auto;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin: 30px 0;
+    background: #dee1e2 !important;
+    border-radius: 4px;
+}
+.answer,.question{
+  width: 50.5%;
+  height: 40%;
+  background: #f1f3f4;
+  margin: 5px -50px 0;
+  border-radius: 5px;
+  overflow: scroll;
+  max-height: 60vh;
+  min-height: 30vh;
+  overflow-x: hidden;
+  padding: 20px;
+  z-index: 20;
+}

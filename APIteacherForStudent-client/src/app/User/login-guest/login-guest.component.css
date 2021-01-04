@@ -1,0 +1,27 @@
+
+div{
+    border: solid #3f767d;
+    margin-right: 33%;
+    margin-top: 70px;
+    padding: 3%;
+    text-align: center;
+    background: #6e989d33;
+    font-size: x-large;
+    width: 30%;
+}
+p{
+    font-size: large;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#back{
+    background: white;
+    float: left;
+    padding: 0.5%;
+    border-radius: 100px;
+    border: black solid;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-left: 5%;
+  }

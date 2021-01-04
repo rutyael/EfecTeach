@@ -1,0 +1,47 @@
+.class-header
+{
+    height: 30px;
+    margin-right: 2px;
+    padding-top: 20px;
+    padding: 10px 5px 0 0;
+    margin: 10px 2px 5px 0;
+    background: #ecf3f4;
+    box-shadow: #39747d 0px 0px 1px;
+}
+table{
+    width: 100%;
+}
+a{
+    cursor: pointer;
+    color: black;
+    margin-right: 2%;
+}
+#date{
+    float: left;
+    margin-left: 2%;
+}
+#proffestion{
+    float: left;
+    background-color: #f9bb3c;
+    border-radius: 20px;
+    margin-left: 2%;
+    width: 7%;
+    text-align: center;
+}
+.class{
+    margin-bottom: -1%;
+    margin-bottom: -1%;
+    margin-top: -0.7%;
+}
+#wrapper{
+    border: #d4d4d4 solid;
+    border-top-color: #f9bb3c;
+    margin: 2%;
+}
+#Empty{
+    text-align: center;
+    font-size: large;
+    padding: 5%;
+    background: #37707829;
+    margin: 10%;
+  }

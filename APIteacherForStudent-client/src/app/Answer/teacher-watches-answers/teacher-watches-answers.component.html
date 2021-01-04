@@ -1,0 +1,68 @@
+<div id="wrapper">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header style="background-color: #3670782e;">
+        <mat-panel-title>
+          <mat-icon>filter_alt</mat-icon>
+          <p style="margin-right: 3%;">סינון</p>
+        </mat-panel-title>
+        <mat-panel-description>סמן עפ"י אילו כיתות ברצונך לסנן את התשובות</mat-panel-description>
+      </mat-expansion-panel-header>
+      <div id="wrapperSelect">
+        <div class="SelectOptions">
+          <div style="display: flex">
+            <mat-icon style="margin-right: -5%;">filter_list</mat-icon>
+            <p id="pSort"><b>סינון לפי</b></p>
+          </div>
+          <div style="display: flex;">
+            <div>
+
+              <mat-radio-button (change)="FilterByClasses()" [checked]="classesSelect"
+                style="margin-right: 5%;font-size: medium;">כיתה לביה"ס</mat-radio-button>
+              <div id="byClasses">
+                <div *ngFor="let school of ClassesToSelectTeacher|keyvalue">
+                  <div style="display: flex">
+                    <mat-icon id="school">school</mat-icon>
+                    <p id="schools">{{school.key}}</p>
+                  </div>
+                  <div>
+                    <mat-checkbox *ngFor="let Class of school.value" [checked]="Class.ifselect"
+                      [disabled]="disableClasses" class="optionSort" (change)="ChangeSort(Class)">
+                      כיתה
+                      {{Class.className}}
+                    </mat-checkbox>
+                  </div>
+                </div><br />
+              </div>
+            </div>
+
+            <div style="margin-right: 40%;margin-top: -4%;">
+              <mat-radio-button [checked]="true" class="optionSort" (change)="ChangeSort('allClasses')">כל הכיתות (ברירת
+                מחדל)
+              </mat-radio-button>
+            </div>
+          </div>
+        </div>
+        <button (click)="SortBySelect(false)" mat-button color="primary">התחל סינון</button>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+    </mat-expansion-panel>
+  </mat-accordion>
+  <div id="answerEmpty" *ngIf="AnswersEmpty">לא נמצאו תשובות מתאימות</div>
+  <div *ngIf="!AnswersEmpty" style="background-color: #dbe5e73d;"> 
+    <app-points-lauding *ngIf="getAnswers"></app-points-lauding>
+    <app-points-lauding *ngIf="getAnswers"></app-points-lauding>
+    <app-points-lauding *ngIf="getAnswers"></app-points-lauding>
+    <app-points-lauding *ngIf="getAnswers"></app-points-lauding>
+    <app-points-lauding *ngIf="getAnswers"></app-points-lauding>
+
+    <div *ngIf="AnswersToUser!=[]">
+      <mat-list role="list" *ngFor="let Item of AnswersToUser">
+        <app-item-answer [answer]="Item"></app-item-answer>
+      </mat-list>
+    </div>
+  </div>
+  <div id="notFoundAns" *ngIf="IfNoAnswers">לא נמצאו תשובות מתאימות לחיפוש שלך</div>
+</div>
+<mat-paginator style="padding: 2%;" (page)="NextPage($event)" [pageIndex]="pageNo" [length]="numAnswers" [pageSize]="5"></mat-paginator>

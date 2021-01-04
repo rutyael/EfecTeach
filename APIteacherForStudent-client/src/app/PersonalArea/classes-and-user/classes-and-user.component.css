@@ -1,0 +1,84 @@
+.class-header
+{
+    text-align: right;
+    height: 30px;
+    font-size: initial;
+    margin-right: 2px;
+    padding-top: 20px;
+    padding: 10px 5px 0 0;
+    background: #ecf3f4;
+    box-shadow: #39747d 0px 0px 1px;
+    width: 171%;
+    margin-bottom: 2%;
+}
+table{
+    width: 100%;
+}
+
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+#secretary{
+    height: 55px;
+    width: 87%;
+    background-color: #80a5aa33;
+    font-size: larger;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-right: 3%;
+    border: #b7b7b7 1px solid;
+}
+#user{
+    background-color: #80a5aa33;
+    height: 130px;
+    width: 100px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 10%;
+}
+.teachers{
+    /* display:flex !important; */
+    margin: 2%;
+    /* display: block; */
+}
+p{
+    margin-top: 22%;
+    font-size: large;
+    text-align: center;
+}
+.icon{
+    font-size: xxx-large;
+    margin-right: 47%;
+    margin-top: 10%;
+}
+.mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary {
+    background: #346e76;
+    color: #ffc000;
+    float: left;
+    margin: 1%;
+    margin-top: 5%;
+}
+
+#wrapper{
+    border: #ece8e8 solid;
+    margin: 4%;
+    border-top-color: #ffc000;
+}
+.users{
+    width: 50%;
+    border: #3670789e solid;
+    border-top-color: #ffc000;
+    margin: 5%;
+    overflow: scroll;
+    max-height: 65vh;
+    min-height: 45vh;
+    /* overflow-x: hidden; */
+    overflow-y: hidden;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+#Users{
+    margin: 1%;
+}

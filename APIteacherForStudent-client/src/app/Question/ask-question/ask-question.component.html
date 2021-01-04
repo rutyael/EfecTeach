@@ -1,0 +1,59 @@
+<p><b>חפש שאלה:</b></p>
+<div id="divSearch">
+    <!-- <ntp-realbox-icon in-searchbox background-image mask-image="search.svg"> -->
+    <div class="asq-q-header">
+        <div class="q-language">
+            <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let pro of ProffestionsArry | languages:LanguagesControl.value"
+                    [value]="pro.ProffestionName">
+                    {{pro.ProffestionName}}
+                </mat-option>
+            </mat-autocomplete>
+            <input type="text" class="lang" placeholder="השאלה בשפת..." [formControl]="LanguagesControl"
+            [matAutocomplete]="auto">
+            <div>
+                <mat-error *ngIf="!isValid(LanguagesControl.value)">
+                    הערך חייב להיות אחד הערכים מהרשימה
+                </mat-error>
+                <mat-error *ngIf="errorRequeridLanguage">
+                    שדה זה חובה
+                </mat-error>
+            </div>
+        </div>
+        <div class="ask-question">
+                <input [(ngModel)]="questionToSearch" type="search" autocomplete="off" aria-live="polite" id="search">
+            <button id="searchButton" (click)="SearchCurrentQuestions()" type="submit" mat-button color="primary">
+                <mat-icon>search</mat-icon>
+            </button>
+        </div>
+        <div class="add-question">
+            <div id="PostQuestion">אם ברצונך להוסיף את השאלה למאגר השאלות<button id="PostQuestionButton"
+                    (click)="ToPostQuestion()" mat-button color="primary">לחץ כאן</button>
+            </div>
+        </div>
+    </div>
+  
+    <app-points-lauding *ngIf="GetResult" class="lauding"></app-points-lauding>
+    <app-points-lauding *ngIf="GetResult" class="lauding"></app-points-lauding>
+    <app-points-lauding *ngIf="GetResult" class="lauding"></app-points-lauding>
+    <app-points-lauding *ngIf="GetResult" class="lauding"></app-points-lauding>
+
+    <div id="noAnswer" *ngIf="noAnswerSearch!=''">{{noAnswerSearch}}</div>
+    <div *ngIf="noAnswerSearch==''" id="searchResult">
+        <mat-list role="list" *ngFor="let Item of arrSearchToUser">
+            <a routerLink="/Editquestion/{{Item.question.QuestionId}}" routerLinkActive="active-link"
+                style="font-size: larger;color: black"> {{Item.question.OuestionTitle}}</a>
+            <div style="color: gray;padding: 1%;padding-bottom: 3%;"
+                [innerHtml]="Content(Item.question.QuestionContent)"></div>
+            <mat-divider></mat-divider>
+        </mat-list>
+    </div>
+
+
+    <mat-paginator *ngIf="numQuestions!=0" (page)="NextPage($event)" [pageIndex]="pageNo" [length]="numQuestions"
+        [pageSize]="5"></mat-paginator>
+
+
+
+    <!-- <div *ngIf="arrSearchToUser.length==0" id="PostQuestion">אם ברצונך להוסיף את השאלה למאגר השאלות<button id="PostQuestionButtonEmpty"
+            (click)="ToPostQuestion()" mat-button color="primary">לחץ כאן</button></div> -->

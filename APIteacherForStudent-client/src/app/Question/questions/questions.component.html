@@ -1,0 +1,84 @@
+<!-- <mat-progress-bar *ngIf="appLaunch" class="progressBar" mode="indeterminate"></mat-progress-bar> -->
+<div id="questions">
+     <mat-accordion>
+          <mat-expansion-panel hideToggle>
+               <mat-expansion-panel-header>
+                    <mat-panel-title>
+                         <mat-icon>filter_alt</mat-icon>
+                         <p style="margin-right: 3%;">סינון</p>
+                    </mat-panel-title>
+                    <mat-panel-description>סמן איך ברצונך לסנן את השאלות</mat-panel-description>
+               </mat-expansion-panel-header>
+               <div id="wrapperSelect">
+                    <div class="SelectOptions">
+                         <div style="display: flex">
+                              <mat-icon class="iconsSort">sort</mat-icon>
+                              <p class="titleSort"><b>מיון לפי</b></p>
+                         </div>
+
+                         <mat-radio-button [checked]="(UserId==-1||checkedNews)&&!checkedProffestion" class="optionTosort"
+                              (change)="ChangeSort('newsQuestion')">החדש ביותר
+                         </mat-radio-button><br />
+
+                         <mat-radio-button [checked]="(UserId!=-1||checkedProffestion)&&!checkedNews" class="optionTosort"
+                              (change)="ChangeSort('ByLanguage')">לפי שפות פיתוח (ברירת מחדל)</mat-radio-button><br />
+
+                         <mat-radio-button [checked]="checkedAsks" class="optionTosort" (change)="ChangeSort('ByAsks')">לפי מספר שואלים
+                         </mat-radio-button><br />
+
+                         <mat-radio-button [checked]="checkedClass" class="optionTosort"
+                              (change)="ChangeSort('ByYourClasses')" *ngIf="ifTeacherActive">לפי הכיתות שלך
+                         </mat-radio-button><br />
+
+                         <mat-radio-button [checked]="checkedClass" class="optionTosort"
+                              (change)="ChangeSort('ByYourFriends')" *ngIf="ifStudentActive">לפי החברים שלך
+                         </mat-radio-button>
+                    </div>
+                    <div class="SelectOptionsSort">
+                         <div style="display: flex">
+                              <mat-icon class="iconsSort">filter_list</mat-icon>
+                              <p class="titleFilter"><b>סינון לפי</b></p>
+                         </div>
+                         <mat-checkbox [(ngModel)]="noAnswerLoading" class="optionTosort" [formControl]="SelectNoAnswer">
+                              שאלות שלא נענו</mat-checkbox>
+                    </div>
+                    <button (click)="GetQuestionsBYFilter(0,'','clicked',false)" mat-button color="primary">התחל
+                         סינון</button>
+               </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          </mat-expansion-panel>
+     </mat-accordion>
+     <!-- <p *ngIf="!IfSortByNumQuestioners"> -->
+     <app-points-lauding *ngIf="GetQuestions"></app-points-lauding>
+     <app-points-lauding *ngIf="GetQuestions"></app-points-lauding>
+     <app-points-lauding *ngIf="GetQuestions"></app-points-lauding>
+     <app-points-lauding *ngIf="GetQuestions"></app-points-lauding>
+     <app-points-lauding *ngIf="GetQuestions"></app-points-lauding>
+     <div id="Empty" *ngIf="arrToUserQuestion.length==0&&ifFinishedQuestions&&!GetQuestions">לא נמצאו שאלות מתאימות לפי
+          סינון
+          ברירת המחדל, אנא נסה סינון אחר</div>
+     <div id="Empty" *ngIf="arrToUserQuestion.length==0&&!ifFinishedQuestions&&!GetQuestions">לא נמצאו שאלות מתאימות לפי
+          סינון זה,
+          אנא נסה סינון אחר</div>
+
+     <div *ngIf="arrToUserQuestion.length!=0&&!IfSortByNumQuestioners">
+          <mat-list role="list" *ngFor="let Item of arrToUserQuestion">
+               <app-points-lauding *ngIf="Item==null"></app-points-lauding>
+               <app-item-question [question]="Item"></app-item-question>
+          </mat-list>
+     </div>
+     <div *ngIf="arrToUserQuestion.length!=0">
+          <p *ngIf="IfSortByNumQuestioners">
+               <mat-list role="list" *ngFor="let Item of arrToUserQuestion | orderby:'NumQuestioners'">
+                    <app-points-lauding *ngIf="Item==null"></app-points-lauding>
+                    <app-item-question [question]="Item"></app-item-question>
+               </mat-list>
+          </p>
+     </div>
+
+</div>
+
+<mat-paginator style="padding: 2%;" (page)="NextPage($event)" [pageIndex]="pageNo" [length]="numQuestionsInDB"
+     [pageSize]="5">
+</mat-paginator>

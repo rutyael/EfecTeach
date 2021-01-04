@@ -1,0 +1,94 @@
+<div class="login-card" *ngIf="!Entered">
+  <div id="progress">
+    <mat-progress-bar *ngIf="appLaunch" class="progressBar" mode="indeterminate"></mat-progress-bar>
+  </div>
+  <mat-card>
+    <div class="login-card-header">
+      <img src="https://www.flaticon.com/svg/static/icons/svg/149/149452.svg">
+      <mat-card-title *ngIf="CheckSignInUp()">הרשמה</mat-card-title>
+      <mat-card-title *ngIf="!CheckSignInUp()">כניסה</mat-card-title>
+    </div>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="submit()">
+        <!-- הכנס שם משתמש -->
+        <p>
+          <mat-form-field>
+            <mat-label>הכנס שם משתמש</mat-label>
+            <input matInput placeholder="שם משתמש" formControlName="UserName">
+            <mat-error *ngIf="checkError('UserName', 'required')">שדה חובה</mat-error>
+            <mat-error *ngIf="checkError('UserName', 'maxLength')">מקסימום 10 תווים </mat-error>
+          </mat-form-field>
+        </p>
+
+        <!-- בחר סיסמת משתמש -->
+        <p>
+          <mat-form-field>
+            <mat-label>בחר סיסמא</mat-label>
+            <input [type]="hide ? 'password' : 'text'" matInput placeholder="סיסמא" formControlName="UserPassword">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+            <mat-error *ngIf="checkError('UserPassword', 'required')">שדה חובה</mat-error>
+            <mat-error *ngIf="checkError('UserPassword', 'maxLength')">מינימום 8 תווים </mat-error>
+          </mat-form-field>
+        </p>
+
+        <!-- אמת סיסמת משתמש -->
+        <p *ngIf="CheckSignInUp()">
+          <mat-form-field>
+            <mat-label>אמת סיסמא</mat-label>
+            <input [type]="hide2 ? 'password' : 'text'" matInput placeholder="הקש שוב את הסיסמא"
+              formControlName="ConfirmUserPassword">
+            <button mat-icon-button matSuffix (click)="hide2 = !hide2" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide2">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+            <mat-error *ngIf="checkError('ConfirmUserPassword', 'required')">שדה חובה</mat-error>
+          </mat-form-field>
+          <label *ngIf="ifConfirmPassword('ConfirmUserPassword')">
+            <mat-error>הסיסמא אינה תואמת</mat-error>
+          </label>
+        </p>
+
+        <!-- הכנסת כתובת אמייל משתמש -->
+        <p *ngIf="CheckSignInUp()">
+          <mat-form-field>
+            <mat-label>הכנס כתובת אמייל</mat-label>
+            <input matInput placeholder="pat@example.com" formControlName="UserMail">
+            <mat-error *ngIf="checkError('UserMail', 'required')" ng-pattern="EMAIL_PATTERN">שדה חובה</mat-error>
+            <mat-error *ngIf="checkError('UserMail', 'email')">כתובת אמייל לא חוקית</mat-error>
+          </mat-form-field>
+          <mat-error *ngIf="IsExists==true">כתובת זו נמצאת בשימוש במערכת</mat-error>
+        </p>
+
+        <!-- בחירת סטטוס משתמש -->
+        <p *ngIf="CheckSignInUp()">
+          <mat-form-field>
+            <mat-label>בחר סטטוס משתמש</mat-label>
+            <mat-select formControlName="UserKind" required>
+              <mat-option *ngFor="let user of users" [value]="user">
+                {{user.name}}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="checkError('UserKind', 'required')">שדה חובה</mat-error>
+            <mat-hint>{{form.controls['UserKind'].value?.messege}}</mat-hint>
+          </mat-form-field>
+        </p>
+        <!-- שליחת הטופס -->
+        <div class="button">
+          <button *ngIf="!CheckSignInUp()" [disabled]="ifClickEnter" type="submit" mat-button><b>כניסה</b></button>
+          <button *ngIf="CheckSignInUp()" [disabled]="ifClickEnter" type="submit" mat-button><b>הרשמה</b></button>
+        </div>
+        <p *ngIf="!CheckSignInUp()" class="sub-label">את/ה לא רשום?</p>
+        <p *ngIf="!CheckSignInUp()"><button class="ToSignInUp" (click)="relativeTo('signUp')" mat-button><b> ליצירת
+              משתמש חדש </b></button></p>
+        <p *ngIf="CheckSignInUp()" class="sub-label">יש לך כבר חשבון? <button class="ToSignInUp"
+            (click)="relativeTo('signIn')" mat-button><b>לכניסה</b></button></p>
+        <p *ngIf="!CheckSignInUp()" (click)="forgetPassword()" style="cursor: pointer"><a>?שכחת סיסמא</a></p>
+        <mat-error> {{errorUserUnique}}</mat-error>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
+<app-apdate-details-teacher *ngIf="Entered"></app-apdate-details-teacher>

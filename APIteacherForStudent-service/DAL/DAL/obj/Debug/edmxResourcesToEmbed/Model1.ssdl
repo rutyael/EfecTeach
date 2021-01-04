@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeacherForStudentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="answerOpinion">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="teacherId" Type="int" Nullable="false" />
+    <Property Name="AnswerId" Type="int" Nullable="false" />
+    <Property Name="scoring" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="comment" Type="varchar(max)" />
+    <Property Name="feedback" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="AnswerId" />
+    </Key>
+    <Property Name="AnswerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="AnswerContant" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="AnswerScoring" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AnswerDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CityName" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassToSchool">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idSchool" Type="int" Nullable="false" />
+    <Property Name="className" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="comment" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CommentsAnswer">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="IdAnswer" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CommentContant" Type="varchar(max)" Nullable="false" />
+    <Property Name="IdAnswer" Type="int" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CommentsQuestion">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="IdQuestion" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CommentContant" Type="varchar(max)" Nullable="false" />
+    <Property Name="IdQuestion" Type="int" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proffestions">
+    <Key>
+      <PropertyRef Name="ProffestionId" />
+    </Key>
+    <Property Name="ProffestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProffestionName" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProffestionsToClass">
+    <Key>
+      <PropertyRef Name="ProffestionId" />
+      <PropertyRef Name="Class" />
+    </Key>
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProffestionToTeacher">
+    <Key>
+      <PropertyRef Name="ProffestionId" />
+      <PropertyRef Name="TeacherId" />
+    </Key>
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OuestionTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="QuestionContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
+    <Property Name="QuestionDate" Type="datetime" Nullable="false" />
+    <Property Name="QuestionView" Type="int" Nullable="false" />
+    <Property Name="NumQuestioners" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Schools">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SchoolName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="IdCity" Type="int" Nullable="false" />
+    <Property Name="idSchool" Type="int" Nullable="false" />
+    <Property Name="comment" Type="varchar" MaxLength="200" />
+    <Property Name="IdSecretary" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Secretary">
+    <Key>
+      <PropertyRef Name="SecretaryId" />
+    </Key>
+    <Property Name="SecretaryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SecretaryName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SecretaryPassword" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SecretaryMail" Type="nvarchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TeacherClassProffestion">
+    <Key>
+      <PropertyRef Name="ProffestioId" />
+      <PropertyRef Name="UserToClassId" />
+    </Key>
+    <Property Name="ProffestioId" Type="int" Nullable="false" />
+    <Property Name="UserToClassId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserPassword" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserMail" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="UserKind" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Active" Type="int" Nullable="false" />
+    <Property Name="LastEnteryDate" Type="datetime" />
+    <Property Name="LoginDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserToClass">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idUser" Type="int" Nullable="false" />
+    <Property Name="idClass" Type="int" Nullable="false" />
+    <Property Name="approved" Type="int" Nullable="false" />
+    <Property Name="LastDateOfStatusChange" Type="datetime" Nullable="false" />
+    <Property Name="factor" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'TeacherForStudent.dbo.ClassesJoinUser' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ClassesJoinUser">
+    <Key>
+      <PropertyRef Name="SchoolId" />
+      <PropertyRef Name="SchoolName" />
+      <PropertyRef Name="ClassId" />
+      <PropertyRef Name="ClassName" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="SchoolId" Type="int" Nullable="false" />
+    <Property Name="SchoolName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SchoolComment" Type="varchar" MaxLength="200" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="ClassComment" Type="varchar" MaxLength="50" />
+    <Property Name="ClassName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="approved" Type="int" />
+    <Property Name="LastDateOfStatusChange" Type="datetime" />
+    <Property Name="factor" Type="char" MaxLength="1" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'TeacherForStudent.dbo.ProffestionJoinTeacher' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ProffestionJoinTeacher">
+    <Key>
+      <PropertyRef Name="TeacherName" />
+      <PropertyRef Name="TeacherId" />
+      <PropertyRef Name="ProffestionId" />
+      <PropertyRef Name="ProffestionName" />
+      <PropertyRef Name="Checked" />
+    </Key>
+    <Property Name="TeacherName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+    <Property Name="ProffestionId" Type="int" Nullable="false" />
+    <Property Name="ProffestionName" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Checked" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_answerOpinion_Answers">
+    <End Role="Answers" Type="Self.Answers" Multiplicity="1" />
+    <End Role="answerOpinion" Type="Self.answerOpinion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="AnswerId" />
+      </Principal>
+      <Dependent Role="answerOpinion">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_answerOpinion_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="answerOpinion" Type="Self.answerOpinion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="answerOpinion">
+        <PropertyRef Name="teacherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answers_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answers_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClassToSchool_Schools1">
+    <End Role="Schools" Type="Self.Schools" Multiplicity="1" />
+    <End Role="ClassToSchool" Type="Self.ClassToSchool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schools">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ClassToSchool">
+        <PropertyRef Name="idSchool" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentsAnswer_Answers">
+    <End Role="Answers" Type="Self.Answers" Multiplicity="1" />
+    <End Role="CommentsAnswer" Type="Self.CommentsAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="AnswerId" />
+      </Principal>
+      <Dependent Role="CommentsAnswer">
+        <PropertyRef Name="IdAnswer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentsAnswer_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="CommentsAnswer" Type="Self.CommentsAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CommentsAnswer">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentsQuestion_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="CommentsQuestion" Type="Self.CommentsQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="CommentsQuestion">
+        <PropertyRef Name="IdQuestion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentsQuestion_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="CommentsQuestion" Type="Self.CommentsQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CommentsQuestion">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProffestionsToClass_ClassToSchool">
+    <End Role="ClassToSchool" Type="Self.ClassToSchool" Multiplicity="1" />
+    <End Role="ProffestionsToClass" Type="Self.ProffestionsToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassToSchool">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ProffestionsToClass">
+        <PropertyRef Name="Class" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProffestionsToClass_Proffestions">
+    <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="1" />
+    <End Role="ProffestionsToClass" Type="Self.ProffestionsToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proffestions">
+        <PropertyRef Name="ProffestionId" />
+      </Principal>
+      <Dependent Role="ProffestionsToClass">
+        <PropertyRef Name="ProffestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProffestionToTeacher_Proffestions">
+    <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="1" />
+    <End Role="ProffestionToTeacher" Type="Self.ProffestionToTeacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proffestions">
+        <PropertyRef Name="ProffestionId" />
+      </Principal>
+      <Dependent Role="ProffestionToTeacher">
+        <PropertyRef Name="ProffestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProffestionToTeacher_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="ProffestionToTeacher" Type="Self.ProffestionToTeacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ProffestionToTeacher">
+        <PropertyRef Name="TeacherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Cities">
+    <End Role="Cities" Type="Self.Cities" Multiplicity="1" />
+    <End Role="Schools" Type="Self.Schools" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Schools">
+        <PropertyRef Name="IdCity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Secretary">
+    <End Role="Secretary" Type="Self.Secretary" Multiplicity="1" />
+    <End Role="Schools" Type="Self.Schools" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Secretary">
+        <PropertyRef Name="SecretaryId" />
+      </Principal>
+      <Dependent Role="Schools">
+        <PropertyRef Name="IdSecretary" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassProffestion_Proffestions">
+    <End Role="Proffestions" Type="Self.Proffestions" Multiplicity="1" />
+    <End Role="TeacherClassProffestion" Type="Self.TeacherClassProffestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proffestions">
+        <PropertyRef Name="ProffestionId" />
+      </Principal>
+      <Dependent Role="TeacherClassProffestion">
+        <PropertyRef Name="ProffestioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassProffestion_UserToClass">
+    <End Role="UserToClass" Type="Self.UserToClass" Multiplicity="1" />
+    <End Role="TeacherClassProffestion" Type="Self.TeacherClassProffestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserToClass">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="TeacherClassProffestion">
+        <PropertyRef Name="UserToClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserToClass_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserToClass" Type="Self.UserToClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserToClass">
+        <PropertyRef Name="idUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AddProffestionToTeacher" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pro" Type="int" Mode="In" />
+    <Parameter Name="teach" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="getClassesJoinUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="uId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="getProffestionsJoinTeacher" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetStudentProffestionsLevelByTeacher" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="student" Type="int" Mode="In" />
+    <Parameter Name="teacher" Type="int" Mode="In" />
+    <Parameter Name="class" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetStudentsJoinClassToSet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchoolId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTeachersJoinClassesToSet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchoolId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="RemoveProffestionToTeacher" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pro" Type="int" Mode="In" />
+    <Parameter Name="teach" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ScoringPerPro" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="month" Type="int" Mode="In" />
+    <Parameter Name="year" Type="int" Mode="In" />
+    <Parameter Name="sid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SortByStudentProffestions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="sId" Type="int" Mode="In" />
+    <Parameter Name="index" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="teacherJoinSchools" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idTeacher" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="TeacherForStudentModelStoreContainer">
+    <EntitySet Name="answerOpinion" EntityType="Self.answerOpinion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Answers" EntityType="Self.Answers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassToSchool" EntityType="Self.ClassToSchool" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CommentsAnswer" EntityType="Self.CommentsAnswer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CommentsQuestion" EntityType="Self.CommentsQuestion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proffestions" EntityType="Self.Proffestions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProffestionsToClass" EntityType="Self.ProffestionsToClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProffestionToTeacher" EntityType="Self.ProffestionToTeacher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Schools" EntityType="Self.Schools" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Secretary" EntityType="Self.Secretary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherClassProffestion" EntityType="Self.TeacherClassProffestion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserToClass" EntityType="Self.UserToClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassesJoinUser" EntityType="Self.ClassesJoinUser" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ClassesJoinUser].[SchoolId] AS [SchoolId], 
+    [ClassesJoinUser].[SchoolName] AS [SchoolName], 
+    [ClassesJoinUser].[SchoolComment] AS [SchoolComment], 
+    [ClassesJoinUser].[ClassId] AS [ClassId], 
+    [ClassesJoinUser].[ClassComment] AS [ClassComment], 
+    [ClassesJoinUser].[ClassName] AS [ClassName], 
+    [ClassesJoinUser].[UserId] AS [UserId], 
+    [ClassesJoinUser].[UserName] AS [UserName], 
+    [ClassesJoinUser].[approved] AS [approved], 
+    [ClassesJoinUser].[LastDateOfStatusChange] AS [LastDateOfStatusChange], 
+    [ClassesJoinUser].[factor] AS [factor]
+    FROM [dbo].[ClassesJoinUser] AS [ClassesJoinUser]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ProffestionJoinTeacher" EntityType="Self.ProffestionJoinTeacher" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ProffestionJoinTeacher].[TeacherName] AS [TeacherName], 
+    [ProffestionJoinTeacher].[TeacherId] AS [TeacherId], 
+    [ProffestionJoinTeacher].[ProffestionId] AS [ProffestionId], 
+    [ProffestionJoinTeacher].[ProffestionName] AS [ProffestionName], 
+    [ProffestionJoinTeacher].[Checked] AS [Checked]
+    FROM [dbo].[ProffestionJoinTeacher] AS [ProffestionJoinTeacher]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_answerOpinion_Answers" Association="Self.FK_answerOpinion_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="answerOpinion" EntitySet="answerOpinion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_answerOpinion_Users" Association="Self.FK_answerOpinion_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="answerOpinion" EntitySet="answerOpinion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answers_Users" Association="Self.FK_Answers_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClassToSchool_Schools1" Association="Self.FK_ClassToSchool_Schools1">
+      <End Role="Schools" EntitySet="Schools" />
+      <End Role="ClassToSchool" EntitySet="ClassToSchool" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentsAnswer_Answers" Association="Self.FK_CommentsAnswer_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="CommentsAnswer" EntitySet="CommentsAnswer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentsAnswer_Users" Association="Self.FK_CommentsAnswer_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CommentsAnswer" EntitySet="CommentsAnswer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentsQuestion_Questions" Association="Self.FK_CommentsQuestion_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="CommentsQuestion" EntitySet="CommentsQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentsQuestion_Users" Association="Self.FK_CommentsQuestion_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CommentsQuestion" EntitySet="CommentsQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProffestionsToClass_ClassToSchool" Association="Self.FK_ProffestionsToClass_ClassToSchool">
+      <End Role="ClassToSchool" EntitySet="ClassToSchool" />
+      <End Role="ProffestionsToClass" EntitySet="ProffestionsToClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProffestionsToClass_Proffestions" Association="Self.FK_ProffestionsToClass_Proffestions">
+      <End Role="Proffestions" EntitySet="Proffestions" />
+      <End Role="ProffestionsToClass" EntitySet="ProffestionsToClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProffestionToTeacher_Proffestions" Association="Self.FK_ProffestionToTeacher_Proffestions">
+      <End Role="Proffestions" EntitySet="Proffestions" />
+      <End Role="ProffestionToTeacher" EntitySet="ProffestionToTeacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProffestionToTeacher_Users" Association="Self.FK_ProffestionToTeacher_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ProffestionToTeacher" EntitySet="ProffestionToTeacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_Users" Association="Self.FK_Questions_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Cities" Association="Self.FK_Schools_Cities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Schools" EntitySet="Schools" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Secretary" Association="Self.FK_Schools_Secretary">
+      <End Role="Secretary" EntitySet="Secretary" />
+      <End Role="Schools" EntitySet="Schools" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassProffestion_Proffestions" Association="Self.FK_TeacherClassProffestion_Proffestions">
+      <End Role="Proffestions" EntitySet="Proffestions" />
+      <End Role="TeacherClassProffestion" EntitySet="TeacherClassProffestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassProffestion_UserToClass" Association="Self.FK_TeacherClassProffestion_UserToClass">
+      <End Role="UserToClass" EntitySet="UserToClass" />
+      <End Role="TeacherClassProffestion" EntitySet="TeacherClassProffestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserToClass_Users" Association="Self.FK_UserToClass_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserToClass" EntitySet="UserToClass" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

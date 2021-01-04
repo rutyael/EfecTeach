@@ -1,0 +1,37 @@
+/* .class-header
+{
+    height: 30px;
+    margin-right: 2px;
+    padding-top: 20px;
+    padding: 10px 5px 0 0;
+    margin: 10px 2px 5px 0;
+    background: #ecf3f4;
+    box-shadow: #39747d 0px 0px 1px;
+    width: 100%;
+}
+table{
+    width: 100%;
+} */
+
+table {
+    width: 95%;
+    margin: 2%;
+    border: #e4e4e4 solid;
+    border-top-color: #f9bb3c;
+  }
+  a{
+    cursor: pointer;
+    color: black;
+}
+tr.mat-header-row {
+    height: 56px;
+    background: #ecf3f4;
+}
+
+#Empty{
+    text-align: center;
+    font-size: large;
+    padding: 5%;
+    background: #37707829;
+    margin: 10%;
+  }

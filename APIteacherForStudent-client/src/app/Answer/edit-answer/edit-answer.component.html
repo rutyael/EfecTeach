@@ -1,0 +1,242 @@
+<div class="edit-answer">
+  <p><b>השאלה:</b></p>
+  <div>
+    <div style="display: flex;margin-right: 24%;">
+
+      <mat-drawer-container class="example-container">
+        <mat-drawer #drawer [mode]="mode.value" [opened]="isShowingQ">
+          <div class="mat-drawer-inner-container ng-tns-c188-1" style="overflow-x: hidden !important">
+            <mat-card id="userAsk">
+              <div style="margin-top: -9%;">
+                <div>
+                  <b>השואל:</b>
+                </div>
+                <div *ngIf="questionForAnswer!=undefined" style="font-size: initial;">
+                  {{questionForAnswer.userQuestion.UserName}}
+                  ה{{questionForAnswer.userQuestion.UserKind}}
+                </div>
+              </div>
+            </mat-card>
+          </div>
+        </mat-drawer>
+        <mat-select #mode value="side">
+        </mat-select>
+        <button id="buttonP" mat-raised-button (click)="toggleQ()">
+          <mat-icon>person</mat-icon>
+        </button>
+        <p class="currentUser">השואל</p>
+      </mat-drawer-container>
+
+      <div class="answer">
+        <div id="icons">
+          <button id="buttonLike" [disabled]="askQuestion" (click)="PlusQuestioner()">
+            <div matTooltip="גם אני מתענין בשאלה זו">
+              <mat-icon>thumb_up_alt</mat-icon>
+            </div>
+          </button>
+          <mat-icon matTooltip="שאלה חשובה"
+            *ngIf="questionForAnswer!=undefined&&questionForAnswer.userQuestion.ifImportant" id="importantQ">
+            label_important
+          </mat-icon>
+        </div>
+
+        <div *ngIf="questionForAnswer!=null" class="question-contect">
+          <h1><label class="q-title">
+              <p  style="text-align: right !important" *ngIf="questionForAnswer!=undefined">{{questionForAnswer.userQuestion.OuestionTitle}}</p>
+            </label></h1>
+          <mat-divider></mat-divider>
+          <div *ngIf="questionForAnswer!=undefined" class="q-content" [innerHtml]="questionForAnswer.userQuestion.QuestionContent"></div>
+        </div>
+
+      </div>
+    </div>
+    <div id="comments">
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>add_comment</mat-icon>
+              <p style="margin-right: 5%;font-size: inherit;">הוסף הערה</p>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-form-field class="comment">
+            <mat-label>הוסף הערה</mat-label>
+            <textarea [(ngModel)]="comment" matInput placeholder="הוסף הערה על השאלה"></textarea>
+          </mat-form-field>
+          <div style="color: red">{{CommentQFill}}</div>
+          <button [disabled]="disabledQ" (click)="postQComment()" mat-button color="primary">הוסף</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>mode_comment</mat-icon>
+              <p *ngIf="questionForAnswer!=undefined" style="margin-right: 2%;font-size: inherit;">הערות לשאלה זו
+                ({{questionForAnswer.commentsQuestion.length}})</p>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="noComments" *ngIf="questionForAnswer!=undefined&&questionForAnswer.commentsQuestion.length==0">אין
+            הערות לשאלה זו</div>
+          <div *ngIf="questionForAnswer!=undefined&&questionForAnswer.commentsQuestion.length!=0">
+            <div class="commentADetails" *ngFor="let commentQ of questionForAnswer.commentsQuestion">
+              <b>שם המעיר: </b>{{commentQ.UserName}}<br />
+              <b>בתאריך: </b>{{commentQ.date|date}}<br />
+              <b>ההערה: </b>{{commentQ.CommentContant}}
+            </div>
+          </div>
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+  <div class="error">{{errPostCommentQ}}</div>
+
+
+
+
+  <p style="margin-top: 5%;"><b>התשובה:</b></p>
+  <div>
+
+    <div style="display: flex;margin-right: 24%;">
+      <mat-drawer-container class="example-container"
+        style="background: #dae3e5 !important;margin-left: 4.3%;width: 15%;">
+        <mat-drawer #drawer [mode]="mode.value" [opened]="isShowingA">
+          <mat-card id="userAsk">
+            <div style="margin-top: -9%;">
+              <div>
+                <b>העונה:</b>
+              </div>
+              <div *ngIf="answer!=undefined" style="font-size: initial;">
+                {{answer.userAnswer.Reply.UserName}}
+                ה{{answer.userAnswer.Reply.UserKind}}
+              </div>
+            </div>
+          </mat-card>
+        </mat-drawer>
+        
+        <button id="buttonP" mat-raised-button (click)="toggleA()"
+          style="background: #bfcccd;margin-top: 5% !important">
+          <mat-icon>person</mat-icon>
+        </button>
+        <p class="currentUser">העונה</p>
+      </mat-drawer-container>
+
+      <div class="answer" style="background: #1f5f681c !important">
+
+        <div id="icons" style="margin-top: -17% !important;">
+          <mat-icon matTooltip="תשובה מאומתת" id="popularIcon" *ngIf="answer!=undefined&&answer.PopularAnswer==1">
+            verified_user</mat-icon>
+          <mat-icon matTooltip="תשובה אינה מאומתת" id="NotPopularIcon" *ngIf="answer!=undefined&&answer.PopularAnswer==0">verified_user
+          </mat-icon>
+          <mat-icon matTooltip="תשובה יעילה" id="efectiveIcon" *ngIf="answer!=undefined&&answer.EfectiveAnswer==1">grade
+          </mat-icon>
+        </div>
+
+        <div class="answer-content">
+          <div class="a-content" [innerHtml]="answer!=undefined&&answer.userAnswer.Answer.AnswerContant">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="comments" style="width: 52.5% !important">
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>add_comment</mat-icon>
+              <p style="margin-right: 5%;font-size: inherit;">הוסף הערה</p>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-form-field class="comment">
+            <mat-label>הוסף הערה</mat-label>
+            <textarea id="{{answer!=undefined&&answer.userAnswer.Answer.AnswerId}}Text" matInput
+              placeholder="הוסף הערה על התשובה"></textarea>
+          </mat-form-field>
+          <div style="color: red">{{CommentFill}}</div>
+          <button [disabled]="disabledA" id="ans{{answer!=undefined&&answer.userAnswer.Answer.AnswerId}}"
+            (click)="postComment(answer)" mat-button color="primary">הוסף</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>mode_comment</mat-icon>
+              <p style="margin-right: 2%;font-size: inherit;">הערות לתשובה זו ({{answer.commentsAnswer.length}})</p>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="noComments" *ngIf="answer!=undefined&&answer.commentsAnswer.length==0">אין הערות לתשובה זו</div>
+          <div *ngIf="answer!=undefined&&answer.commentsAnswer.length!=0">
+            <div style="padding: 1%" *ngFor="let comment of answer.commentsAnswer">
+              <div class="commentADetails">
+                <b>שם המעיר: </b>{{comment.UserName}}<br />
+                <b>בתאריך: </b>{{comment.date|date}}<br />
+                <b>ההערה: </b>
+                <div class="commentContant">{{comment.CommentContant}}</div>
+              </div>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+    </div>
+
+    <div class="error">{{errPostCommentA}}</div>
+
+
+    <!-- חוות דעת -->
+    <p id="pOpinion">אם ברצונך לכתוב חוות דעת על תשובה זו, אנא מלא את הפרטים הבאים</p>
+    <div id="wrapperOpinion">
+      <div style="display: flex">
+        <mat-icon class="iconOpinion">rate_review</mat-icon>
+        <mat-form-field id="answerscoring" appearance="fill">
+          <mat-label>בחר רמת תשובה</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let scoring of arrscoring" [value]="scoring" (click)="ScoringAnswer(scoring)">
+              {{scoring}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div style="display: flex">
+        <mat-icon class="iconOpinion">insert_comment</mat-icon>
+        <mat-form-field class="example-full-width">
+          <mat-label>הערה</mat-label>
+          <textarea style="background-color: #f5f5f5;" [(ngModel)]="answerComment" matInput
+            placeholder="כתוב הערה על התשובה"></textarea>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-icon class="iconOpinionFeedback">feedback</mat-icon>
+        <mat-form-field class="example-full-width">
+          <mat-label>פידבק</mat-label>
+          <textarea style="background-color: #f5f5f5;" [(ngModel)]="answerFeedback" matInput
+            placeholder="כתוב פידבק לעונה"></textarea>
+        </mat-form-field>
+      </div>
+
+    </div>
+    <p>{{resultReturn}}</p>
+    <button [disabled]="IfInputAble" id="buttonPostOpinion" (click)="postOpinion()" mat-button color="primary">הוסף חוות
+      דעת</button>
+
+    <mat-error *ngIf="IfScoringNull">דירוג התשובה הינו שדה חובה</mat-error>
+    <a id="back" (click)="backClicked()">
+      <mat-icon>keyboard_backspace</mat-icon>
+    </a>
+
+  </div>

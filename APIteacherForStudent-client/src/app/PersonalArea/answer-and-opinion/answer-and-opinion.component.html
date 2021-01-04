@@ -1,0 +1,42 @@
+<div id="Empty" *ngIf="ifEmpty">
+    לא נמצאו חוות דעת לתשובות שלך</div>
+<div *ngIf="!ifEmpty" id="wrapper">
+    <div class="class" *ngFor="let opinion of answerAndOpinion|keyvalue">
+        <div class="class-header">
+            <label>{{GetAnswerDetail(opinion.key)}}<div style="width: 100%"> <a
+                        routerLink="/EditanswerPersonal/{{opinion.key}}" routerLinkActive="active-link">פרטי התשובה</a>
+                    <div id="proffestion">{{ProffestionName}}</div>
+                    <div id="date">{{answerDate|date}}</div>
+                </div>
+            </label>
+        </div>
+        <div class="teachers">
+            <table mat-table [dataSource]="opinion.value" class="mat-elevation-z8">
+                <ng-container matColumnDef="scoring">
+                    <th mat-header-cell *matHeaderCellDef> רמת התשובה</th>
+                    <td mat-cell *matCellDef="let opi"> {{opi.scoring}} </td>
+                </ng-container>
+                <ng-container matColumnDef="feedback">
+                    <th mat-header-cell *matHeaderCellDef> משוב</th>
+                    <td mat-cell  *matCellDef="let opi" matTooltip={{opi.feedback}}><div ></div>{{ifCommentNull(opi.feedback)}}</td>
+                </ng-container>
+                <ng-container matColumnDef="comment">
+                    <th mat-header-cell *matHeaderCellDef> הערה</th>
+                    <td mat-cell *matCellDef="let opi" matTooltip={{opi.comment}}> {{ifCommentNull(opi.comment)}} </td>
+                </ng-container>
+                <ng-container matColumnDef="teacherName">
+                    <th mat-header-cell *matHeaderCellDef>שם המורה</th>
+                    <td mat-cell *matCellDef="let opi"> {{opi.teacherName}} </td>
+                </ng-container>
+                <ng-container matColumnDef="teacherMail">
+                    <th mat-header-cell *matHeaderCellDef>כתובת המורה</th>
+                    <td mat-cell *matCellDef="let opi">{{opi.teacherMail}} </td>
+                </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </div>
+    </div>
+
+
+</div>

@@ -1,0 +1,88 @@
+<div *ngIf="!Loading">
+    <mat-toolbar style="z-index: 100;">
+
+        <a class="buttonMenu" mat-raised-button *ngIf="userEnter==null&&SecretaryEnter==null" routerLink="signIn"
+            routerLinkActive="Activelink">
+            <div>כניסה</div>
+        </a>
+        <a class="buttonMenu" mat-raised-button *ngIf="userEnter==null&&SecretaryEnter==null" routerLink="signUp"
+            routerLinkActive="Activelink">
+            <div>הרשמה</div>
+        </a>
+        <a class="buttonMenu" mat-raised-button *ngIf="IfDisplayMenuUser()" routerLink="logOut" (click)="Exit()"
+            routerLinkActive="Activelink">
+            <div> יציאה</div>
+        </a>
+        <a class="buttonMenu" mat-raised-button routerLink="About" routerLinkActive="Activelink">
+            <div>עלינו</div>
+        </a>
+        <a class="buttonMenu" *ngIf="IfDisplayMenuUser()&&Whoami()!='secretary'" mat-raised-button
+            routerLink="PersonalArea" routerLinkActive="Activelink">
+            <div>איזור אישי </div>
+        </a>
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button *ngIf="Whoami()!='secretary'" (click)="ToListQuestions()" routerLinkActive="Activelink"
+                mat-menu-item>
+                <mat-icon>view_list</mat-icon>
+                <span>עיון ברשימת השאלות</span>
+            </button>
+            <button *ngIf="Whoami()!='secretary'" (click)="ToAskQuestion()" routerLinkActive="Activelink" mat-menu-item>
+                <mat-icon>question_answer</mat-icon>
+                <span>שאילת שאלה</span>
+            </button>
+            <button *ngIf="Whoami()!='secretary'" (click)="ToPersonal()" routerLinkActive="Activelink" mat-menu-item>
+                <mat-icon>person</mat-icon>
+                <span>אזור אישי שלך</span>
+            </button>
+            <button [disabled]="IfDisabledSecretary()" *ngIf="Whoami()=='secretary'" (click)="RelativeSe('UpdateDetailsSecretary')"
+                mat-menu-item>
+                <mat-icon>view_list</mat-icon>
+                <span>הצג פרטי מוסד</span>
+            </button>
+            <button [disabled]="IfDisabledSecretary()" *ngIf="Whoami()=='secretary'" (click)="RelativeSe('StudentsClasses')"
+                mat-menu-item>
+                <mat-icon>create</mat-icon>
+                <span>אשור כתות לתלמידים</span>
+            </button>
+            <button [disabled]="IfDisabledSecretary()" *ngIf="Whoami()=='secretary'" (click)="RelativeSe('TeachersClasses')"
+                mat-menu-item>
+                <mat-icon>create</mat-icon>
+                <span>אישור כיתות מורים</span>
+            </button>
+        </mat-menu>
+
+        <div *ngIf="!IsUserSecretary()&&IsUserSecretary()!=null">
+            <p *ngIf="userEnter!=null">שלום {{userEnter.UserName}}</p>
+        </div>
+        <div *ngIf="IsUserSecretary()&&IsUserSecretary()!=null">
+            <p *ngIf="SecretaryEnter!=null">שלום {{SecretaryEnter.SecretaryName}} המזכיר/ה</p>
+        </div>
+        <img (click)="ToHomePage()" id="logo" src="../../../assets/img/לוגווווווו.png">
+    </mat-toolbar>
+
+
+    <div *ngIf="IfDisplayMenu()&&Whoami()!='secretary'" class="nested-toolbar">
+        <div class="nested-toolbar-container">
+            <a class="buttonNested" *ngIf="IfDisplayMenu()&&Whoami()!='secretary'" mat-raised-button
+                routerLink="questions" routerLinkActive="Activelink">
+                <div>עיון ברשימת השאלות</div>
+            </a>
+            <a class="buttonNested" *ngIf="IfDisplayMenu()&&Whoami()!='secretary'" mat-raised-button
+                (click)="ToAskQuestion()">
+                <div>שאילת שאלה</div>
+            </a>
+            <a class="buttonNested" *ngIf="Whoami()=='teacher'&&IfDisplayMenu()" mat-raised-button
+                routerLink="ApdateDetailsTeacher" routerLinkActive="Activelink">
+                <div>עדכון פרטי מורה</div>
+            </a>
+            <a class="buttonNested" *ngIf="Whoami()=='teacher'&&IfDisplayMenu()" mat-raised-button
+                routerLink="teacherWatchesAnswersStudent" routerLinkActive="Activelink">
+                <div>צפייה בתשובות התלמידים</div>
+            </a>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,107 @@
+<div *ngIf="!Loading" class="edit-question">
+  <div>
+    <p style="font-size:x-large">השאלה</p>
+    <div style="display: flex;margin-right: 25%;">
+
+      <mat-drawer-container class="example-container">
+        <mat-drawer #drawer [mode]="mode.value">
+          <div class="mat-drawer-inner-container ng-tns-c188-1" style="overflow-x: hidden !important">
+            <mat-card  id="userAsk">
+              <div style="margin-top: -5%;">
+                <b>השואל:</b>
+              </div>
+              <div style="font-size: initial;">{{question.userQuestion.UserName}} ה{{question.userQuestion.UserKind}}
+              </div>
+            </mat-card>
+          </div>
+        </mat-drawer>
+        <mat-select #mode value="side">
+        </mat-select>
+        <button id="buttonP" mat-raised-button (click)="drawer.toggle()">
+          <mat-icon>person</mat-icon>
+        </button>
+        <p class="currentUser">השואל</p>
+      </mat-drawer-container>
+
+      <div class="question">
+
+        <div style="float: left;">
+          <button id="buttonLike" [disabled]="askQuestion" (click)="PlusQuestioner()">
+            <div matTooltip="גם אני מתענין בשאלה זו">
+              <mat-icon>thumb_up_alt</mat-icon>
+            </div>
+          </button>
+          <mat-icon matTooltip="שאלה חשובה" *ngIf="question.userQuestion.ifImportant" id="importantQ">label_important
+          </mat-icon>
+          <!-- <mat-icon matTooltip="שאלה אינה חשובה" *ngIf="!question.userQuestion.ifImportant" id="notImportantQ">
+            label_important</mat-icon> -->
+        </div>
+
+        <div *ngIf="question!=null" class="question-contect">
+          <h1><label class="q-title">
+              <p>{{question.userQuestion.OuestionTitle}}</p>
+            </label></h1>
+          <mat-divider></mat-divider>
+          <div class="q-content" [innerHtml]="question.userQuestion.QuestionContent"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="comments">
+      <mat-accordion>
+        <mat-expansion-panel id="postCQ" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>add_comment</mat-icon>
+              <p style="margin-right: 5%;">הוסף הערה</p>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-form-field style="width: 90%;">
+            <mat-label>הוסף הערה</mat-label>
+            <textarea [(ngModel)]="commentQ" matInput placeholder="הוסף הערה על השאלה"></textarea>
+          </mat-form-field>
+          <div style="color: red;font-size: larger;">{{CommentFill}}</div>
+          <button [disabled]="disabledQ" (click)="postComment()" mat-button color="primary">הוסף</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel id="CommentsQ" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>mode_comment</mat-icon>
+              <p style="margin-right: 2%">הערות לשאלה זו   ({{question.commentsQuestion.length}})</p>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div style=" border-radius: 10px;">
+            <div class="noComments" *ngIf="question.commentsQuestion.length==0">אין הערות לשאלה זו</div>
+            <div *ngIf="question.commentsQuestion.length!=0">
+              <div style="padding-top: 3%;" *ngFor="let q of question.commentsQuestion">
+                <div id="commentsDetails">
+                  <b>שם המעיר: </b>{{q.UserName}}<br />
+                  <b>תאריך: </b>{{q.date|date}}<br />
+                  <b>ההערה: </b>
+                  <div id="commentQ">{{q.CommentContant}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div id="errPostCommentQ">{{errPostCommentQ}}</div>
+  </div>
+
+  <div class="answers">
+    <app-answers [allAnswers]="answers"></app-answers>
+  </div>
+
+  <p style="font-size:x-large;padding-top: 4%;">התשובה שלך: </p>
+  <app-answer-to-question [questionSelect]="question"></app-answer-to-question>
+  <button id="back" (click)="backClicked()">
+    <mat-icon>keyboard_backspace</mat-icon>
+  </button>

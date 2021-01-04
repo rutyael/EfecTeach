@@ -1,0 +1,16 @@
+<div *ngIf="!Loading" class="school">
+    <div class="nested-toolbar">
+        <div class="nested-toolbar-container">
+            <a mat-raised-button routerLink="UpdateDetailsSecretary" routerLinkActive="Activelink"class="buttonNested">
+                <div>הצג פרטי מוסד</div>
+            </a>
+            <a mat-raised-button routerLink="StudentsClasses" routerLinkActive="Activelink"class="buttonNested">
+                <div>אשור כתות לתלמידים</div>
+            </a>
+            <a mat-raised-button routerLink="TeachersClasses" routerLinkActive="ActiveLink"class="buttonNested">
+                <div>אישור כיתות מורים</div>
+            </a>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>

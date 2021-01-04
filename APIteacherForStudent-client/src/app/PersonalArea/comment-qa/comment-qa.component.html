@@ -1,0 +1,56 @@
+<div id="EmptyComment" *ngIf="ifEmptyComments==true">{{EmptyComment}}</div>
+<div>{{IfCommentQA()}}</div>
+
+<div *ngIf="loading==true&&ifEmptyComments==false">
+    <div id="titels">
+        <div class="title"> השאלה / התשובה</div>
+        <div class="title"> תאריך העלאת שאלה/תשובה </div>
+        <div class="title"> תאריך השארת ההערה </div>
+        <div class="title">שם המעיר</div>
+        <div class="title"> סטטוס המעיר </div>
+    </div>
+    <mat-divider style="box-shadow: 0 1px black;"></mat-divider>
+    <div id="itemComment" *ngFor="let comment of dataSource">
+        <div id="itemDetailsComment">
+            <div class="itemTD">
+                <div *ngIf="AnsOrQue=='A'">
+                    <div><a routerLink="/EditanswerPersonal/{{comment.IdAnswer}}" routerLinkActive="active-link">
+                            פרטי התשובה</a>
+                    </div>
+                </div>
+                <div *ngIf="AnsOrQue=='Q'">
+                    <div><a routerLink="/EditquestionPersonal/{{comment.IdQuestion}}"
+                            routerLinkActive="active-link">{{ifCommentLong(comment.OuestionTitle)}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="itemTD">
+                <div *ngIf="AnsOrQue=='Q'">
+                    <div> {{comment.QuestionDate|date}} </div>
+                </div>
+                <div *ngIf="AnsOrQue=='A'">
+                    <div> {{comment.AnswerDate|date}} </div>
+                </div>
+            </div>
+
+
+            <div class="itemTD">
+                <div> {{comment.date|date}} </div>
+            </div>
+
+            <div class="itemTD">
+                <div>{{GetUserNameById(comment.UserId)}}</div>
+            </div>
+
+            <div class="itemTD">
+                <div> {{GetUserKindById(comment.UserId)}} </div>
+            </div>
+        </div>
+
+        <div id="commentContent">
+            <div style="padding: 1%;text-align: right;border: #dfe8e9 solid;">{{comment.CommentContant}}</div>
+        </div>
+
+    </div>
+</div>

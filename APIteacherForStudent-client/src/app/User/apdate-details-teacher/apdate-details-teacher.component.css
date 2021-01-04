@@ -1,0 +1,248 @@
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+mat-card-content
+{
+    height: 80%;
+    display: inline-grid;
+    margin-bottom: 0;
+    width: 100%;
+    margin: 15px;
+}
+mat-card-title
+{
+    text-align: center;
+    color: #2d6972;
+    font-size: large;
+    height: 20%;
+}
+.mat-card{
+ 
+    width: 50%;
+    margin: auto;
+    border: none;
+    max-width: 500px;
+}
+.mat-list-base {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    float: right;
+    border: solid 1px #ffbb30;
+    border-radius: 2px;
+    width: 90%;
+    float: right;
+    margin: 0;
+    margin-right: 5%;
+    margin-top: 10%;
+    box-shadow: #1f5f6830 0px 0px 0px 1px;
+    overflow: scroll;
+    max-height: 40vh;
+    direction: ltr;
+    overflow-x: hidden;
+    padding: 0;
+}
+.mat-pseudo-checkbox ng-star-inserted {
+   color: rgb(31, 95, 104);
+}
+mat-pseudo-checkbox {
+ background: #ffbb30;
+}
+.mat-card>:last-child:not(.mat-card-footer), .mat-card-content>:last-child:not(.mat-card-footer) {
+    /* height: 100%; */
+    margin-bottom: 0;
+    width: 100%;
+    margin: 15px 0;
+}
+::ng-deep  .mat-pseudo-checkbox-checked {
+ background: red;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+  }
+.show{
+    border-radius: 100%;
+    min-width: 37px !important;
+    transition: 0.3s;
+    padding:2px;
+    font-size: 1.4em;
+    /* margin: 4px 4px 4px 7px; */
+
+}
+.node
+{
+    display: inline-flex;
+}
+.nodeName
+{
+    padding-top: 7px;
+}
+.open
+{
+    display: block;
+}
+.close
+{
+    display: none;
+}
+.icon
+{
+    transform: rotate(-90deg);
+    font-family: Hadassah Friedlaender;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+    margin: -3px 0px 0px 2px;
+}
+/* .children{
+    margin:-2% 7% 0% 0%;;
+} */
+ul{
+    list-style-type: none;
+}
+
+::ng-deep .mat-tab-body-content
+{
+    height: 100%;
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+}
+.schoolTree{
+    line-height: 3;
+}
+mat-checkbox ::ng-deep .mat-checkbox-checked  .mat-checkbox-background
+{
+    background-color: #1f5f68;
+    color: white;
+}
+
+mat-radio-button ::ng-deep .mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #1f5f68;
+}
+mat-radio-button ::ng-deep .mat-accent .mat-radio-inner-circle{
+    background-color: #1f5f68c9;
+}
+.c-req
+{
+    font-size: 0.85em;
+    padding: 5%;
+    /* margin: 5px -10px 4px 0px; */
+    color: #165c66;
+    display: inherit;
+    /* margin-right: 30px; */
+    margin-top: 5px;
+}
+.c-req span
+{
+    background: #3e757d;
+    border-radius: 100px;
+    color: white;
+    padding: 1.2px 5.2px 1.2px 5.2px;
+    box-shadow: inset #ffffff 0px 0px 3px 0px;
+}
+.s-school
+{
+    border-bottom: 2px solid #1f5f68;
+    color: #1f5f68;
+}
+.comment
+{
+    margin-right: 8px;
+    font-size: 0.9em;
+    float: right;
+    margin-right: 50px;
+}
+.s-content
+{
+    display: inline-flex;
+}
+.p-button button{
+    width: 100%;
+    height: 100%;
+    background: #fbc657;
+}
+.p-button
+{
+    float: left;
+    /* margin: 86% 0 0 0; */
+    margin: 5% 0% 0 4%;
+    width: 92%;
+    color: #3d7179;
+}
+form{
+    height: 100%;
+    padding-top: 20px;
+    max-height: 700px;
+    direction: rtl;
+}
+mat-tab-group{
+    height: 90%;
+    margin: 30px 0 0 0;
+    display: block;
+}
+.s-button{
+    height: 100%;
+    width: 100%;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.s-button button{
+    width: 80%;
+    margin: 0 5%;
+    color: #397179;
+    background: #3c747b08;
+    box-shadow: 0px 0px 2px #ffe5ab;
+}
+.wrapper
+{
+    border-radius: 5px;
+    box-shadow: #839091 0px 0px 4px 0px;
+   
+    padding: 2% 0 2% 0;
+    margin: 0 10px;
+    background: linear-gradient(45deg, #e2eef0, #ffffff);
+}
+mat-tab-header ::ng-deep .mat-ink-bar
+{
+    background-color: #3b737b!important;
+}
+.children .mat-checkbox+div{
+    float: right;
+    margin: -10px 0 0 5px;
+}
+.class
+{
+    margin: 15px 0;
+    display: inline-block;
+    line-height: 0.2;
+}
+li{
+    margin: -15px 0;
+}
+.teacher
+{
+    margin-bottom: 5px;
+}
+.school .comment
+{
+    margin-right: 5px;
+}
+button:focus
+{
+    outline: none;
+}
+::ng-deep.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #367078;
+}
+
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-ripple .mat-ripple-element {
+    opacity: 0.03 !important;
+    background-color: #1f5f68e6!important;
+  }
+  
+  ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: #1f5f68e6;
+  }

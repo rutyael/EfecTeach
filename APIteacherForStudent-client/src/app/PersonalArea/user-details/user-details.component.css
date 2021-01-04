@@ -1,0 +1,122 @@
+.class-header
+{
+    height: 30px;
+    margin-right: 2px;
+    padding-top: 20px;
+    padding: 10px 5px 0 0;
+    margin: 10px 2px 5px 0;
+    background: #ecf3f4;
+    box-shadow: #39747d 0px 0px 1px;
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  .example-action-buttons {
+    padding-bottom: 20px;
+  }
+#tableTeachers{
+  height: 5px;
+  box-shadow: none;
+  background: #41777f0d;
+  border: #c8d1d1 solid;
+  padding-top: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2%;
+}
+.mat-table {
+  background: #a8c3c738;
+}
+.mat-elevation-z8 {
+  box-shadow: 1px 5px 5px -3px rgba(0, 0, 0, 0.2), 4px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+::ng-deep [dir=rtl] th.mat-header-cell:last-of-type, [dir=rtl] td.mat-cell:last-of-type, [dir=rtl] td.mat-footer-cell:last-of-type
+{
+width: 50%;
+}
+tr{
+  box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(185, 181, 181, 0.14), 2px 0px 7px 0px rgba(0, 0, 0, 0.12);
+  background: #f9ffffa1!important;
+}
+#secretary{
+  height: 25px;
+    background-color: #83a7ac;
+    padding: 1%;
+    font-size: larger;
+    text-align: center;
+}
+.mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-title {
+  color: black;
+}
+
+#school{
+  box-shadow: none;
+  border: #e1e1e1 solid;
+  background: white;
+}
+
+#wrraper{
+  border: #e6e6e6 solid;
+  margin: 4%;
+  border-top-color: #ffc000;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: initial;
+  padding: 2%;
+  float: left;
+}
+#Empty{
+  text-align: center;
+  font-size: large;
+  padding: 5%;
+  background: #37707829;
+  margin: 10%;
+}
+#back{
+  background: white;
+  float: left;
+  padding: 0.5%;
+  border-radius: 100px;
+  border: black solid;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.school{
+  width: 31%;
+  margin: auto;
+  margin-right: 20px;
+}
+mat-panel-title .school:nth-child(2)
+{
+  margin-right: 0;
+    margin-left:20px!important;
+    text-align: right;
+}
+.wrraper::ng-deep  .mat-expansion-panel-header-title{
+  margin: auto!important;
+  width: 200%;
+  margin-right:5%!important
+}
+#back {
+  background: white;
+  float: left;
+  /* padding: 0.5%; */
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  width: 25px;
+  height: 25px;
+  background: #e1e1e1;
+  box-shadow: #367078 0px 0px 5px;
+}

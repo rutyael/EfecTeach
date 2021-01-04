@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TeacherForStudentModelStoreContainer" CdmEntityContainer="TeacherForStudentEntities">
+    <EntitySetMapping Name="answerOpinions">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.answerOpinion">
+        <MappingFragment StoreEntitySet="answerOpinion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="teacherId" ColumnName="teacherId" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="scoring" ColumnName="scoring" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="feedback" ColumnName="feedback" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Answer">
+        <MappingFragment StoreEntitySet="Answers">
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AnswerContant" ColumnName="AnswerContant" />
+          <ScalarProperty Name="AnswerScoring" ColumnName="AnswerScoring" />
+          <ScalarProperty Name="AnswerDate" ColumnName="AnswerDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.City">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassToSchools">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.ClassToSchool">
+        <MappingFragment StoreEntitySet="ClassToSchool">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idSchool" ColumnName="idSchool" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommentsAnswers">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.CommentsAnswer">
+        <MappingFragment StoreEntitySet="CommentsAnswer">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CommentContant" ColumnName="CommentContant" />
+          <ScalarProperty Name="IdAnswer" ColumnName="IdAnswer" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommentsQuestions">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.CommentsQuestion">
+        <MappingFragment StoreEntitySet="CommentsQuestion">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CommentContant" ColumnName="CommentContant" />
+          <ScalarProperty Name="IdQuestion" ColumnName="IdQuestion" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proffestions">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Proffestion">
+        <MappingFragment StoreEntitySet="Proffestions">
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="ProffestionName" ColumnName="ProffestionName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Question">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="OuestionTitle" ColumnName="OuestionTitle" />
+          <ScalarProperty Name="QuestionContent" ColumnName="QuestionContent" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="QuestionDate" ColumnName="QuestionDate" />
+          <ScalarProperty Name="QuestionView" ColumnName="QuestionView" />
+          <ScalarProperty Name="NumQuestioners" ColumnName="NumQuestioners" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schools">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.School">
+        <MappingFragment StoreEntitySet="Schools">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="IdCity" ColumnName="IdCity" />
+          <ScalarProperty Name="idSchool" ColumnName="idSchool" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="IdSecretary" ColumnName="IdSecretary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Secretaries">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.Secretary">
+        <MappingFragment StoreEntitySet="Secretary">
+          <ScalarProperty Name="SecretaryId" ColumnName="SecretaryId" />
+          <ScalarProperty Name="SecretaryName" ColumnName="SecretaryName" />
+          <ScalarProperty Name="SecretaryPassword" ColumnName="SecretaryPassword" />
+          <ScalarProperty Name="SecretaryMail" ColumnName="SecretaryMail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="UserKind" ColumnName="UserKind" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="LastEnteryDate" ColumnName="LastEnteryDate" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserToClasses">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.UserToClass">
+        <MappingFragment StoreEntitySet="UserToClass">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="idClass" ColumnName="idClass" />
+          <ScalarProperty Name="approved" ColumnName="approved" />
+          <ScalarProperty Name="LastDateOfStatusChange" ColumnName="LastDateOfStatusChange" />
+          <ScalarProperty Name="factor" ColumnName="factor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassesJoinUsers">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.ClassesJoinUser">
+        <MappingFragment StoreEntitySet="ClassesJoinUser">
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="SchoolComment" ColumnName="SchoolComment" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="ClassComment" ColumnName="ClassComment" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="approved" ColumnName="approved" />
+          <ScalarProperty Name="LastDateOfStatusChange" ColumnName="LastDateOfStatusChange" />
+          <ScalarProperty Name="factor" ColumnName="factor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProffestionJoinTeachers">
+      <EntityTypeMapping TypeName="TeacherForStudentModel.ProffestionJoinTeacher">
+        <MappingFragment StoreEntitySet="ProffestionJoinTeacher">
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="ProffestionName" ColumnName="ProffestionName" />
+          <ScalarProperty Name="Checked" ColumnName="Checked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ProffestionsToClass" TypeName="TeacherForStudentModel.ProffestionsToClass" StoreEntitySet="ProffestionsToClass">
+      <EndProperty Name="ClassToSchool">
+        <ScalarProperty Name="id" ColumnName="Class" />
+      </EndProperty>
+      <EndProperty Name="Proffestions">
+        <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProffestionToTeacher" TypeName="TeacherForStudentModel.ProffestionToTeacher" StoreEntitySet="ProffestionToTeacher">
+      <EndProperty Name="Proffestions">
+        <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+      </EndProperty>
+      <EndProperty Name="Users">
+        <ScalarProperty Name="UserId" ColumnName="TeacherId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TeacherClassProffestion" TypeName="TeacherForStudentModel.TeacherClassProffestion" StoreEntitySet="TeacherClassProffestion">
+      <EndProperty Name="Proffestions">
+        <ScalarProperty Name="ProffestionId" ColumnName="ProffestioId" />
+      </EndProperty>
+      <EndProperty Name="UserToClass">
+        <ScalarProperty Name="id" ColumnName="UserToClassId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="AddProffestionToTeacher" FunctionName="TeacherForStudentModel.Store.AddProffestionToTeacher" />
+    <FunctionImportMapping FunctionImportName="getClassesJoinUser" FunctionName="TeacherForStudentModel.Store.getClassesJoinUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.getClassesJoinUser_Result">
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="SchoolComment" ColumnName="SchoolComment" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="ClassComment" ColumnName="ClassComment" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="approved" ColumnName="approved" />
+          <ScalarProperty Name="LastDateOfStatusChange" ColumnName="LastDateOfStatusChange" />
+          <ScalarProperty Name="factor" ColumnName="factor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getProffestionsJoinTeacher" FunctionName="TeacherForStudentModel.Store.getProffestionsJoinTeacher">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.getProffestionsJoinTeacher_Result">
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="ProffestionName" ColumnName="ProffestionName" />
+          <ScalarProperty Name="Checked" ColumnName="Checked" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentProffestionsLevelByTeacher" FunctionName="TeacherForStudentModel.Store.GetStudentProffestionsLevelByTeacher">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.GetStudentProffestionsLevelByTeacher_Result">
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="scoring" ColumnName="scoring" />
+          <ScalarProperty Name="a" ColumnName="a" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentsJoinClassToSet" FunctionName="TeacherForStudentModel.Store.GetStudentsJoinClassToSet">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.GetStudentsJoinClassToSet_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="LastDateOfStatusChange" ColumnName="LastDateOfStatusChange" />
+          <ScalarProperty Name="approved" ColumnName="approved" />
+          <ScalarProperty Name="idClass" ColumnName="idClass" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTeachersJoinClassesToSet" FunctionName="TeacherForStudentModel.Store.GetTeachersJoinClassesToSet">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.GetTeachersJoinClassesToSet_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="LastDateOfStatusChange" ColumnName="LastDateOfStatusChange" />
+          <ScalarProperty Name="approved" ColumnName="approved" />
+          <ScalarProperty Name="idClass" ColumnName="idClass" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RemoveProffestionToTeacher" FunctionName="TeacherForStudentModel.Store.RemoveProffestionToTeacher" />
+    <FunctionImportMapping FunctionImportName="ScoringPerPro" FunctionName="TeacherForStudentModel.Store.ScoringPerPro">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.ScoringPerPro_Result">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="pname" ColumnName="pname" />
+          <ScalarProperty Name="cntall" ColumnName="cntall" />
+          <ScalarProperty Name="scoringa" ColumnName="scoringa" />
+          <ScalarProperty Name="scoringb" ColumnName="scoringb" />
+          <ScalarProperty Name="scoringc" ColumnName="scoringc" />
+          <ScalarProperty Name="scoringd" ColumnName="scoringd" />
+          <ScalarProperty Name="scoringe" ColumnName="scoringe" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SortByStudentProffestions" FunctionName="TeacherForStudentModel.Store.SortByStudentProffestions">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.SortByStudentProffestions_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="UserKind" ColumnName="UserKind" />
+          <ScalarProperty Name="ProffestionName" ColumnName="ProffestionName" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="OuestionTitle" ColumnName="OuestionTitle" />
+          <ScalarProperty Name="QuestionContent" ColumnName="QuestionContent" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProffestionId" ColumnName="ProffestionId" />
+          <ScalarProperty Name="QuestionDate" ColumnName="QuestionDate" />
+          <ScalarProperty Name="QuestionView" ColumnName="QuestionView" />
+          <ScalarProperty Name="NumQuestioners" ColumnName="NumQuestioners" />
+          <ScalarProperty Name="cnt" ColumnName="cnt" />
+          <ScalarProperty Name="inc" ColumnName="inc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="TeacherForStudentModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="TeacherForStudentModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="TeacherForStudentModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="TeacherForStudentModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="TeacherForStudentModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="TeacherForStudentModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="TeacherForStudentModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="teacherJoinSchools" FunctionName="TeacherForStudentModel.Store.teacherJoinSchools">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TeacherForStudentModel.teacherJoinSchools_Result">
+          <ScalarProperty Name="idSchool" ColumnName="idSchool" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="idClass" ColumnName="idClass" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

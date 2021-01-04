@@ -1,0 +1,204 @@
+
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+div,a{
+    text-align: center;
+    font-size: large;
+}
+app-question-to-answer{
+    text-align: center;
+    font-size: large;
+}
+.question{
+    width: 50%;
+    height: 40%;
+    background: #1f5f681c;
+    margin: 5px 0 0;
+    border-radius: 5px;
+    overflow: scroll;
+    max-height: 60vh;
+    overflow-x: hidden;
+}
+#comment{
+    background-color: #82a6ab9e;
+    width: 17%;
+    border-radius: 10%;
+    margin-top: -5%;
+}
+mat-expansion-panel{
+    width: 90%;
+    margin-right: 5%;
+}
+
+#userAsk{
+    background-color: #82a6ab6b;
+    width: 70%;
+    border-radius: 3px;
+    height: 40px;
+    margin-bottom: -6.7%;
+    margin-top: -1%;
+}
+#backToQuestions{
+    color: black;
+    float: left;
+    padding: 1%;
+    text-decoration: none;
+    margin-left: 2%;
+}
+#postCQ{
+    width: 90%;
+    margin-right: 5%;
+    margin-top: 13%;
+}
+#CommentsQ{
+    width: 90%;
+    margin-right: 5%;
+}
+#buttonLike{
+    float: left;
+    border: #e6edee;
+    background-color: #f1f3f4;
+    margin-left: 2%;
+    margin-top: -8%;
+}
+button.mat-primary {
+    color: #ffc000;
+    background-color: #628f9624;
+}
+#commentsDetails{
+    font-size: medium;
+    text-align: right;
+    padding: 3%;
+    background-color: #cad9db57;
+    border-radius: 10px;
+    padding: 2%;
+}
+#commentQ{
+    overflow: scroll;
+    max-height: 15vh;
+    overflow-x: hidden;
+    font-size: medium;
+    text-align: right;
+}
+mat-expansion-panel-header{
+    background-color: rgb(203 218 220);
+}
+.mat-expansion-panel-body {
+    padding: 4%;
+}
+.noComments{
+    padding: 2%;
+    background: #e6edee;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+#errPostCommentQ{
+    color: red;
+    font-size: initial;
+}
+#importantQ{
+    margin-left: 3%;
+    color: #f9c559;
+    float: left;
+    margin-top: -3%;
+    cursor: pointer;
+  }
+  #notImportantQ{
+    margin-left: 3%;
+    color: gray;
+    float: left;
+    margin-top: -3%;
+  }
+
+  .mat-drawer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: 3%;
+    margin-right: 114px;
+    width: 40% !important;
+  }
+  mat-drawer{
+    overflow-x: hidden;
+    transform: none;
+    visibility: visible;
+  }
+  mat-drawer-inner-container {
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+    /* -webkit-overflow-scrolling: touch; */
+    margin-right: 25%;
+    overflow-x: hidden !important;
+}
+.mat-select-arrow-wrapper {
+    display: none;
+    vertical-align: middle;
+}
+mat-drawer-container{
+    width: 19.5%;
+    background: #e6edee !important;
+    margin-top: 0.5%;
+}
+
+.mat-select {
+    width: 100%;
+    outline: none;
+    display: none;
+}
+
+#buttonP{
+    margin-top: 5%;
+    background: #cbdadc;
+    margin-right: -55%;
+}
+
+
+
+.mat-raised-button:not([class*=mat-elevation-z]) {
+box-shadow: none !important
+}
+#comments{
+    width: 57.5%;
+    margin-top: -7.1%;
+    margin-right: 22.2%;
+}
+h1>.q-title
+{
+    padding: 20px 25px;
+    text-align: right;
+}
+.question-contect h1{
+    margin: -20px 0;
+
+}
+h1 p{
+    margin: 0;
+}
+::ng-deep .mat-divider
+{
+    margin: -20px 0 10px!important;
+    box-shadow: inset #f2f2f2 1px 1px 4px 7px!important;
+    height: 1px!important;
+}
+#back{
+    background: white;
+    float: left;
+    margin-left: 5% !important;
+    padding: 0.5%;
+    border-radius: 100px;
+    border: black solid;
+    margin: 1%;
+    cursor: pointer;
+}
+.currentUser{
+    margin-right: -55%;
+    font-size: small;
+}

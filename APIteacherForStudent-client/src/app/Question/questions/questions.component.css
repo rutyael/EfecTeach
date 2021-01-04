@@ -1,0 +1,100 @@
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #fbc65a;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle{
+  background-color: #fbc65a;
+}
+.mat-expansion-panel-body {
+  padding: 0 100px 1px;
+}
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+#wrapperSelect{
+  display: flex;
+  padding: 1%;
+}
+
+.mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary {
+  color: #ffbb30;
+  background-color: #1f5f68;
+  height: 20%;
+  margin-top: 24%;
+}
+#buttonTeacherWatches{
+height: 7%;
+margin-top: 1%;
+margin-right: 3%;
+
+}
+.optionTosort{
+line-height: 5;
+}
+.titleSort{
+  font-size: large;
+  color: #487c83;
+  margin: auto;
+  margin-right: 8%;
+}
+.titleFilter{
+  font-size: large;
+  color: #487c83;
+  margin: auto;
+  margin-right: 10%;
+}
+
+mat-progress-bar ::ng-deep .mat-progress-bar-fill::after {
+background: linear-gradient(to left,#1f5f683b,#1f5f68,#1f5f6800);
+}
+mat-progress-bar ::ng-deep .mat-progress-bar-secondary.mat-progress-bar-fill::after {
+background: linear-gradient(to left,#ffbb3073,#ffbb30,#ffbb3059); 
+}
+
+body{
+  width: 50%;
+}
+#questions{
+  width: 80%;
+  margin-right: 9%;
+  background-color: #41777f05;
+}
+mat-expansion-panel-header{
+  background-color: #3770783b;
+}
+.SelectOptionsSort{
+  margin-right: 6%;
+}
+.iconsSort{
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  width: 24px;
+  margin-right: -10%;
+}
+#Empty{
+  text-align: center;
+  font-size: large;
+  padding: 15%;
+  background: #6e989d70;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-ripple .mat-ripple-element {
+  opacity: 0.03 !important;
+  background-color: #1f5f68e6!important;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #1f5f68e6;
+}
+
+
+
+
+
+
+
+

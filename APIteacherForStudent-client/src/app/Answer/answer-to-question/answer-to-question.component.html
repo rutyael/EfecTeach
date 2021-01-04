@@ -1,0 +1,6 @@
+
+
+<app-text-editor (contect)="SetAnswer($event)"></app-text-editor>
+<div style="color: red">{{Noanswer}}</div>
+<div class="p-button"><button [disabled]="ifDisablePost" (click)="postAnswer()" id="ButtonPostAnswer" color="primary">הוסף תשובה לשאלה זו</button></div>
+

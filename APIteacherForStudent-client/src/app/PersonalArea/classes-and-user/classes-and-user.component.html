@@ -1,0 +1,104 @@
+<div *ngIf="whoami=='teacher'">
+    <div id="wrapper">
+        <mat-accordion *ngFor="let school of classesAndUsers|keyvalue" multi>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-icon>school</mat-icon>
+                    <mat-panel-title>
+                        <b style="margin-left: 3%;">שם המוסד: </b>{{ReturnSchoolName(school)}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div>
+                    <!-- ////////////////////////// -->
+                    <div class="class">
+                        <!-- <div class="class-header">
+                            כיתה {{className}} 
+                        </div> -->
+                        <div style="display: block !important;" class="teachers" *ngFor="let class of school.value|keyvalue">
+                            <div style="width: 100% !important;" class="class-header">
+                                <div>{{ReturnClassName(class.value[0].className)}}</div>
+                            </div>
+                            <table mat-table [dataSource]="class.value" class="mat-elevation-z8">
+                                <ng-container matColumnDef="studentName">
+                                    <th mat-header-cell *matHeaderCellDef> שם התלמיד</th>
+                                    <td mat-cell *matCellDef="let use">{{use.UserName}}</td>
+                                </ng-container>
+                                <ng-container matColumnDef="studentNail">
+                                    <th mat-header-cell *matHeaderCellDef> כתובת התלמיד </th>
+                                    <td mat-cell *matCellDef="let use">{{use.UserMail}} </td>
+                                </ng-container>
+                                <ng-container matColumnDef="studentLevel">
+                                    <th mat-header-cell *matHeaderCellDef>רמה לימודית </th>
+                                    <td mat-cell *matCellDef="let use">{{ifNaN(use.EducationalLevel)}}</td>
+                                </ng-container>
+                                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /////////////////// -->
+                </div>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+    <div><button routerLink="/userDetails" routerLinkActive="Activelink" mat-button color="primary">פרטים
+            נוספים</button></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div *ngIf="whoami=='student'&&!Loading">
+    <div style="display: flex">
+        <div class="users" style="margin-right: 5%;margin-left: 1%;">
+            <div class="class-header">
+                <b>חברים לכיתה שלך</b>
+            </div>
+            <div style="display: flex !important;" class="teachers">
+                <div id="Users" *ngFor="let user of schoolToStudent.users">
+                    <div id="user">
+                        <mat-icon class="icon">account_circle</mat-icon>
+                        <p>{{user.UserName}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="users">
+            <div class="class-header">
+                <b>המורים שלך</b>
+            </div>
+            <div style="display: flex !important;" class="teachers">
+                <div id="Users" *ngFor="let user of schoolToStudent.teachers">
+                    <div id="user">
+                        <mat-icon class="icon">account_circle</mat-icon>
+                        <p>{{user.UserName}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="secretary">
+        <div><b style="margin-left: 2%;">שם המוסד שלך:</b> {{schoolToStudent.SchoolName}}</div>
+        <div><b style="margin-left: 2%;">שם מזכיר המוסד:</b>{{schoolToStudent.secretary.SecretaryName}}</div>
+    </div>
+    <div><button routerLink="/userDetails" routerLinkActive="Activelink" mat-button color="primary">פרטים
+            נוספים</button></div>
+</div>
+
+<div *ngIf="whoami=='another'&&!Loading">
+    <app-user-details></app-user-details>
+</div>
+

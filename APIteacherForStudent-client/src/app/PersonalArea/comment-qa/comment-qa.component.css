@@ -1,0 +1,52 @@
+
+  #EmptyComment{
+    text-align: center;
+    font-size: large;
+    padding: 5%;
+    background: #37707829;
+    margin: 10%;
+  }
+  a{
+    cursor: pointer;
+    color: black;
+}
+#itemDetailsComment{
+  display: flex;
+  padding: 2%;
+  background: #37707829;
+  margin: 2%;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.itemTD{
+  text-align: center;
+  margin-right: 11%;
+}
+.title{
+  font-size: larger;
+  margin-right: 3.5%;
+}
+#commentContent{
+  text-align: center;
+  background: #f7f7f7;
+  margin: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 10px;
+  margin-top: -1.9%;
+}
+#titels{
+  display: flex;
+  margin: 2%;
+  margin-right: 13%;
+}
+mat-divider{
+  box-shadow: 0 1px black !important;
+  display: block;
+  margin: 0 !important;
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}

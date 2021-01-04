@@ -1,0 +1,48 @@
+<div id="Empty" *ngIf="schoolsDetailsGroup=={}">לא נמצאו נתונים מתאימים</div>
+<div id="wrraper" *ngIf="!Loading&&schoolsDetailsGroup!={}">
+    <mat-accordion *ngFor="let school of schoolsDetailsGroup|keyvalue" multi>
+        <mat-expansion-panel id="school" [disabled]="!ifITeacher()" hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div style="display: flex">
+                        <mat-icon style="float: left">school</mat-icon>
+                        <div class="school"><b style="margin-right: 4%;"> שם המוסד:</b> {{school.value[0].SchoolName}} </div>
+                        <div style="margin-left: -9%;" class="school"><b style="margin-right: 4%;"> עיר המוסד:</b> {{school.value[0].cityName}}</div>
+                    </div>
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div>
+                <!-- ////////////////////////// -->
+                <div class="class">
+                    <div class="teachers">
+                        <table mat-table id="tableTeachers" [dataSource]="school.value[0].teachers"
+                            class="mat-elevation-z8">
+                            <ng-container matColumnDef="UserName">
+                                <th mat-header-cell *matHeaderCellDef> שם המורה</th>
+                                <td mat-cell *matCellDef="let use">{{use.UserName}}</td>
+                            </ng-container>
+                            <ng-container matColumnDef="UserMail">
+                                <th mat-header-cell *matHeaderCellDef>כתובת מייל המורה </th>
+                                <td mat-cell *matCellDef="let use">{{use.UserMail}} </td>
+                            </ng-container>
+                            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+                    </div>
+                    <div id="secretary">
+                        <b>שם המזכיר:</b> {{school.value[0].secretary.SecretaryName}}<b> כתובת מייל המזכיר:</b>
+                        {{school.value[0].secretary.SecretaryMail}}
+                    </div>
+                </div>
+                <!-- /////////////////// -->
+            </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+<a *ngIf="whoami!='another'" id="back" (click)="backClicked()">
+    <mat-icon>keyboard_backspace</mat-icon>
+</a>

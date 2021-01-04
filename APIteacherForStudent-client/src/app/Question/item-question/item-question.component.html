@@ -1,0 +1,25 @@
+
+<mat-list-item  role="listitem">
+  <div class="itemQuestion">
+    <div class="details">  
+          <div class="language"><p>{{question.ProffestionName}}</p></div>
+          <div id="detailsQ">
+            <div><p class="pTitle"><b><mat-icon style="float: right;margin-top: -10%;">date_range</mat-icon>בתאריך :</b></p><p style="width: 141%;margin-right: -28%;">{{question.QuestionDate|date:'short'}}</p></div>
+            <div id="numQuestioners" style="display: flex"><p class="pTitle"><b>מס' שואלים:</b></p><p style="margin-right: 3%;">{{question.NumQuestioners}}</p></div>
+            <div style="margin-top: 20%;font-size: smaller;"><b>מס' צפיות: {{question.QuestionView}}</b></div>
+        </div>
+     </div> 
+      <div class="content"  style="display: table-cell;">
+         <div style="margin-right: 15px;" routerLink="/Editquestion/{{question.QuestionId}}" routerLinkActive="active-link"><p><b>{{question.OuestionTitle}}</b></p></div>
+         <div id="content" [innerHtml]="questionSlice">
+          <p>{{ifTwoLong}}</p>
+        </div>     
+      </div>
+     <div id="numAnswers">{{question.numAnswers}} תשובות</div>
+     <mat-icon matTooltip="שאלה חשובה" *ngIf="question.ifImportant" id="importantQ">label_important</mat-icon>
+     <!-- <mat-icon matTooltip="שאלה אינה חשובה" *ngIf="!question.ifImportant" id="notImportantQ">label_important</mat-icon> -->
+     <button id="buttonLike" [disabled]="askQuestion" (click)="AskCurrentQuestion()"><div matTooltip="גם אני מתענין בשאלה זו" ><mat-icon>thumb_up_alt</mat-icon></div></button>
+      <div class="p-button"><button (click)="PlusQuestionView()" mat-stroked-button color="warn" routerLink="/Editquestion/{{question.QuestionId}}" routerLinkActive="active-link">עיין בשאלה</button></div>
+  </div>
+</mat-list-item>
+<mat-divider style="margin-top: 1% !important;"></mat-divider>

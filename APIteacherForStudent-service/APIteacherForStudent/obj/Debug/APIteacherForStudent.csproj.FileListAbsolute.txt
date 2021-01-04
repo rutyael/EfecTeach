@@ -1,0 +1,960 @@
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.rsp
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.rsp
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.AppContext.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Console.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Compression.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Claims.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.ValueTuple.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.rsp
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Win32.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\netstandard.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.AppContext.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Concurrent.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.NonGeneric.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Specialized.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.TypeConverter.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Console.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Data.Common.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Contracts.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Debug.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Process.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.StackTrace.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tools.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TraceSource.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tracing.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Drawing.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Dynamic.Runtime.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Calendars.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Extensions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.ZipFile.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Watcher.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.IsolatedStorage.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.MemoryMappedFiles.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Pipes.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Expressions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Parallel.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Queryable.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NameResolution.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NetworkInformation.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Ping.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Requests.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Security.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Sockets.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebHeaderCollection.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.Client.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ObjectModel.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Extensions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Reader.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.ResourceManager.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Writer.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Extensions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Handles.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Numerics.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Formatters.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Json.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Xml.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Claims.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Algorithms.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Csp.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Encoding.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Principal.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Security.SecureString.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.Extensions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Text.RegularExpressions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Overlapped.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Parallel.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Thread.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.ThreadPool.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Timer.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ValueTuple.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.ReaderWriter.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XDocument.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlDocument.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlSerializer.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.XDocument.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\BL.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\MvcWebApiCors.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Annotations.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Cors.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\WebGrease.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\BL.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\BL.dll.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DTO.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DAL.pdb
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll.config
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csprojAssemblyReference.cache
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CoreCompileInputs.cache
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CopyComplete
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.dll
+D:\Users\רותי\Desktop\teacherForStudent\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.rsp
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.rsp
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Console.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.rsp
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\netstandard.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.AppContext.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Concurrent.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.NonGeneric.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Specialized.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Console.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Data.Common.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Contracts.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Debug.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Process.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tools.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TraceSource.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tracing.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Drawing.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Dynamic.Runtime.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Calendars.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Extensions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.IsolatedStorage.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Pipes.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Expressions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Parallel.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Queryable.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NameResolution.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NetworkInformation.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Ping.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Requests.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Security.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Sockets.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebHeaderCollection.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.Client.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ObjectModel.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Extensions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Reader.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.ResourceManager.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Writer.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Extensions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Handles.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Numerics.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Json.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Claims.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Csp.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Principal.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Security.SecureString.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.Extensions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Text.RegularExpressions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Overlapped.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Thread.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.ThreadPool.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Timer.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ValueTuple.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.ReaderWriter.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XDocument.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlDocument.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlSerializer.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\BL.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\MvcWebApiCors.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Cors.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\WebGrease.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\BL.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\BL.dll.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DTO.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DAL.pdb
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll.config
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CopyComplete
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.dll
+C:\Users\PC\Desktop\פרויקט גמר\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csprojAssemblyReference.cache
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.rsp
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.rsp
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Console.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.rsp
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\netstandard.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.AppContext.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Concurrent.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.NonGeneric.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Specialized.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Console.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Data.Common.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Contracts.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Debug.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Process.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tools.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TraceSource.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tracing.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Drawing.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Dynamic.Runtime.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Calendars.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Extensions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.IsolatedStorage.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Pipes.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Expressions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Parallel.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Queryable.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NameResolution.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NetworkInformation.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Ping.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Requests.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Security.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Sockets.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebHeaderCollection.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.Client.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ObjectModel.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Extensions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Reader.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.ResourceManager.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Writer.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Extensions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Handles.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Numerics.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Json.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Claims.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Csp.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Principal.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Security.SecureString.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.Extensions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Text.RegularExpressions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Overlapped.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Thread.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.ThreadPool.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Timer.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ValueTuple.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.ReaderWriter.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XDocument.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlDocument.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlSerializer.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\BL.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\MvcWebApiCors.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Annotations.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Cors.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\WebGrease.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\BL.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\BL.dll.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DTO.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DAL.pdb
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll.config
+C:\Users\PC\Downloads\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CopyComplete
+E:\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\APIteacherForStudent.pdb
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.exe.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csc.rsp
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.exe.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\csi.rsp
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.AppContext.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Collections.Immutable.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Console.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Compression.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.IO.Pipes.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Reflection.Metadata.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.AccessControl.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Claims.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Security.Principal.Windows.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.ValueTuple.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.exe.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\vbc.rsp
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe
+E:\APIteacherForStudent\APIteacherForStudent\bin\roslyn\VBCSCompiler.exe.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Win32.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\netstandard.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.AppContext.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Concurrent.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.NonGeneric.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Specialized.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.EventBasedAsync.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.TypeConverter.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Console.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Data.Common.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Contracts.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Debug.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.FileVersionInfo.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Process.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.StackTrace.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tools.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.TraceSource.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.Tracing.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Drawing.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Dynamic.Runtime.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Calendars.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Globalization.Extensions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Compression.ZipFile.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.DriveInfo.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.FileSystem.Watcher.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.IsolatedStorage.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.MemoryMappedFiles.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.Pipes.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.IO.UnmanagedMemoryStream.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Expressions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Parallel.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Linq.Queryable.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NameResolution.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.NetworkInformation.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Ping.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Requests.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Security.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Sockets.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebHeaderCollection.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.Client.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.WebSockets.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ObjectModel.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Extensions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Reflection.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Reader.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.ResourceManager.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Resources.Writer.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Extensions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Handles.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Numerics.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Formatters.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Json.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.Serialization.Xml.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Claims.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Algorithms.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Csp.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Encoding.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Cryptography.X509Certificates.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.Principal.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Security.SecureString.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Text.Encoding.Extensions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Text.RegularExpressions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Overlapped.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Parallel.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Thread.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.ThreadPool.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Timer.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ValueTuple.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.ReaderWriter.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XDocument.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlDocument.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XmlSerializer.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Xml.XPath.XDocument.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\BL.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Web.Infrastructure.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\MvcWebApiCors.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.ComponentModel.Annotations.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Cors.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\WebGrease.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll
+E:\APIteacherForStudent\APIteacherForStudent\bin\BL.pdb
+E:\APIteacherForStudent\APIteacherForStudent\bin\BL.dll.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\DTO.pdb
+E:\APIteacherForStudent\APIteacherForStudent\bin\DTO.dll.config
+E:\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\EntityFramework.SqlServer.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Bcl.HashCode.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Configuration.Binder.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Options.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.Extensions.Primitives.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Buffers.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Collections.Immutable.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Diagnostics.DiagnosticSource.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Memory.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Net.Http.Formatting.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Numerics.Vectors.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Threading.Tasks.Extensions.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.Cors.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Newtonsoft.Json.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Helpers.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Http.WebHost.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Mvc.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Optimization.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.Razor.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Deployment.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\System.Web.WebPages.Razor.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\Antlr3.Runtime.pdb
+E:\APIteacherForStudent\APIteacherForStudent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\APIteacherForStudent\APIteacherForStudent\bin\DAL.pdb
+E:\APIteacherForStudent\APIteacherForStudent\bin\DAL.dll.config
+E:\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csprojAssemblyReference.cache
+E:\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CoreCompileInputs.cache
+E:\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.csproj.CopyComplete
+E:\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.dll
+E:\APIteacherForStudent\APIteacherForStudent\obj\Debug\APIteacherForStudent.pdb

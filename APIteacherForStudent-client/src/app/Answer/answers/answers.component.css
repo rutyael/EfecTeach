@@ -1,0 +1,203 @@
+pre{
+    overflow: auto;
+}
+p{
+    font-size: inherit !important;
+}
+pre::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--scrollbar);
+}
+#answerToQuestion{
+    width: 50%;
+    height: 40%;
+    background: #1f5f681c;
+    margin: 5px 0 0;
+    border-radius: 5px;
+    overflow: scroll;
+    max-height: 60vh;
+    overflow-x: hidden;
+    margin-bottom: 5%;
+    min-height: 30vh;
+}
+mat-expansion-panel{
+    width: 35%;
+    /* margin-top: 18%; */
+    margin-right: 30%;
+}
+/* #userAns{
+    background-color: #82a6ab6b;
+    width: 10%;
+    margin-right: 75%;
+    border-radius: 3px;
+    height: 50px;
+    margin-bottom: -6.2%;
+} */
+#postCA{
+    margin-right: 3%;
+    width: 90%;
+    margin-right: 5%;
+}
+#commentsA{
+
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 90%;
+
+}
+#numQ{
+    font-size: x-large !important;
+    margin-top: 5%;
+}
+span{
+    text-align: center;
+}
+#commentA{
+    overflow: scroll;
+    max-height: 15vh;
+    overflow-x: hidden;
+    font-size: medium;
+}
+#commentDetailsA{
+
+    font-size: medium;
+    text-align: right;
+    padding: 3%;
+    background-color: #cad9db57;
+    border-radius: 10px;
+    padding: 2%;
+}
+.noComments{
+    padding: 2%;
+    background: #e6edee;
+    margin-top: 3%;
+    border-radius: 10px;
+    font-size: large !important;
+    text-align: center;
+}
+mat-expansion-panel-header{
+    background: #cbdadc;
+}
+button.mat-primary {
+    color: #ffc000;
+    background-color: #628f9624;
+    margin-right: 45%;
+}
+#errPostComment{
+    color: red;
+    font-size: initial;
+}
+#icons{
+    float: left;
+    display: grid;
+    margin-top: -18%;
+    padding: 2%;
+  }
+  #popularIcon{
+    font-size: x-large;
+    margin-bottom: 80%;
+    cursor: pointer;
+    color: #fcc75b;
+    margin-top: 350%;
+    margin-left: 2%;
+  }
+  #efectiveIcon{
+    font-size: x-large;
+    cursor: pointer;
+    color: #fcc75b;
+    float: right;
+    margin-left: 2%;
+    margin-top: -30%;
+  }
+  #NotPopularIcon{
+    font-size: x-large;
+    margin-bottom: 80%;
+    cursor: pointer; 
+    color: gray;
+    margin-top: 350%;
+    margin-left: 2%;
+  }
+  #NotEfectiveIcon{
+    font-size: x-large;
+    cursor: pointer;
+    color: gray;
+    float: right;
+    margin-left: 2%;
+    margin-top: -30%;
+  }
+  #comments{
+    width: 58.5%;
+    margin-top: -3.7%;
+    margin-right: 23.1%;
+    z-index: 30;
+  }
+
+#askName{
+    font-size: initial;
+    margin-top: -30%;
+    text-align: center;
+}
+
+  #userAsk{
+    background-color: #82a6ab6b;
+    width: 70%;
+    /* margin-right: 75%; */
+    border-radius: 3px;
+    height: 40px;
+    margin-bottom: -6.7%;
+    margin-top: -1%;
+}
+  .mat-drawer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: -10%;
+    margin-right: 15%;
+    width: 100% !important;
+  }
+  mat-drawer{
+    overflow-x: hidden;
+    transform: none;
+    visibility: visible;
+  }
+  .mat-drawer-inner-container {
+    width: 75%;
+    height: 100%;
+    overflow: auto; 
+    -webkit-overflow-scrolling: touch;
+    margin-right: 25%;
+    overflow-x: hidden;
+}
+.mat-select-arrow-wrapper {
+    display: none;
+    vertical-align: middle;
+}
+mat-drawer-container{
+    width: 16.5%;
+    background: #dae3e5 !important;
+    margin-top: 0.5%;
+    z-index: 0;
+}
+
+.mat-select {
+    width: 100%;
+    outline: none;
+    display: none;
+}
+
+#buttonP{
+    margin-top: 5%;
+    box-shadow: none;
+    margin-right: 5%;
+    background: #bfcccd;
+}
+#wrapper{
+    display: flex;
+    margin-right: 26%;
+    width: 75%;
+}
+.currentUser{
+    margin-right: 15% !important;
+    font-size: small !important;
+}

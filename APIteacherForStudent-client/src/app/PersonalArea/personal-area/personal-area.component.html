@@ -1,0 +1,58 @@
+<p class="welcome" *ngIf="GetUserStatus()=='אחר'">ברוך הבא {{GetUserName()}} לאיזור האישי שלך</p>
+
+<p class="welcome" *ngIf="GetUserStatus()!='אחר'">ברוך הבא {{GetUserName()}} ה{{GetUserStatus()}} לאיזור האישי שלך</p>
+<div style="display: flex">
+
+    <div>
+        <div class="personalDetails" *ngIf="GetUserStatus()=='תלמיד'">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/149/149452.svg">
+            <b style="font-size: large;">{{userEnter.UserName}} התלמיד</b><br />
+            <div style="margin-top: 10%;">
+                <p>{{userEnter.UserMail}}</p><br />
+                <p>הכיתה שלי: {{schoolStudent}}</p><br />
+                <p>המוסד שלי: {{classStudent}}</p>
+            </div>
+        </div>
+
+        <div class="personalDetails" *ngIf="GetUserStatus()!='תלמיד'||GetUserStatus()=='אחר'">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/149/149452.svg">
+            <p class="textDetais"><b style="font-size: large;">{{userEnter.UserName}} <p *ngIf="GetUserStatus()!='אחר'">ה{{GetUserStatus()}}</p></b></p><br />
+            <div style="margin-top: 10%;">
+                <p class="textDetais">{{userEnter.UserMail}}
+            </div>
+        </div>
+    </div>
+
+
+    <mat-tab-group #tabGroup (selectedTabChange)="tabChanged($event)" animationDuration="0ms">
+        <mat-tab *ngIf="GetUserStatus()=='מורה'" label="כיתות ותלמידים שלך החברים במערכת">
+            <app-classes-and-user></app-classes-and-user>
+        </mat-tab>
+        <mat-tab *ngIf="GetUserStatus()=='תלמיד'" label="חברים מהמוסד שלך">
+            <app-classes-and-user (classStudent)="ClassStudent($event)" (schoolStudent)="SchoolStudent($event)">
+            </app-classes-and-user>
+        </mat-tab>
+        <mat-tab *ngIf="GetUserStatus()=='אחר'" label=" פרטים על החברים במערכת">
+            <app-user-details></app-user-details>
+        </mat-tab>
+        <mat-tab label="תשובות שענית ופידבקים שנתנו לך">
+            <app-answer-and-opinion></app-answer-and-opinion>
+        </mat-tab>
+        <mat-tab label="תשובות שענו על שאלות ששאלת">
+            <app-answers-to-questions></app-answers-to-questions>
+        </mat-tab>
+        <mat-tab label="שאלות ששאלת">
+            <app-questions-user-asked></app-questions-user-asked>
+        </mat-tab>
+        <mat-tab label="הערות על שאלות ששאלת">
+            <app-comment-qa></app-comment-qa>
+        </mat-tab>
+        <mat-tab label="הערות על תשובות שענית">
+            <app-comment-qa></app-comment-qa>
+        </mat-tab>
+        <mat-tab *ngIf="GetUserStatus()=='תלמיד'" label="ציונים למקצועות שלך">
+            <app-student-marks></app-student-marks>
+        </mat-tab>
+    </mat-tab-group>
+
+</div>

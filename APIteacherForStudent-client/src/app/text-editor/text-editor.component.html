@@ -1,0 +1,11 @@
+<link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
+<div class="wrapper">
+    <form [formGroup]="EditorForm" >
+        <div class="form-group">
+        <quill-editor formControlName="editor" 
+        [styles]="editorStyle" 
+        [modules]="modules" 
+        (onContentChanged)="onContentChanged($event)"></quill-editor>
+        </div>  
+    </form>
+</div>

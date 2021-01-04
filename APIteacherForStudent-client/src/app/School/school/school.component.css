@@ -1,0 +1,24 @@
+.school
+{
+    height: 100%;
+}
+.nested-toolbar
+{
+    height: 60px;
+    margin: -20px;
+    padding-top: 30px;
+    background: #437980c4;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+.nested-toolbar-container{
+    margin-top: -0.5%;
+    margin-right: 5%;
+}
+.buttonNested
+{
+    box-shadow: none;
+    margin: 10px;
+    color: #ffc000;
+    background: #367078;
+}

@@ -1,0 +1,33 @@
+
+<div id="Empty" *ngIf="ifEmpty">לא נמצאו שאלות מתאימות</div>
+<table *ngIf="!ifEmpty" mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="QuestionTitle">
+      <th mat-header-cell *matHeaderCellDef> כותרת השאלה </th>
+      <td mat-cell *matCellDef="let element"><a routerLink="/EditquestionPersonal/{{element.QuestionId}}"
+          routerLinkActive="active-link"> {{ifQuestionLong(element.OuestionTitle)}} </a></td>
+    </ng-container>
+  
+    <ng-container matColumnDef="QuestionDate">
+      <th mat-header-cell *matHeaderCellDef> תאריך העלאת השאלה </th>
+      <td mat-cell *matCellDef="let element"> {{element.QuestionDate|date}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="ProffestionName">
+      <th mat-header-cell *matHeaderCellDef> שפת פיתוח </th>
+      <td mat-cell *matCellDef="let element"> {{element.ProffestionName}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="QuestionView">
+      <th mat-header-cell *matHeaderCellDef> מספר צופים </th>
+      <td mat-cell *matCellDef="let element"> {{element.QuestionView}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="NumQuestioners">
+      <th mat-header-cell *matHeaderCellDef> מספר שואלים </th>
+      <td mat-cell *matCellDef="let element"> {{element.NumQuestioners}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

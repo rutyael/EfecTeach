@@ -1,0 +1,77 @@
+<div class="wrapper">
+  <mat-card *ngIf="!Loading">
+    <mat-card-title *ngIf="firstEntering">כמעט סיימנו.....</mat-card-title>
+    <mat-card-content>
+      <mat-tab-group animationDuration="0ms" [selectedIndex]="tabIndex"
+        (selectedIndexChange)="informChange($event.index)">
+        <mat-tab label="סמן שפות" *ngIf="IsTeacher">
+          <form (ngSubmit)="PutLanguage()" class="pro-form">
+            <mat-selection-list>
+              <mat-list-option *ngFor="let pro of proffestions" (click)="SetpProChecked(pro)"
+                [selected]="pro.Checked=='T'|| pro.Checked=='A'">
+                {{pro.ProffestionName}}
+              </mat-list-option>
+            </mat-selection-list>
+            <div class="p-button"><button mat-stroked-button type="submit" [disabled]="NoneProChoosen()">החל</button></div>
+          </form>
+        </mat-tab>
+        <mat-tab label="סמן מקומות לימוד">
+          <form class="cl-form" (ngSubmit)="PutClasses()">
+            <div class="schoolTree">
+              <div *ngFor="let school of schools">
+                <div class="node">
+                  <button mat-icon-button class="show" (click)="show(school[0],school[1][0].toggle)" type="button">
+                    <p class="icon"
+                      [ngStyle]="{'transform': school[1][0].toggle=='close'?'rotate(-90deg)':'rotate(180deg)'}">^</p>
+                  </button>
+                  <div class="school">
+                    <mat-checkbox name="school" class="school" [checked]="school[1][0].allComplete"
+                      [indeterminate]="someComplete(school[0])" (change)="setAll(school[0])" *ngIf="IsTeacher">
+                      {{GetNameById(school[0])}}
+                    </mat-checkbox>
+                    <div class="s-content">
+                      <p *ngIf="!IsTeacher" [ngClass]="{'s-school':StudentClass&&StudentClass.s_id==school[0]}">
+                        {{GetNameById(school[0])}} </p>
+                      <label class="comment">{{GetCommentById(school[0])}}</label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  [ngClass]="{'children':true, 'open':school[1][0].toggle=='open','close':school[1][0].toggle=='close'}">
+                  <ul>
+                    <li *ngFor="let class of school[1]">
+                      <div class="class">
+                        <div class="teacher" *ngIf="IsTeacher">
+                          <mat-checkbox name="class.c_id" (change)="SetClassChcked(class)" [checked]="GetChecked(class)"
+                            (ngModelChange)="updateAllComplete(school[0])">
+                            {{class.c_name}}
+                          </mat-checkbox>
+                          <div *ngIf="IsTeacher">
+                            <button mat-icon-button (click)="EditTeachrClass(class)" type="button">
+                              <mat-icon matTooltip="ערוך שפות">edit</mat-icon>
+                            </button></div>
+                        </div>
+                        <div class="student" *ngIf="!IsTeacher">
+                          <mat-radio-button value="class" [checked]="StudentClass&&StudentClass.c_id==class.c_id"
+                            (click)="SetStudenClass(class)"> {{class.c_name}}</mat-radio-button>
+                        </div>
+                        <label class="comment">{{class.c_comment}}</label>
+                        <label class="c-req"><span
+                            *ngIf="GetApproved(class).length!=0">{{GetApproved(class)}}</span></label>
+                      </div>
+                    </li>
+                  </ul>
+                  <mat-divider></mat-divider>
+                </div>
+              </div>
+            </div>
+            <div class="p-button"><button mat-stroked-button type="submit"
+                [disabled]="(StudentClass==null&&!IsTeacher)||(IsTeacher&&NoneClassChoosen())">{{GetAction()}}</button></div>
+          </form>
+        </mat-tab>
+      </mat-tab-group>
+      <div class="s-button" (click)="relativeTo()" *ngIf="IsTeacher"><button mat-stroked-button
+          color="warn">סיימתי</button></div>
+    </mat-card-content>
+  </mat-card>
+</div>

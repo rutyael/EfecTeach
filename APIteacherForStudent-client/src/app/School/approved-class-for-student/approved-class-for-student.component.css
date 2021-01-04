@@ -1,0 +1,132 @@
+th{
+    border-bottom: #6e979c solid 2px;
+    width: 28.33%;
+    text-align: center!important;
+    font-size: 1.1em;
+}
+th:last-child
+{
+    width: 15%;
+    padding-right: 24px;
+}
+th:first-child, td:first-child
+{
+    padding-left: 24px!important;
+}
+.teachers
+{
+    margin: auto;
+    /* margin-right: auto; */
+    width: 60%;
+}
+.mat-table
+{
+    width: 100%;
+    border: #afc6c9 solid 0.5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: none;
+    margin-top: 10px;
+}
+td:last-child
+{
+    padding-left: 0;
+    padding-right: 24px!important;
+}
+td{
+    text-align: center!important;
+}
+.mat-checkbox ::ng-deep .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background
+{
+    background:#fdc656 !important;
+
+}
+.student-list
+{
+    margin-top: 40px;
+}
+.class-header
+{
+    width: 59.8%;
+    margin: auto;
+    /* background: red; */
+    height: 30px;
+    padding-top: 7px;
+    margin-bottom: 5px;
+    /* border: #367078 solid 1px; */
+    /* border-radius: 3px; */
+    box-shadow: #cbcbcb 0px 1px 2px 0px;
+    background: #f4f4f4;
+    border: #7fa4a9 double;
+}
+.class-header label
+{
+    margin-right: 15px;
+}
+::ng-deep .mat-header-row
+{
+    height: 30px!important;
+    font-size: 0.9em;
+}
+th:first-child
+{
+    background: #367078;;
+}
+th:nth-child(2)
+{
+    background: #367078b8
+}
+th:nth-child(3)
+{
+    background: #367078a3;
+}
+th:nth-child(4)
+{
+    
+    
+    background: #36707866;
+}
+.class{
+    margin: 15px;
+    margin-top: 40px;
+}
+.submit
+{
+    margin: 15px;
+}
+.submit a
+{
+    width: 60%;
+    margin: 0 50%;
+    margin-right: 20%;
+    box-shadow: none;
+    border: #7fa4a9 solid 1px;
+    background: #ffc000b3;
+}
+.empty-list
+{
+    margin: auto;
+    text-align: center;
+    height: 20%;
+    padding-top: 10%;
+    background: #f5f3f3;
+    font-size: 2em;
+    border-radius: 4px;
+    padding-bottom: 10%;
+    width: 70%;
+}
+.empty-list label{
+    margin-top: 25%;
+    color: #adadad;
+}
+#finish{
+    background: #ffd34c;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#iconGroup{
+    font-size: xxx-large;
+    margin-right: 4%;
+    margin-top: -4%;
+}

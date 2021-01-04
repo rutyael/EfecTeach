@@ -1,0 +1,12 @@
+<div class="add-proffestion">
+        <p>הוסף שפה:</p>
+        <mat-form-field >
+            <mat-label>שם השפה</mat-label>
+            <input matInput [(ngModel)]="new_pro">
+          </mat-form-field>
+          <div mat-dialog-actions>
+              <button mat-raised-button (click)="Cancel()">ביטול</button>
+              <button mat-raised-button (click)="AddPro()">הוסף</button>
+          </div>
+    </div>
+    

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a96ffa0884d4956ac8f6a6bf8bd08fd" Name="Diagram1">
+        <EntityTypeShape EntityType="TeacherForStudentModel.answerOpinion" Width="1.5" PointX="12" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.Answer" Width="1.5" PointX="14.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.City" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.ClassToSchool" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.CommentsAnswer" Width="1.5" PointX="16.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.CommentsQuestion" Width="1.5" PointX="17.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.Proffestion" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.Question" Width="1.5" PointX="12" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.School" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.Secretary" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.User" Width="1.5" PointX="9.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.UserToClass" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.ClassesJoinUser" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeacherForStudentModel.ProffestionJoinTeacher" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_answerOpinion_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_answerOpinion_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_Answers_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_Answers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_CommentsAnswer_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_Schools_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_ClassToSchool_Schools1" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_CommentsAnswer_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_CommentsQuestion_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_CommentsQuestion_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_Questions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_Schools_Secretary" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.ProffestionsToClass" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.ProffestionToTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.TeacherClassProffestion" ManuallyRouted="false" />
+        <AssociationConnector Association="TeacherForStudentModel.FK_UserToClass_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

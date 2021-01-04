@@ -1,0 +1,39 @@
+span{
+    line-height: 2.5;
+    font-size: larger;
+    padding: 16px;
+    display: inherit;}
+::ng-deep .mat-dialog-actions button
+{
+    margin: auto;
+    border: #fdcb42 solid 1px;
+    transition: 0.2s;
+}
+::ng-deep .mat-dialog-actions button:hover
+{
+    border:none;
+    box-shadow: #fdcb42 0px 0px 5px 0px;
+}
+::ng-deep .mat-dialog-container
+{
+    transform: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+::ng-deep .mat-dialog-actions
+{
+    padding: 8px 0;
+    min-height: 52px;
+    margin-bottom: -24px;
+    /* align-items: flex-end; */
+    display: inline-flex;
+}
+::ng-deep .mat-dialog-actions .mat-button-base+.mat-button-base
+{
+    margin-right: 10px!important;
+    /* margin: auto; */
+    /* margin-right: 0; */
+    margin-left: 10px;
+    float: left;
+    /* clear: both; */
+}

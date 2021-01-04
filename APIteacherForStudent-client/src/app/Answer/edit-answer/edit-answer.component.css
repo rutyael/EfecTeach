@@ -1,0 +1,243 @@
+div,a{
+  text-align: center;
+  font-size: large;
+}
+
+.answer{
+width: 50%;
+height: 40%;
+background: #1f5f681c;
+margin: 5px 400px 0 0;
+border-radius: 5px;
+overflow: scroll;
+max-height: 60vh;
+overflow-x: hidden;
+}
+mat-expansion-panel-header{
+background-color: #bcd0d2;
+}
+
+.example-full-width {
+  width: 30%
+}
+
+.mat-error{
+  color: #f44336;
+  font-size: 13px;
+  margin-top: -4px;
+}
+#wrapperOpinion{
+  display: grid;
+  margin-right: 42%;
+  padding: 1%;
+}
+#answerscoring{
+  width: 30%;
+}
+#buttonPostOpinion{
+  color: #ffbb30;
+  background-color: #1f5f68;
+  float: left;
+  margin-left: 27%;
+  margin-top: -2%;
+}
+#pOpinion{
+  font-size: larger;
+  text-align: center;
+  margin-top: 5%;
+}
+mat-slider {
+  width: 300px;
+}
+#userAsk{
+  background-color: #82a6ab6b;
+  width: 70%;
+  border-radius: 3px;
+  height: 40px;
+  float: left;
+}
+
+p{
+font-size: large;
+text-align: center;
+}
+.comment{
+display: inline-block;
+position: relative;
+width: 100%;
+}
+/* .mat-expansion-panel-body ng-tns-c105-17{
+  padding: 2%;
+} */
+.commentADetails{
+  background-color: #bcd0d24f;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  text-align: right;
+}
+.commentContant{
+  overflow: scroll;
+  max-height: 45vh;
+  overflow-x: hidden;
+}
+.back{
+  float: left;
+  color: black;
+  text-decoration: none;
+  padding: 3%;
+  margin-left: -35%;
+}
+.error{
+  color: red;
+  font-size: initial;
+}
+
+.mat-error {
+    color: #f44336;
+    font-size: smaller;
+    margin-top: -1%;
+    margin-right: 37%;
+}
+#icons{
+  float: left;
+  display: grid;
+  margin-top: -10%;
+  padding: 2%;
+}
+#popularIcon{
+  font-size: x-large;
+  margin-bottom: 80%;
+  cursor: pointer;
+  color: #fcc75b;
+  margin-top: 350%;
+  margin-left: 2%;
+}
+#efectiveIcon{
+  font-size: x-large;
+  cursor: pointer;
+  color: #fcc75b;
+  float: right;
+  margin-left: 2%;
+  margin-top: -30%;
+}
+#NotPopularIcon{
+  font-size: x-large;
+  margin-bottom: 80%;
+  cursor: pointer; 
+  color: gray;
+  margin-top: 350%;
+  margin-left: 2%;
+}
+#NotEfectiveIcon{
+  font-size: x-large;
+  cursor: pointer;
+  color: gray;
+  float: right;
+  margin-left: 2%;
+  margin-top: -30%;
+}
+#importantQ{
+  color: #f9c559;
+  float: left;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+#notImportantQ{
+  margin-left: -4%;
+  color: gray;
+  float: left;
+  margin-top: 5%;
+}
+#buttonLike{
+  float: left;
+  border: #e6edee;
+  background-color: #f1f3f4;
+}
+.iconOpinion{
+  margin-right: -7%;
+  padding: 2%;
+  margin-top: 1.5%;
+}
+.iconOpinionFeedback{
+  margin-right: -77%;
+  padding: 2%;
+}
+.noComments{
+  padding: 2%;
+  background: #e6edee;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary {
+  color: #f9c559;
+  background: #3c747c1f;
+}
+#comments{
+  width: 53%;
+  margin-right: 24%;
+  margin-top: 0.1%;
+}
+
+
+.mat-drawer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  margin-top: 3%;
+  margin-right: 114px;
+  width: 40% !important;
+}
+mat-drawer{
+  overflow-x: hidden;
+  transform: none;
+  visibility: visible;
+}
+.mat-drawer-inner-container {
+  width: 75%;
+  height: 100%;
+  /* overflow: auto; */
+  /* -webkit-overflow-scrolling: touch; */
+  margin-right: 25%;
+  overflow-x: hidden;
+}
+.mat-select-arrow-wrapper {
+  display: none !important;
+  vertical-align: middle;
+}
+mat-drawer-container{
+  width: 20%;
+  background: #e6edee !important;
+  margin-top: 0.5%;
+}
+
+#buttonP{
+  width: 1%;
+  margin-top: -13%;
+  background: #cbdadc;
+  margin-right: -27%;
+  box-shadow: none;
+}
+#icons{
+  margin-top: -3%;
+}
+.mat-drawer-content ng-star-inserted{
+  overflow-x: hidden !important;
+}
+#back{
+  background: white;
+  float: left;
+  margin-left: -30% !important;
+  padding: 0.5%;
+  border-radius: 100px;
+  border: black solid;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.currentUser{
+  margin-right: -30%;
+  font-size: small;
+}
+

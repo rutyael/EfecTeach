@@ -1,0 +1,56 @@
+.loading {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    display: inline-block;
+    animation: scaling 1.5s ease-in-out infinite;
+}
+@keyframes scaling {
+    0%, 100% {
+        transform: scale(0.2);
+        background-color: #009688;
+    }
+
+    40% {
+        transform: scale(1);
+        background: #009688b5;
+    }
+
+    50% {
+        transform: scale(1);
+        background: #0096884a;
+        
+    }
+}
+.dot:nth-child(0) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.dot:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.dot:nth-child(5) {
+    animation-delay: 1s;
+}
